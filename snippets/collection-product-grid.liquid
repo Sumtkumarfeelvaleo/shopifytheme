@@ -227,22 +227,40 @@
                     {%- else -%}
                         <div class="collection">
                             <ul class="productListing {% if layout == '1' %} productList{% else %} productGrid column-{{ layout }}{% endif %} list-{{ layout }} list-unstyled" id="main-collection-product-grid" data-id="{{ section.id }}">
+                                {%- assign serial = 0 -%}
                                 {%- for product in collection.products -%}
-                                    <li class="product">
-                                        {% render 'product-grid-layout',
-                                            product_card_product: product,
-                                            serial: forloop.index,
-                                            sectionId: section.id,
-                                            show_list: true,
-                                            loading: true
-                                        %}
-                                    </li>
+                                    {%- if product.available -%}
+                                        {%- assign serial = serial | plus: 1 -%}
+                                        <li class="product">
+                                            {% render 'product-grid-layout',
+                                                product_card_product: product,
+                                                serial: serial,
+                                                sectionId: section.id,
+                                                show_list: true,
+                                                loading: true
+                                            %}
+                                        </li>
+                                    {%- endif -%}
+                                {%- endfor -%}
+                                {%- for product in collection.products -%}
+                                    {%- unless product.available -%}
+                                        {%- assign serial = serial | plus: 1 -%}
+                                        <li class="product">
+                                            {% render 'product-grid-layout',
+                                                product_card_product: product,
+                                                serial: serial,
+                                                sectionId: section.id,
+                                                show_list: true,
+                                                loading: true
+                                            %}
+                                        </li>
+                                    {%- endunless -%}
                                 {%- endfor -%}
                             </ul>
                             {%- if paginate.pages > 1 -%}
                                 {% render 'pagination-listing',
                                     paginate: paginate,
-                                    show_infinite_scrolling: show_infinite_scrolling,
+                                    show_infinite_scrolling: 'infinite',
                                     anchor: '',
                                     class: 'pagination-wrapper text-center' 
                                 %}
