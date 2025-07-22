@@ -1,0 +1,428 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f": {
+      "type": "image-banner",
+      "blocks": {
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29": {
+          "type": "smallImg",
+          "settings": {
+            "row_reverse": false,
+            "image": "shopify://shop_images/sport-healthy-life-wellness-lifestyle-workout_1880x_0a64e4f5-56f6-4a4e-8c63-02424eb3033f.webp",
+            "small_img_block_style": "style_1",
+            "smallImg_justify": "flex-start",
+            "enable_divider": true,
+            "divider_bg_color": "",
+            "content_spacing_right": 50,
+            "button_spacing_left": 50,
+            "button_pos_from_center": 0,
+            "content_pos_from_center": 0,
+            "divider_position_from_center": 0,
+            "small_banner_bg_color": "#f5f5f5",
+            "mg_bottom_icon": 25,
+            "sub_title": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_title": 16,
+            "font_size_sub_title_mb": 16,
+            "margin_bottom_sub_title": 30,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "500",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#787878",
+            "heading": "Creation Of Hidden Beauty",
+            "letter_spacing_heading": "",
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "700",
+            "color_heading": "#232323",
+            "text": "At Kuwa, we are dedicated to providing our customers with the best products as per their needs. From beauty supplements, energy supplements, and nutritional supplements, to performance-boosting supplements, you will get certified quality products for each specific need.",
+            "font_size_des": 16,
+            "font_size_des_mb": 16,
+            "line_height_des": 26,
+            "margin_bottom_des": 30,
+            "color_des": "#232323",
+            "content_width": 575,
+            "align": "left",
+            "enable_content_border": false,
+            "content_border_color": "#232323",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "btn_text": "Shop Now",
+            "link": "shopify://collections/best-selling-products",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_2_text": "Shop Now",
+            "link_btn_2": "shopify://collections/best-selling-products",
+            "button_2_width": 235,
+            "button_2_color": "#ffffff",
+            "button_2_border": "#232323",
+            "button_2_background": "#232323",
+            "button_2_background_gradient": "",
+            "button_2_color_hover": "#ffffff",
+            "button_2_border_hover": "#232323",
+            "button_2_background_hover": "#232323",
+            "button_2_background_gradient_hover": "",
+            "button_2_spacing_top": 10
+          }
+        }
+      },
+      "block_order": [
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "display_type": "slide",
+        "list_gap": 0,
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "rich_text_AVaj3i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hWiihm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy Organic Shilajit for Women in UAE Online at Best Price",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000"
+          }
+        },
+        "content_MC3a7X": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p>In the summer, the <b>Himalayan mountains release shilajit</b>, a sticky, tar-like material, gradually from their rocks. It's well known to be a great source of vitamins and minerals, with fulvic acid being one of the main ingredients that gives Shilajit its potent antioxidant capabilities. It takes centuries to form shilajit as the plant matter is trapped in the layers of the rock and then it slowly decomposes into shilajit due to the intense heat and pressure in the rocks. You can use <b>Shilajit for female</b> fertility and for various other use cases like <b>Shilajit for menopause</b>, Shilajit benefits for female weight loss and various other use cases. You can buy the best Shilajit for women at Kuwa supplements in Dubai, Abu Dhabi and UAE for the best price and online experience.</p>\n\n<h2>Uses and Benefits of Shilajit for Women</h2>\n\n<h3>1.Hormonal Balance, Menstrual Health and shilajit for female fertility</h3>\n\n<p>Benefits of shilajit for women's health some of them include managing hormone levels which helps lessen the menstrual symptoms and pain. It helps you get relief from symptoms like cramp, bloating and mood swings. Shilajit has good adaptogenic properties which helps support the endocrine system and promotes stability and health. Taking Shilajit for menopause or during menstruation can be very beneficial for your health.</p>\n\n<h3>2. Energy and Vitality</h3>\n\n<p>Energy and Vitality is a very known benefit of shilajit and it works equally for womens as well. Using Shilajit for women for this particular purpose is very beneficial as it gives womens more energy and vitality and help them fight off daily exhaustion and gain more endurance. Shilajit can support you in keeping a high level of energy throughout the day, whether you’re managing a hectic career or a busy household or both.</p>\n\n<h3>3. Skin and Hair health </h3>\n\n<p>One of the best Shilajit benefits for ladies is the <b>effects of Shilajit on female</b> skin and hair. Shilajit is rich in antioxidants and it is very helpful for your skin and health. These antioxidants present in shilajit can shield the skin and promote a radiant and youthful skin and give you a glowing complexion. It also promotes the health of hair and promotes it against hair fall and other environmental pollutants.</p>\n\n<h3>4. Bone and Joint health</h3>\n\n<p>Another benefit of shilajit for female is the effect of shilajit on Bone and Joint health as the minerals present in shilajit greatly affect the bone density and joint health which is greatly beneficial especially for women who are ageing. This is one of the best shilajit benefits for womens.</p>\n\n<h3>5. Mental clarity and Mood</h3>\n\n<p>Shilajit uses for female include another key point which is the effect of shilajit on mental clarity and mood, it helps you calm down and makes it easier to focus on your daily tasks and challenges.</p>\n\n<h3>6. Convenience</h3>\n\n<p>It is very easy for womens to add shilajit into your routine given the various types of options we have available for you. The benefits of shilajit on women’s health is very well prevalent in above mentioned points but one of the key benefits is that you can seamlessly integrate this powerful supplement into your lifestyle in various forms like tablets, powder, and resins. Whether you’re consuming shilajit for female fertility or shilajit for menopause or you want shilajit benefits for female weight loss, you can consume shilajit uses for women in any form you like.</p>\n\n<h2>Types of Shilajit Products for Women</h2>\n\n<h3>1. Himalayan Shilajit Resin</h3>\n\n<p><a href=\"https://getkuwa.com/collections/himalayan-shilajit\"><b>Himalayan Shilajit</b></a> uses for females are quite varied and this is the best shilajit out there if you’re looking for purity and potency. It is extracted from himalayan mountains and it is known to give best shilajit benefits for women like enhanced vitality, improved skin health, and hormonal balance. It is available at Kuwa Supplements in UAE and you can choose the best brand that suits your needs. You can best Resins Dubai, Abu Dhabi and all across UAE at Kuwa Supplements.</p>\n\n<h3>2. Shilajit Capsules</h3>\n\n<p>Capsules benefits of shilajit for female is very immense considering it provides a convenient way for ladies to incorporate this into their daily routine. These capsules are popular for their effectiveness in boosting stamina and vitality, making them ideal for women juggling multiple responsibilities. All you need to do is simply take add them to your daily regimen and you’ll experience increase in your energy levels and wellbeing. You can find best Shilajit Capsules in Dubai, Abu Dhabi and all across UAE at Kuwa Supplements.</p>\n\n<h3>3. Shilajit Juice </h3>\n\n<p>Juice is yet another way to add shilajit in your routine as the benefits of shilajit on women’s health is immense and juices are also a considerably convenient way to add them into your routine. Women can benefit from its quick absorption and effectiveness, which can help in maintaining high energy levels, promoting skin health, and supporting hormonal balance.</p>\n\n<h3>4. Shilajit Prash </h3>\n\n<p>Shilajit is a traditional ayurvedic formulation that combines two herbs shilajit and ashwagandha to provide enhance shilajit benefits for women. This mixture is particularly beneficial for women as it offers enhanced strength, stamina, and overall performance. It supports physical health and helps in managing the stresses of daily life. You can find Shlajit Prash in Dubai, Abu Dhabi and alla cross UAE at Kuwa Supplements.</p>\n\n<h3>5. Shilajit Gold Plus</h3>\n\n<p>Shilajit Gold plus is a premium product and it includes ingredients like gold and ashwagandha to provide you with enhanced benefits. For women, this blend is excellent for boosting energy, stamina, and vitality. It supports mental clarity, reduces stress, and promotes overall wellness. You can find Shilajit gold in Dubai, Abu Dhabi and all across UAE at Kuwa Supplements.</p>\n\n<h3>6. Vigorex Shilajit Ashwagandha</h3>\n\n<p>Vigorex offers benefits of shilajit for women’s health in a combination of two herbs that has revitalizing and rejuvenating properties namely Shilajit and Ashwagandha. Women can benefit from its ability to enhance physical performance, reduce fatigue, and support hormonal health. It’s an excellent choice for maintaining overall vitality and well-being. You can find the best Vigorex shilajit ashwagandha in Dubai, Abu Dhabi and all across UAE at Kuwa Supplements.</p>\n\n<h3>7. Shilajit Effervescent Tablets</h3>\n\n<p><a href=\"https://getkuwa.com/products/panchamrit-himalayan-shilajit-effervescent-15-orange-masala-flavour\"><b>Shilajit Effervescent Tablets</b></a> gives you a very convenient and fizzy way to incorporate Shilajit into your routine as these tablets quickly dissolve into your water and provide you with a fizzy drink that you can conveniently drink. You can find the best effervescent tablets in Dubai, Abu Dhabi and all across UAE at Kuwa Supplements.</p>\n\n<h3>8. Shilajit Gummies</h3>\n\n<p>Gummies is a very tasty and convenient way to incorporate Shilajit into your routine and shilajit uses for females in the aspect of gummies include the fact that women can enjoy these chewable <a href=\"\"><b>shilajit gummies</b></a> before or after meals to boost stamina, endurance, and performance levels. They are an easy and delicious way to maintain your health and energy. You can find the best Gummmies in Dubai, Abu Dhabi and all across UAE at Kuwa Supplements. </p>\n\n\n<h2>Bestselling Shilajit for Women - Available at Kuwa Supplements.</h2>\n\n<h3>1. Kapiva Himalayan Shilajit Resin 20 Gm </h3>\n\n<p><a href=\"https://getkuwa.com/products/himalayan-shilajit-resin-20-gm\"><b>Kapiva himalayan shilajit</b></a> is one of the best Shilajit for women as it provides potent benefits like containing 20 grams of concentrated goodness,specially formulated to support women's endurance, stamina, and overall well-being.</p>\n\n<h3>2. Kapiva Shilajit Gold Resin</h3>\n\n<p><a href=\"https://getkuwa.com/products/kapiva-shilajit-gold-resin-20g\"><b>Kapiva shilajit gold resin</b></a> is a premium version of shilajit and this shilajit benefits for ladies is very enhanced and premium as it helps you boost your stamina and vitality effortlessly with our convenient resin form.</p>\n\n<h3>3. Dabur Shilajit Gold 30 Capsules</h3>\n\n<p><a href=\"https://getkuwa.com/products/dabur-shilajit-30-capsules\"><b>Dabur Shilajit capsule</b></a> is a premium version of shilajit with added benefits of gold and comes in a capsule form for convenience.These shilajit capsule for women are tailored to meet the unique needs of women seeking vitality and stamina.</p>\n\n<h3>4. GHC Mars Pure Himalayan Shilajit Resin 15 Gms</h3>\n\n<p><a href=\"https://getkuwa.com/products/ghc-mars-pure-himalayan-shilajit-resin-15-gms\"><b>Mars shilajit resin</b></a> is also one of the bestselling brands of shilajit for female and it comes with 15 grams of concentrated shilajit, our pure resin is renowned for enhancing women's stamina and strength.</p>\n\n<h3>5. Vedapure Natural & Pure Shilajit/Shilajeet Resin For Men & Women, 25 Gram</h3>\n\n<p><a href=\"https://getkuwa.com/products/vedapure-natural-pure-shilajit-shilajeet-resin-for-men-women-25-gram\"><b>Vedapure shilajit</b></a> is for both men and women but it is very beneficial for womens as it provides a source of strength, stamina, and overall wellness benefits, ensuring women can thrive with daily consumption.</p>\n\n<h3>6. Herbal Max Discover Wellness Pure Himalayan Shilajit 20 Gm</h3>\n\n<p><a href=\"https://getkuwa.com/products/herbal-max-discover-wellness-pure-himalayan-shilajit-20-gm\"><b>Herbal Max pure Himalayan shilajit</b></a>  is a shilajit that is very potent and known to provide shilajit benefits for weight loss and also a source directly from the Himalayas. Packed with essential nutrients and minerals, our 20-gram pack enhances women's stamina, strength, and performance.</p>\n\n<h3>7. AADAR Pure Himalayan Shilajit - Finest Resin (15 G)</h3>\n\n<p><a href=\"https://getkuwa.com/products/aadar-pure-himalayan-shilajit-finest-resin-15-g\"><b>Aadar shilajit in UAE</b></a>  is one of the finest resin out there and it is one of the best to consider for females if you’re looking for a concentrated 15g of resin for stamina and vitality.</p>\n\n\n<h3>8. Wellbeing Nutrition Pure & Natural Himalayan Shilajit Original Resin 20g For Strength, Stamina & Performance | Shilajit Resin For Men & Women With 75% Fulvic Acid & 85 Trace Minerals | Lab Tested</h3>\n\n<p><a href=\"https://getkuwa.com/products/wellbeing-nutrition-pure-natural-himalayan-shilajit-original-resin-20g-for-strength-stamina-performance-shilajit-resin-for-men-women-with-75-fulvic-acid-85-trace-minerals-lab-tested\"><b>Wellbeing Nutrition Himalayan shilajit</b></a> is the best shialjit out there for womens and provides immense shilajit benefits for ladies. It contains fulvic acid and 85 trace minerals and is tailored to cater to women's specific needs, it offers comprehensive support for strength, stamina, performance, stress relief, and overall vitality.</p>\n\n<h3>9. Wellbeing Nutrition Pure Himalayan Shilajit Gold Resin For Strength, Stamina, Performance, Stress Relief, And Vitality | With Ashwagandha, Safed Museli & Swarna Bhasma (24K Gold Leaf)</h3>\n\n<p><a href=\"https://getkuwa.com/products/wellbeing-nutrition-pure-himalayan-shilajit-gold-resin-for-strength-stamina-performance-stress-relief-and-vitality-with-ashwagandha-safed-museli-swarna-bhasma-24k-gold-leaf-1\"><b>Wellbeing Nutrition Shilajit Gold</b></a> is yet another premium version of shilajit tailored for females to provide stamina, performance, stress relief and vitality.</p>\n\n\n<h2>FAQs related to shilajit for women</h2>\n\n<h3>Q1. What are the benefits of shilajit for women?</h3>\n\n<p>Womens can benefit widely from a product like shilajit and some of the benefits include enhancing cognitive function, increasing energy levels, reducing fatigue, and potentially improving hormonal balance.</p>\n\n<h3>Q2. Where can I purchase pure shilajit?</h3>\n\n<p>If you are looking for pure shilajit that is tailored specifically to meet the needs of womens, you can choose Kuwa Supplements as it offers the best price and the smoothest online experience. It is available in Dubai, Abu Dhabi and all across UAE.</p>\n\n<h3>Q3. What is the price of Himalayan shilajit in Dubai?</h3>\n\n<p>The cost of Himalayan shilajit in Dubai varies by brand, purity, and origin. Typically, a 30-60 gram jar or bottle ranges from 100 to 300 AED.</p>\n\n<h3>Q4. When is the optimal time for women to take shilajit?</h3>\n\n<p>The optimal time for women to take shilajit is once or twice daily. It can be taken with milk or dissolved in water for best results.</p>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000",
+            "content_width": "800px",
+            "button_text_more": "Read More",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#fff",
+            "button_text_border_color": "#000",
+            "button_text_bg_color": "#000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000",
+            "button_text_border_color_hover": "#000",
+            "button_text_bg_color_hover": "#fff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_hWiihm",
+        "content_MC3a7X"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#fff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f",
+    "product-recently-viewed",
+    "rich_text_AVaj3i"
+  ]
+}

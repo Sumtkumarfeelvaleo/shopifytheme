@@ -1,0 +1,436 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "17351200965653c3d2": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f": {
+      "type": "image-banner",
+      "blocks": {
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29": {
+          "type": "smallImg",
+          "settings": {
+            "row_reverse": false,
+            "image": "shopify://shop_images/sport-healthy-life-wellness-lifestyle-workout_1880x_0a64e4f5-56f6-4a4e-8c63-02424eb3033f.webp",
+            "small_img_block_style": "style_1",
+            "smallImg_justify": "flex-start",
+            "enable_divider": true,
+            "divider_bg_color": "",
+            "content_spacing_right": 50,
+            "button_spacing_left": 50,
+            "button_pos_from_center": 0,
+            "content_pos_from_center": 0,
+            "divider_position_from_center": 0,
+            "small_banner_bg_color": "#f5f5f5",
+            "mg_bottom_icon": 25,
+            "sub_title": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_title": 16,
+            "font_size_sub_title_mb": 16,
+            "margin_bottom_sub_title": 30,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "500",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#787878",
+            "heading": "Creation Of Hidden Beauty",
+            "letter_spacing_heading": "",
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "700",
+            "color_heading": "#232323",
+            "text": "At Kuwa, we are dedicated to providing our customers with the best products as per their needs. From beauty supplements, energy supplements, and nutritional supplements, to performance-boosting supplements, you will get certified quality products for each specific need.",
+            "font_size_des": 16,
+            "font_size_des_mb": 16,
+            "line_height_des": 26,
+            "margin_bottom_des": 30,
+            "color_des": "#232323",
+            "content_width": 575,
+            "align": "left",
+            "enable_content_border": false,
+            "content_border_color": "#232323",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "btn_text": "Shop Now",
+            "link": "shopify://collections/best-selling-products",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_2_text": "Shop Now",
+            "link_btn_2": "shopify://collections/best-selling-products",
+            "button_2_width": 235,
+            "button_2_color": "#ffffff",
+            "button_2_border": "#232323",
+            "button_2_background": "#232323",
+            "button_2_background_gradient": "",
+            "button_2_color_hover": "#ffffff",
+            "button_2_border_hover": "#232323",
+            "button_2_background_hover": "#232323",
+            "button_2_background_gradient_hover": "",
+            "button_2_spacing_top": 10
+          }
+        }
+      },
+      "block_order": [
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "display_type": "slide",
+        "list_gap": 0,
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "rich_text_kA6Fm6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hCmn7h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Biggest Selection of Korean Skincare in Dubai, UAE",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000000"
+          }
+        },
+        "content_8YKLKy": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p>Korean skincare has become a global sensation, offering innovative products that blend natural ingredients with advanced technology. In 2024, the K-beauty market is valued at an impressive <a href=\"https://www.futuremarketinsights.com/reports/k-beauty-product-market\"><b><u>US$ 10,875.7 million</u></b></a>, and experts predict it will grow to over US$ 19,000 million by 2034. Whether you're looking for hydration, anti-aging solutions, or a radiant glow, Korean skin care UAE is trusted by beauty enthusiasts everywhere.</p>\n\n<p>From lightweight serums to rejuvenating masks, Korean cosmetics Dubai provide solutions for all skin types. If convenience is your priority, you can easily shop K-beauty online UAE, exploring a range of options tailored to your needs. With products designed for glowing, healthy skin, it's no wonder Korean beauty products in Dubai are so popular.</p>\n\n<p>Browse  the best Korean skincare products Dubai and take your skincare routine to the next level. Whether you’re looking for Korean makeup UAE or everyday essentials, Korean beauty Dubai has everything to pamper your skin and keep it flawless.</p>\n\n<h3>Benefits of Korean Skincare </h3>\n\n<p>Here are the benefits of <b>Korean skincare UAE</b> to look out for: </p>\n\n<h2>1. Deep Hydration</h2>\n\n<p>Korean skincare products are designed to give your skin long-lasting hydration. Ingredients like hyaluronic acid and green tea keep your skin fresh and glowing. No wonder Korean skin care UAE is a favorite in hot climates like Dubai.</p>\n\n<h2>2. Gentle on Skin</h2>\n\n<p>Unlike harsh products, K-beauty Dubai uses natural ingredients that are safe and gentle. They work well even for sensitive skin, making them perfect for everyday use.</p>\n\n<h2>3. Focus on Prevention</h2>\n\n<p>Korean beauty products in Dubai focus on preventing skin issues like wrinkles, dryness, and dullness rather than fixing them later. It’s all about staying ahead!</p>\n\n<h2>4. Customizable Routines</h2>\n\n<p>With so many products to choose from, you can build a routine that fits your skin type. Whether it’s oily, dry, or combination, Korean skincare Dubai has something for everyone.</p>\n\n<h2>5. Advanced Ingredients</h2>\n\n<p>Korean cosmetics Dubai often include unique ingredients like snail mucin, propolis, and rice water. These ingredients help brighten, repair, and protect your skin.</p>\n\n<h2>6. Affordable Options</h2>\n\n<p>You don’t have to spend a lot to get great results. Many Korean beauty products online UAE offer premium quality at budget-friendly prices.</p>\n\n<h2>7. Visible Results</h2>\n<p>With regular use, you’ll notice smoother, softer, and brighter skin. That’s why Korean skincare UAE is trusted worldwide for real, lasting benefits.</p>\n\n\n<p>Explore the best <b>Korean skincare products Dubai</b> and give your skin the care it deserves!</p>\n\n<h3>Buy Bestselling Korean Skincare Products in UAE at GetKuwa</h3>\n\n<p>Whether you need help with dry skin, acne, or ageing, you'll find the best K-beauty products for your skin. Shop now at <a href=\"https://getkuwa.com/\"><b><u>Getkuwa</u></b></a> and give your skin the care it deserves!</p>\n\n<h2>1. Wellbeing Nutrition Pure Korean Marine Collagen Peptides | Unflavored | Combat Signs of Ageing</h2>\n\n<p><a href=\"https://getkuwa.com/products/marine-collagen-peptides\"><b><u>Korean marine collagen </u></b></a>is a powerful anti-ageing product that helps protect and improve your skin’s collagen structure. With 8g per serving, this premium wild caught marine collagen from Korea is easy to mix and absorbs quickly into your body. It’s made with pure collagen peptides to support youthful skin, healthy hair, strong nails, and stronger joints and muscles. This product is gluten-free, non-GMO, keto-friendly, and halal certified, making it a great choice for overall health and wellness.</p>\n\n\n\n<h2>2. Pilgrim Korean Oil free Gel Moisturizer 50gm</h2>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-korean-oil-free-gel-moisturizer-for-oily-skin-with-hyaluronic-acid-willow-bark-extracts-moisturiser-for-face-suitable-for-oily-acne-prone-skin-men-women-korean-skin-care-50gm\"></a><a href=\"https://getkuwa.com/products/pilgrim-korean-oil-free-gel-moisturizer-for-oily-skin-with-hyaluronic-acid-willow-bark-extracts-moisturiser-for-face-suitable-for-oily-acne-prone-skin-men-women-korean-skin-care-50gm\"><b><u>Korean gel moisturizer </u></b></a>provides intense hydration with hyaluronic acid and glycerin, keeping your skin moisturized for 24 hours. It fades blemishes with willow bark extract and reduces pores with niacinamide, perfect for oily, combination, and acne-prone skin. Made with natural ingredients, it’s paraben-free, sulfate-free, and cruelty-free.</p>\n\n<p>For those in the UAE, it’s an ideal addition to your <b>Korean skincare routine</b>. Find it along with other <b>Korean beauty products online UAE</b> for smooth, glowing skin.</p>\n\n<h2>3. Pilgrim Korean Products </h2>\n\n<p><a href=\"https://getkuwa.com/collections/pilgrim\"><b><u>Pilgrim korean products</u></b></a> help take care of your skin with ingredients like 24K gold, niacinamide, and vitamin C. The 24K Gold Facial Mask makes your skin look fresh, while the 24K Gold Gel Face Wash cleans and brightens your skin. The 2% Niacinamide Glow Sunscreen SPF50 protects your skin from the sun and gives it a healthy glow. The 2% Alpha Arbutin & 3% Vitamin C Brightening Face Serum helps even out your skin tone. The Oil-Free Gel Moisturizer keeps your skin soft and smooth without feeling oily.</p>\n\n\n<h2>4. Centella Calming Gel Cream Vegan Hydrating Plant-based Korean Skincare</h2>\n\n<p><a href=\"https://getkuwa.com/products/centella-calming-gel-cream-vegan-non-sticky-face-moisturizer-acne-prone-sensitive-oily-dry-skin-hydrating-plant-based-centella-70-tea-tree-water-10-rosacea-breakout-blemish-korean-skincare\"><b><u>Iunik centella calming gel cream</u></b></a> is a soothing face cream packed with 72% Centella Asiatica Leaf Water, 10% Tea Tree Leaf Water, and 6 plant sprouts. This lightweight, oil-free gel provides all-day hydration, calms redness, and soothes acne-prone or irritated skin. It helps repair damaged skin, boosts collagen for a youthful glow, and protects against pollution, stress, and UV rays. Perfect for all skin types, it’s free from harmful chemicals like parabens, sulphates, and fragrance. This vegan, cruelty-free formula ensures healthy, refreshed skin every day.</p>\n\n<h2>5. PILGRIM Korean Healthy & Shiny Hair Care Kit With Jute Kit Bag | Sulphate Free Shampoo 200ml & Argan Oil Hair Mask 200gm For Gentle Cleansing, Frizz Control, Moisture & Shine</h2>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-korean-healthy-shiny-hair-care-kit-with-jute-kit-bag-sulphate-free-shampoo-200ml-argan-oil-hair-mask-200gm-for-gentle-cleansing-frizz-control-moisture-shine\"><b><u>Pilgrim shampoo and hair mask</u></b></a> combo revives your hair with the nourishing power of argan oil. The sulphate-free shampoo gently cleanses while keeping your hair strong, smooth, and frizz-free. Follow it up with the Argan Oil Hair Mask, packed with white lotus and camellia extracts to repair dry, damaged strands, adding shine and softness. This combo locks in moisture, protects against UV damage, and promotes healthy hair growth, all while being sulphate, paraben, and mineral oil-free. Suitable for all hair types, it leaves your hair</p>\n\n<h2>6. Pilgrim Korean 2% Alpha Arbutin & 3% Vitamin C Brightening Face Serum Korean Skin Care Vegan</h2>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-korean-2-alpha-arbutin-3-vitamin-c-brightening-face-serum-mini-5-ml-for-glowing-skin-alpha-arbutin-face-serum-all-skin-types-korean-skin-care-vegan-cruelty-free\"><b><u>Pilgrim korean alpha arbutin serum </u></b></a>visibly brightens the skin, boosting radiance and preventing early signs of aging. Infused with blueberry extract, it helps combat fine lines and wrinkles with its powerful antioxidant properties. To use, apply 3-5 drops to clean, dry skin before creams or moisturizers. Gently spread across the face and neck, avoiding massage. Perfect for a youthful, glowing complexion!</p>\n\n\n<h2>7. Pilgrim Volcanic Lava Face Scrub, Korean Beauty Secrets, for Exfoliating, Blackheads and Tan Removal, with Yugdugu, No Paraben No Mineral Oil, 100 g</h2>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-volcanic-lava-face-scrub-korean-beauty-secrets-for-exfoliating-blackheads-and-tan-removal-with-yugdugu-no-paraben-no-mineral-oil-100-g\"><b><u>Pilgrim face scrub</u></b></a> Pilgrim Volcanic Lava Face Scrub exfoliates, removes blackheads, and brightens skin. With volcanic lava, Yugdugu, and White Lotus, it detoxifies and improves elasticity. Suitable for all skin types, it promotes a youthful glow without harsh chemicals. Use twice a week for refreshed, vibrant skin.</p>\n\n<h2>8. Pilgrim Korean Retinol Under Eye Cream</h2>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-korean-retinol-under-eye-cream\"><b><u>Pilgrim Korean retinol</u></b></a> helps reduce fine lines, dark circles, and puffiness. Enriched with red vine extract, it boosts collagen, enhances elasticity, and brightens the under-eye area. Suitable for all skin types, it hydrates and revitalizes for a radiant complexion. Free from toxins, parabens, and sulphates. Use daily for refreshed, youthful eyes.</p>\n\n\n<h2>9. Natural Korean 99.9% Rice Bran Oil 30ml/1.01 fl.oz</h2>\n\n<p><a href=\"https://getkuwa.com/products/natural-korean-99-9-rice-bran-oil-for-face-sensitive-dry-skin-hypoallergenic-dermatological-d-vegan-gluten-free-crueltyfree-30ml-1-01-fl-oz\"><b><u>Rice bran oil dubai</u></b></a> is a 99.9% natural, vegan, and gluten-free serum. This anti-aging, moisturizing facial oil nourishes and hydrates the skin, providing the best moisture from nature. Ideal for daily use, it helps reduce signs of aging and keeps the skin soft and smooth.</p>\n\n\n\n<h2>10. IUNIK Noni Nourishment Soothing Hyper pigmentation Treatment Slow & Anti-aging Korean Skincare</h2>\n\n<p><a href=\"https://getkuwa.com/products/iunik-noni-42-oil-serum-jojoba-oil-deep-nourishment-soothing-hydrating-ampoule-for-all-skin-types-hyper-pigmentation-treatment-slow-aging-anti-aging-firming-lifting-non-greasy-korean-skincare\"><b><u>Noni korean skincare</u></b></a> is a serum that provides deep nourishment and hydration with a high concentration of Noni extract, leaving your skin revitalized and moisturized. Its non-greasy, lightweight formula absorbs quickly, offering long-lasting hydration without clogging pores. This serum also helps reduce fine lines and wrinkles, combats dark spots and uneven skin tone, and reveals a radiant, youthful complexion. Ideal for those looking to fight hyper-pigmentation and slow aging.</p>\n\n\n<p>Shop the best Korean skincare products now and experience radiant, youthful skin! Check <a href=\"https://getkuwa.com/\"><b><u>GetKuwa</u></b></a> for exclusive deals on K-beauty essentials at good price and reviews.</p>\n\n<h3>FAQs: Korean Beauty Products Online in UAE </h3>\n\n<h2>1. What are the benefits of Korean skincare products?</h2>\n<p>Korean skincare products hydrate, brighten, and prevent aging, using advanced ingredients like hyaluronic acid and green tea.</p>\n\n\n<h2>2. Are Korean skincare products suitable for sensitive skin?</h2>\n\n<p>Yes, many Korean products use natural ingredients that are gentle and safe for sensitive skin.</p>\n\n<h2>3. What makes Korean skincare different from other brands?\n\n</h2><p>Korean skincare focuses on prevention and uses unique ingredients like snail mucin, propolis, and rice water for healthier skin.</p>\n\n<h2>4. Can I find Korean skincare products in Dubai?</h2>\n<p>Yes, there are a variety of Korean skincare products available in Dubai, both in-store and online.</p>\n\n<h2>5. Where can I buy Korean skincare products in the UAE?</h2>\n<p>You can shop for the best Korean skincare products online at GetKuwa, offering delivery across the UAE.</p>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "Read More",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_hCmn7h",
+        "content_8YKLKy"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "17351200965653c3d2",
+    "product-grid",
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f",
+    "product-recently-viewed",
+    "rich_text_kA6Fm6"
+  ]
+}

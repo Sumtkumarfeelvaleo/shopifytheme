@@ -1,0 +1,435 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f": {
+      "type": "image-banner",
+      "blocks": {
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29": {
+          "type": "smallImg",
+          "settings": {
+            "row_reverse": false,
+            "image": "shopify://shop_images/sport-healthy-life-wellness-lifestyle-workout_1880x_0a64e4f5-56f6-4a4e-8c63-02424eb3033f.webp",
+            "small_img_block_style": "style_1",
+            "smallImg_justify": "flex-start",
+            "enable_divider": true,
+            "divider_bg_color": "",
+            "content_spacing_right": 50,
+            "button_spacing_left": 50,
+            "button_pos_from_center": 0,
+            "content_pos_from_center": 0,
+            "divider_position_from_center": 0,
+            "small_banner_bg_color": "#f5f5f5",
+            "mg_bottom_icon": 25,
+            "sub_title": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_title": 16,
+            "font_size_sub_title_mb": 16,
+            "margin_bottom_sub_title": 30,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "500",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#787878",
+            "heading": "Creation Of Hidden Beauty",
+            "letter_spacing_heading": "",
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "700",
+            "color_heading": "#232323",
+            "text": "At Kuwa, we are dedicated to providing our customers with the best products as per their needs. From beauty supplements, energy supplements, and nutritional supplements, to performance-boosting supplements, you will get certified quality products for each specific need.",
+            "font_size_des": 16,
+            "font_size_des_mb": 16,
+            "line_height_des": 26,
+            "margin_bottom_des": 30,
+            "color_des": "#232323",
+            "content_width": 575,
+            "align": "left",
+            "enable_content_border": false,
+            "content_border_color": "#232323",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "btn_text": "Shop Now",
+            "link": "shopify://collections/best-selling-products",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_2_text": "Shop Now",
+            "link_btn_2": "shopify://collections/best-selling-products",
+            "button_2_width": 235,
+            "button_2_color": "#ffffff",
+            "button_2_border": "#232323",
+            "button_2_background": "#232323",
+            "button_2_background_gradient": "",
+            "button_2_color_hover": "#ffffff",
+            "button_2_border_hover": "#232323",
+            "button_2_background_hover": "#232323",
+            "button_2_background_gradient_hover": "",
+            "button_2_spacing_top": 10
+          }
+        }
+      },
+      "block_order": [
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29"
+      ],
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "display_type": "slide",
+        "list_gap": 0,
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "17351200965653c3d2": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "rich_text_BjXREz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MRbeyD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy Best Multivitamins Supplements Online in Dubai, UAE",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000000"
+          }
+        },
+        "content_wtE8fF": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p>\n    Life gets busy, and taking care of your health often takes a backseat. Between long work hours, irregular meals, and\n    everyday stress, it’s not always easy to ensure your body gets all the nutrients it needs. While food is the best\n    source of vitamins and minerals, sometimes it’s just not enough. That’s where multivitamins come in—a simple way to\n    give your body the support it deserves.\n</p>\n<p>\n    Whether you’re looking to boost your energy, strengthen your immunity, or simply fill the nutritional gaps in your\n    diet, multivitamins can be your go-to solution. At GETKUWA, we’ve made it easier for everyone in the UAE to find the\n    right multivitamin to suit their lifestyle and health goals.\n</p>\n<h2>Types of Multivitamins in Dubai, UAE</h2>\n<p>Let’s explore how multivitamins cater to different needs and stages of life:</p>\n\n<h3>Multivitamins for Different Needs</h3>\n<ul>\n    <li>\n        <h2>Multivitamins For Men</h2>\n        <p>Balancing a demanding job, fitness goals, and family life can be exhausting. Multivitamins for men are\n            specially designed to support energy levels, muscle health, and overall wellness, helping you stay at your\n            best no matter how busy your life gets.</p>\n    </li>\n    <li>\n        <h2>Multivitamins For Women</h2>\n        <p>Women's health needs are ever-changing, from managing work and family to navigating different life stages.\n            Multivitamins for women are crafted to provide support for energy, hormonal health, and general well-being,\n            making sure you feel empowered every step of the way.</p>\n    </li>\n    <li>\n        <h2>Multivitamins For Kids and Teens</h2>\n        <p>With school, sports, and constant growth, kids and teens have unique nutritional needs. Multivitamins\n            designed for them are tailored to promote healthy growth, strong bones, and better concentration, ensuring\n            they stay active and focused.</p>\n    </li>\n    <li>\n        <h2>Multivitamins For Seniors</h2>\n        <p>As we age, taking care of our health becomes even more important. Multivitamins for seniors are formulated\n            to address specific concerns like bone strength, memory support, and immunity, helping older adults lead\n            healthier, more active lives.</p>\n    </li>\n</ul>\n\n<p>No matter your age or lifestyle, top brands on GETKUWA have a multivitamin for everyone. Explore our range of\n    supplements in the UAE and give your wellness routine the boost it needs!</p>\n\n<h2>Why Multivitamins Are a Must-Have</h2>\n\n<p>Multivitamins offer plenty of benefits for people of all ages, making them a smart addition to your daily routine.\n    Let’s look at some of the key ways they can support your health and wellness:</p>\n\n<ul>\n    <li>\n        <h2>Stronger Immunity</h2>\n        <p>Feeling under the weather often? A mix of healthy eating and the right multivitamin tablets can help boost\n            your immune system and protect you from infections.</p>\n    </li>\n    <li>\n        <h2>Healthy Hair, Skin, and Nails</h2>\n        <p>Daily exposure to dust, pollution, and stress can damage skin, hair, and nails. Multivitamins packed with\n            nutrients specifically for beauty care can help keep them healthy and strong.</p>\n    </li>\n    <li>\n        <h2>Better Heart Health</h2>\n        <p>Taking multivitamins designed for heart health can help manage risks like high cholesterol and blood\n            pressure.\n            It’s a small step toward keeping your heart healthy and happy.</p>\n    </li>\n    <li>\n        <h2>Support for Aging Gracefully</h2>\n        <p>As you age, your body needs more support to stay healthy. Multivitamins for older adults are made to\n            strengthen bones, improve brain and heart health, and keep immunity in check.</p>\n    </li>\n    <li>\n        <h2>Everyday Wellness</h2>\n        <p>Life can get busy, and multivitamins ensure your body gets the essential nutrients, such as vitamins,\n            minerals, and antioxidants, it needs to stay energized and maintain overall health.</p>\n    </li>\n</ul>\n\n<p>Adding multivitamins to your daily routine is a simple way to give your body the care it needs to thrive. Stay\n    strong, feel better, and make wellness a priority!\n</p>\n\n<h2>Bestselling Multivitamins for Men and Women in UAE at GetKuwa</h2>\n\n<h3>1. A to Z Multivitamins, 34 Nutrients, 30 Tablets</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/a-to-z-multivitamins-34-nutrients-30-tablets\"><u><b>A to Z\n                Multivitamins</b></u></a> with 34 essential nutrients are designed to support your overall health and\n    wellness.\n    These tablets help boost energy levels, strengthen immune function, and address vitamin deficiencies.\n    Ideal for daily health maintenance, they provide the nutrients your body needs to stay active and healthy.\n    Simply take one tablet daily to feel your best every day.\n</p>\n\n<h3>2. Be Bodywise Biotin Hair Gummies 30-Day Pack</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/be-bodywise-biotin-hair-gummies-for-stronger-shinier-hair-nails-30-day-pack-with-biotin-zinc-folic-acid-fibre-multivitamin-strawberry-flavour-no-added-sugar-gut-friendly\"><u><b>Bodywise\n                Hair Gummies</b></u></a> are packed with essential nutrients like Biotin, Zinc, and Multivitamins\n    (A, C, E, B6, B9, B12, D2) to promote healthy, strong hair. These 100% vegetarian gummies help repair hair tissue,\n    reduce hair breakage, and protect against aging and free-radical damage.\n</p>\n<p>\n    With 60 delicious chewables, they provide complete nourishment and care for your hair.\n</p>\n\n<h3>3. New Chapter Every Woman's One Daily Multivitamins, 72 Tablets</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/new-chapter-every-womans-one-daily-multivitamins-40-with-nutrients-for-stress-immune-and-bone-support-72-vegetarian-tablets-dietary-supplement-green\"><u><b>New\n                Chapter Multivitamin</b></u></a> Tablets is a complete multivitamin made for women. It includes\n    essential vitamins, minerals,\n    and superfoods like ginger, turmeric, and maca to support daily needs. With Biotin and Vitamin C for beauty,\n    B Vitamins for energy, and Vitamins D3 and K2 for strong bones, it also helps manage stress and keeps you feeling\n    your best.\n</p>\n\n<h3>4. Ultimate Ultramin Men's Multi, 60 Capsules</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/ultimate-ultramin-mens-multi-60-capsules\"><u><b>Ultimate\n                Multivitamin</b></u></a> is a complete formula with essential vitamins, minerals, antioxidants, and\n    superfoods.\n    Designed for active men, it supports energy, immunity, healthy skin, bones, and heart function.\n</p>\n<p>With 28 whole food sources, this vegetarian-friendly, non-GMO capsule is perfect for daily health and wellness.</p>\n\n<h3>5. Himalayan Organics Plant-Based Multivitamin, 60 Tablets</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/himalayan-organics-plant-based-multivitamin-60-tablets\">\n        <u><b>Himalayan Organics Multivitamin Tablets</b></u>\n    </a>\n    are packed with antioxidant-rich fruits and vegetables to provide essential nutrients often missed in daily diets.\n    It supports strong bones with Calcium and Vitamin D, boosts immunity with Vitamins C, A, D, and E, and promotes\n    muscle growth.\n</p>\n<p>\n    Made with expert-chosen ingredients, it enhances energy, metabolism, and overall health. Perfect for daily wellness!\n</p>\n\n<h3>6. Melts Multi-Vitamin Plant-Based Multivitamin, 30 Oral Strips</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/melts-multi-vitamin-plant-based-multivitamin\">\n        <u><b>Multivitamin Melts Strips</b></u>\n    </a>\n    provide 100% RDA for men and women, filling nutritional gaps and supporting overall well-being.\n    Packed with Vitamins A, B-Complex, C, D3, and K2, they boost immunity, heart and cognitive health, energy, memory,\n    and reduce stress.\n</p>\n<p>\n    Simply place a strip on your tongue post-breakfast and let it dissolve!\n</p>\n\n<h3>7. Slow Multivitamin for Him, 60 Capsules</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/slow-multivitamin-for-him\">\n        <u><b>Slow Multivitamin Capsules</b></u>\n    </a>\n    are designed for men aged 18-49 to fill nutrient gaps and boost overall health. Plant-based vitamins, MCT oil,\n    caffeine,\n    and ginseng improve energy, stamina, immunity, gut health, heart health, and muscle function.\n</p>\n<p>\n    Take 2 capsules with breakfast or lunch for the best results!\n</p>\n\n<h3>8. Wow Life Science Multi VITAMIN Capsules Men, 60N</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/wow-life-science-multi-vitamin-capsules-men-60n\">\n        <u><b>Wow Multivitamins for Men</b></u>\n    </a>\n    combines 12 essential vitamins, 11 minerals, and 5 specialized blends with amino acids, antioxidants, and herbal\n    extracts.\n    They boost energy, support metabolism, maintain healthy bones and muscles, and aid heart, nerve, prostate, and gut\n    health.\n</p>\n<p>\n    A vegetarian supplement for overall wellness!\n</p>\n\n<h3>9. Wellbeing Nutrition Daily Greens Multivitamin Effervescent Tablets</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/daily-greens-vitamin-tablets\">\n        <u><b>Wellbeing Nutrition Daily Greens Tablet</b></u>\n    </a>\n    is a smart mix of farm-fresh superfoods made to cover your daily micronutrient needs and boost your energy in UAE.\n    It’s an easy-to-use tablet that delivers 100% of your daily vitamins and minerals in every tasty dose.\n</p>\n\n<h3>10. Wellbeing Nutrition Triple Strength Omega-3 Slow, 60 Capsules</h3>\n<p>\n    <a href=\"https://getkuwa.com/products/wellbeing-nutrition-triple-strength-omega-3-slow-60-capsules\">\n        <u><b>Wellbeing Nutrition Omega 3</b></u>\n    </a>\n    is designed for brain, eye, heart, joint, and skin health. It combines EPA and DHA-rich fish oil with\n    antioxidant-rich\n    curcumin for inflammation control, cognitive support, and glowing skin. Made from pure salmon fish oil, it offers\n    triple-strength omega-3 with no fishy aftertaste. Its slow-release\n    technology ensures better absorption for long-lasting benefits.\n</p>\n\n<h2>When & How to Take Multivitamins for Best Results</h2>\n\n<p>To get the most out of your multivitamins, it's best to take them after a meal, like breakfast or lunch. This helps\n    your body absorb the nutrients more efficiently. Make it a daily habit to take your multivitamin at the same time\n    each day to stay consistent and ensure you’re giving your body the support it needs.\n</p>\n\n<h2>Where to Buy Multivitamins in the UAE?</h2>\n\n<p>You can find the best range of multivitamins online at GETKUWA. Offering high-quality, authentic products, GETKUWA is\n    your trusted destination for wellness supplements. Whether you’re looking for multivitamins for men, women, or\n    seniors, you’ll find options that suit your needs.\n</p>\n\n<p>With GETKUWA, you can be sure to receive premium brands and reliable supplements delivered to your door across the\n    UAE. </p>\n\n<p>Start your wellness journey today with top brands of top-rated multivitamins!</p>\n\n<hr>\n\n<h2>FAQs: Buy Multivitamin Supplements in UAE </h2>\n\n<ul>\n    <li>\n        <h3>What is a multivitamin, and why should I take one?</h3>\n        <p>Multivitamins are dietary supplements that provide essential vitamins, minerals, and nutrients your body\n            needs.\n            They help fill nutritional gaps, boost energy, improve immunity, and support overall health.</p>\n    </li>\n    <li>\n        <h3>How do I choose the best multivitamin in UAE for my needs?</h3>\n        <p>Look for a multivitamin tailored to your age, gender, and lifestyle. For example, multivitamins for men may\n            focus on energy and muscle health, while those for women often address hormonal balance and bone health.</p>\n    </li>\n    <li>\n        <h3>When is the best time to take a multivitamin?</h3>\n        <p>Multivitamins are best taken with a meal, such as breakfast or lunch, to enhance nutrient absorption and\n            reduce the chance of an upset stomach.</p>\n    </li>\n    <li>\n        <h3>Are multivitamins safe to take daily?</h3>\n        <p>Yes, most multivitamins are safe for daily use when taken as directed. However, consult a healthcare\n            professional before starting any new supplement, especially if you have underlying conditions.</p>\n    </li>\n    <li>\n        <h3>Are there vegetarian or plant-based multivitamin options?</h3>\n        <p>Yes, many multivitamin options on <a href=\"https://kw.getkuwa.com/\"><b>GETKUWA</b></a>, such as\n            Himalayan Organics and Melts Multivitamins, are plant-based and vegetarian-friendly.</p>\n    </li>\n    <li>\n        <h3>How do I store my multivitamins?</h3>\n        <p>Store multivitamins in a cool, dry place, away from direct sunlight and out of reach of children.</p>\n    </li>\n    <li>\n        <h3>Where can I buy the best multivitamins in the UAE?</h3>\n        <p>You can purchase a wide range of multivitamins online at\n            GETKUWA, offering top-rated brand supplements and authentic\n            supplements delivered across the UAE.</p>\n    </li>\n</ul>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "Read More",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_MRbeyD",
+        "content_wtE8fF"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f",
+    "product-recently-viewed",
+    "17351200965653c3d2",
+    "rich_text_BjXREz"
+  ]
+}

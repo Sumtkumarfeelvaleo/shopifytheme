@@ -1,0 +1,29 @@
+{%- liquid
+  assign locale = localization.language.iso_code
+-%}
+<div id="TabbyPromo"></div>
+<script type="load">
+  (function() {
+    const script = document.createElement('script');
+    script.src = 'https://checkout.tabby.ai/tabby-promo.js';
+    script.async = true;
+    script.onload = () => {
+      const locale = '{{ locale }}';
+
+      new TabbyPromo({
+        selector: '#TabbyPromo',
+        price: "{{product.price | money_without_currency | remove: ','}}",
+        locale,
+        installmentsCount: '9',
+        publicKey: 'pk_3fab3cd4-ed5d-447d-9505-13945f80165a', // specify your apiKey it should be a string
+        merchantCode: 'AE', // enum: "default", "ksa", "KW", "BH"
+      }); 
+    };
+    document.body.appendChild(script);
+  })();
+</script>
+<style>
+  #TabbyPromo div:empty, #TabbyDialogContainer div:empty {
+    display: block;
+  }
+</style>

@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "17351200965653c3d2": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "rich_text_KQyHpR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f4X4tB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Biggest Selection of Immunity Boosting Supplements in Dubai, UAE ",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000000"
+          }
+        },
+        "content_FWGMWg": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p>Your immune system is your body’s shield, protecting you from harmful viruses, toxins, and bacteria. It works through\n    a network of cells and processes to keep you healthy and strong every day.</p>\n<p>While a healthy diet is key, certain nutrients can give your immunity an extra boost. Vitamins like C and minerals\n    like zinc are especially powerful in strengthening your body’s defenses. Adding herbal remedies to your routine can\n    also vitamins support your immune system naturally.\n</p>\n<p>Supplements like vitamin C and zinc can help fill nutritional gaps and strengthen the immune system. However, it’s\n    always wise to consult a doctor before starting, as some supplements might interact with medications.\n</p>\n<p>For UAE residents, GETKUWA has curated the\n    <strong>best immunity booster</strong> options from top brands worldwide.\n    From\n    multivitamins to <strong>immune support supplements</strong>, we have everything you need to stay protected and\n    healthy. With the\n    right care and choices, your immune system can be your strongest ally! Read on.\n</p>\n\n<h2>Vitamins to Strengthen Your Immune System</h2>\n\n<p>Focus on foods rich in key vitamins and minerals to build a strong immune system. Regular healthy eating, not a quick\n    fix, strengthens immunity over time.\n</p>\n\n<h3>Vitamin C</h3>\n<p>A powerful\n    <strong>immune booster</strong> that protects against toxins. Found in red bell peppers, oranges,\n    broccoli, strawberries,\n    and kiwi.\n</p>\n\n<h3>Vitamin B6\n</h3>\n\n<p>Supports immune cell production. Sources include chickpeas, salmon, chicken, bananas, and potatoes.\n</p>\n\n<h3>Vitamin E\n</h3>\n\n<p>A strong antioxidant for infection defense. Found in almonds, sunflower seeds, spinach, and broccoli.\n</p>\n\n<h3>Zinc</h3>\n\n<p>Essential for immune cell function. Found in oysters, lean beef, pumpkin seeds, and shrimp.</p>\n\n<h3>Selenium</h3>\n<p>Regulates immune responses. Found in Brazil nuts, tuna, eggs, and brown rice.</p>\n\n<p>Whether it’s through incorporating immune-boosting vitamins into your diet or adding supplements for an extra edge,\n    your immune system will thank you for the care. For UAE residents, GETKUWA offers the best immunity booster options,\n    including multivitamins and effervescent Vitamin C tablets, ensuring you stay healthy and protected.\n</p>\n\n<h2>Benefits of Using Immunity Supplements</h2>\n<p>Adding immunity supplements like Vitamin C and Zinc to your routine can offer multiple benefits:</p>\n\n<h3>1 Stronger Immune System</h3>\n<p>Supplements like Vitamin C, Zinc, and Elderberry help boost the body's immune defenses, making it better able to\n    fight infections.\n</p>\n\n<h3>2 Increased Energy\n</h3>\n\n<p>Certain supplements provide a natural energy boost, helping you stay active and healthy throughout the day.</p>\n\n\n<h3>3 Faster Recovery</h3>\n<p>Immunity supplements can help your body recover quicker from illnesses by strengthening your immune response.</p>\n\n<h3>4 Protection Against Free Radicals</h3>\n\n<p>Antioxidants in immunity supplements protect your cells from damage caused by oxidative stress, keeping you healthy\n    longer.\n</p>\n\n<h3>Improved Overall Wellbeing</h3>\n\n<p>Regular use of immunity supplements can improve overall health, support the body's natural defense, and reduce the\n    frequency of illness.</p>\n\n<p>Incorporating immunity supplements into your routine can support a healthier, more resilient body.</p>\n\n<h2>Bestselling Immunity Supplements Brands for Middle East Available at Kuwa Supplements UAE</h2>\n\n<ul>\n    <li>\n        <h3>Plix Immune Boost Bubbly Orange Zest 15 Effervescent Tablets</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/plix-immune-boost-bubbly-orange-zest-15-effervescent-tablets\"><b><u>Plix\n                    Vitamin C</u></b></a> Bubbly Orange Zest Effervescent Tablets are a tasty and simple way to support\n        your immunity.\n        Packed with Vitamin C, these tablets help strengthen your immune system and give you an energy boost. Just drop\n        one tablet in water, let it fizz, and enjoy a refreshing, vitamin-packed drink. Perfect for daily use, it’s a\n        convenient and flavorful way to take care of your health.\n    </li>\n    <li>\n        <h3>Kapiva Shilajit Gold 60 + Ashwagandha 60 + Moringa 60 Immunity Power Combo</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/shilajit-gold-60-ashwagandha-60-moringa-60\"><b><u>Kapiva Immunity\n                    Combo</u></b></a> combines Shilajit Gold, Ashwagandha, and Moringa to boost\n        your immunity, energy, and\n        overall wellness. This powerful trio supports stamina, reduces stress, improves digestion, and enhances mental\n        clarity. Made with 100% natural ingredients, it's a safe and convenient way to improve your health. Take one\n        capsule of each daily to feel your best!\n    </li>\n    <li>\n        <h3>Wellbeing Nutrition Daily Greens for Immunity and Detox with 39+ Organic Certified Plant Superfoods &\n            Antioxidants (Pack of 2)</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/wellbeing-nutrition-daily-greens-for-immunity-and-detox-with-39-organic-certified-plant-superfoods-antioxidants-pack-of-2\"><b><u>A\n                    daily greens pack of 2</u></b></a> fuels your day! Packed with natural superfoods like\n        spinach, spirulina, moringa, and\n        ashwagandha, each tablet gives you a full serving of greens and essential vitamins. Simply drop one in water,\n        let it fizz, and enjoy a refreshing boost for your immunity, digestion, and overall health. Perfect for busy\n        mornings, afternoon slumps, or when you just need a quick, nutritious pick-me-up. No hassle, just a delicious\n        way to get your daily nutrients!\n    </li>\n    <li>\n        <h3>Panchamrit Immunity Everyday Chyawanprash Gummies 30</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/panchamrit-immunity-everyday-chyawanprash-gummies-30\"><b><u>Chyawanprash\n                    Gummies</u></b></a> are a tasty and easy way to boost your immunity. Made with Chyawanprash extract,\n        Amla\n        powder, and Vitamin C, they help strengthen your immune system. Take one gummy twice a day for daily support.\n        They are ideal for anyone looking to improve their health with a simple, convenient, and delicious supplement!\n    </li>\n    <li>\n        <h3>Wellbeing Nutrition melts Marvel Advanced Immunity 30 Oral Strips</h3>\n        <br>\n        Marvel Advanced <a href=\"https://getkuwa.com/products/wellbeing-nutrition-melts-marvel-advanced-immunity-30-oral-strips\"><b><u>Melts\n                    Immunity</u></b></a> Oral Strips help boost your child's immunity with natural Vitamin C and Zinc.\n        These fast-dissolving strips taste like Valencia orange and are easy to take. They also help fight colds,\n        support energy, and improve digestion. Perfect for kids with low immunity or picky eating habits!\n    </li>\n    <li>\n        <h3>Man Matters 100% Pure Himalayan Shilajit Resin for Men 20g | Boosts Immunity & Strength | No Added\n            Preservatives | 100% Vegetarian</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/man-matters-100-pure-himalayan-shilajit-resin-for-men-20g-boosts-immunity-strength-no-added-preservatives-100-vegetarian\"><b><u>\n                    Man Matters Shilajit</u></b></a> 100% Pure Himalayan Shilajit Resin is a natural booster for\n        immunity, strength, and energy.\n        Sourced from the Himalayas, it’s packed with antioxidants and fulvic acid to support bones, muscles, and overall\n        wellness. Free from preservatives, this vegetarian resin helps increase stamina and vitality with every dose,\n        providing maximum health benefits.\n    </li>\n    <li>\n        <h3>Valeo Pure Himalayan Shilajit Resin 20g</h3>\n        <br>\n        Valeo Pure Himalayan <a href=\"https://getkuwa.com/products/valeo-himalayan-shilajit-resin-20g\"><b><u>shilajit\n                    for immunity</u></b></a> is packed with natural goodness,\n        designed to give you an energy boost\n        and improve stamina. Made with 100% pure Himalayan Shilajit, it contains over 75% Fulvic Acid, which helps your\n        body absorb nutrients better and supports natural detox. It’s the perfect choice for boosting energy on busy\n        days, strengthening workouts, and supporting healthy aging.\n    </li>\n    <li>\n        <h3>Wellbeing Nutrition Vitamin C + Zinc | Natural and Organic Immunity Booster | 100% RDA | 1000mg Vitamin\n            C (Pack of 6)</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/wellbeing-nutrition-vitamin-c-zinc-natural-and-organic-immunity-booster-100-rda-1000mg-vitamin-c-pack-of-6\"><b><u>Wellbeing\n                    nutrition vitamin C + zinc</u></b></a> tube contains 1000 mg of natural Vitamin C, packed with\n        antioxidants to\n        protect your body. This powerful combination, made from pure ingredients like Amla (Indian Gooseberry),\n        Elderberry, Acerola Cherry, and Rosehip, helps fight infections and strengthens your immune system. It provides\n        100% of your daily required intake of Vitamin C and Zinc.\n    </li>\n    <li>\n        <h3>Sunshine N Immune Support Orange Efferv 20 Tabs X2 Valuepack</h3>\n        <br>\n        <a href=\"https://getkuwa.com/products/sunshine-n-immune-support-orange-efferv-20-tabs-x2-valuepack\"><b><u>Effervescent\n                    vitamin</u></b></a> CC helps boost your immune system. Its ingredients — Vitamin C, Zinc, and\n        Selenium — work\n        together to protect your cells, improve absorption, and fight oxidative stress, giving your body the support it\n        needs.\n    </li>\n</ul>\n\n<h2>FAQs: Best Immunity Supplements in Dubai, UAE\n</h2>\n\n<h3>1. What do immunity supplements do?</h3>\n<p>They help strengthen your immune system, boost energy, speed up recovery, and protect your body from stress.</p>\n\n<h3>2. Are immunity supplements safe?</h3>\n<p>Yes, they are safe for daily use, but it's a good idea to check with your doctor if you're on medication.</p>\n\n<h3>3. Can supplements replace a healthy diet?</h3>\n<p>No, supplements are helpful but should not replace a balanced diet.</p>\n\n<h3>4. When should I take immunity supplements?</h3>\n<p>It depends on the type. Vitamin C is great in the morning, and Zinc is best in the evening.</p>\n\n<h3>5. Where can I buy immunity supplements in the UAE?</h3>\n<p>You can get the best immunity supplements at GETKUWA in the UAE. Great prices and top reviews!</p>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "Read More",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_f4X4tB",
+        "content_FWGMWg"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "product-recently-viewed",
+    "17351200965653c3d2",
+    "rich_text_KQyHpR"
+  ]
+}

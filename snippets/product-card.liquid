@@ -1,0 +1,50 @@
+{%- assign product = product | default: product_card_product -%}
+
+{% if product != nil %}
+  <div class="custom-product-card">
+    <a href="{{ product.url }}" class="custom-card__img" style="position: relative; display: block;">
+      {% assign img = product.featured_image | default: product.images.first %}
+      {% if img %}
+        <img src="{{ img | img_url: '400x' }}" alt="{{ img.alt | escape }}" loading="lazy" style="width: 100%; display: block;">
+      {% else %}
+        <img src="{{ 'placeholder.png' | asset_url }}" alt="No image" style="width: 100%; display: block;">
+      {% endif %}
+
+      {% unless product.available %}
+        <span class="badge sold-out-badge" style="position: absolute; top: 10px; left: 0px; background: #cccccc; color: #fff; padding: 4px 8px; font-size: 10px; font-weight: 600; text-transform: uppercase; z-index: 2;">
+          Sold Out
+        </span>
+      {% endunless %}
+    </a>
+
+    <div class="custom-card__title">
+      {{ product.title }}
+    </div>
+
+    <div class="custom-card__price">
+      {% if product.compare_at_price > product.price %}
+        <del>{{ product.compare_at_price | money }}</del>
+      {% endif %}
+      <span>{{ product.price | money }}</span>
+    </div>
+
+    {% if product.available %}
+      {% form 'product', product %}
+        <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+        <button type="submit" class="custom-card__btn button-ATC" data-btn-addToCart id="product-add-to-cart">
+          <b>ADD&nbsp;TO&nbsp;CART</b>
+        </button>
+      {% endform %}
+    {% elsif settings.show_notify_form %}
+      <a class="custom-card__btn button-ATC is-notify-me" href="#" data-open-notify-popup data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}" style="background-color: #999999; color: #fff; text-transform: uppercase;">
+        <b>NOTIFY ME</b>
+      </a>
+    {% else %}
+      <a class="custom-card__btn button-ATC" href="{{ product.url }}" disabled style="background-color: #cccccc; color: #fff; text-transform: uppercase;">
+        SOLD OUT
+      </a>
+    {% endif %}
+  </div>
+{% else %}
+  <!-- DEBUG: product object is null -->
+{% endif %}

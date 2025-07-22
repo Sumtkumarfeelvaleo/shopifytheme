@@ -1,0 +1,571 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "2e8c7c14-a0ad-4930-a1d8-3def05310426": {
+          "type": "breadcrumb",
+          "settings": {
+            "breadcrumb_layout": "full",
+            "breadcrumb_alignment": "left",
+            "breadcrumb_bg": "rgba(0,0,0,0)",
+            "breadcrumb_gradient": "",
+            "breadcrumb_bg_mb": "#f6f6f6",
+            "breadcrumb_gradient_mb": "",
+            "breadcrumb_mg_top_desktop": 10,
+            "breadcrumb_mg_top_mobile": 0,
+            "breadcrumb_mg_bottom_desktop": 20,
+            "breadcrumb_mg_bottom_mobile": 0
+          }
+        },
+        "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0": {
+          "type": "title",
+          "settings": {
+            "fontsize_text": 20,
+            "fontsize_text_mb": 18,
+            "color_title": "#232323",
+            "spacing_top": 0,
+            "spacing_bottom": 10
+          }
+        },
+        "0e4ea696-4820-4c98-aaa6-806d41782a3d": {
+          "type": "meta",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 14,
+            "show_review": true,
+            "show_sold_in": true,
+            "sold_in_number": "3,5,6,7,8,10,12,15",
+            "sold_in_hours": "10,15,16,17,18,20,25,35",
+            "color_text_sold_in": "#e95144"
+          }
+        },
+        "4036f89b-c2c5-49a4-9d6b-2fd29ce7c46c": {
+          "type": "short_description",
+          "settings": {
+            "word_number": "17",
+            "fontsize_text": 16,
+            "color_text": "#3c3c3c",
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "4e59f24a-8859-4579-a80a-d70e6f1bf66b": {
+          "type": "info",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": true,
+            "show_availability": true,
+            "show_product_type": true,
+            "stock_level_display": "none",
+            "enable_border_top": false,
+            "enable_border_bottom": false,
+            "color_border": "#e6e6e6",
+            "spacing_top": 0,
+            "spacing_bottom": 18
+          }
+        },
+        "4f95b592-8369-4ab0-b30d-24e463fb6890": {
+          "type": "price",
+          "settings": {
+            "fontsize_text": 18,
+            "spacing_top": 0,
+            "spacing_bottom": 17
+          }
+        },
+        "5d8b9ff9-6a1c-4850-a6c2-e6cdbb8b7f7c": {
+          "type": "hot_stock",
+          "settings": {
+            "hot_stock_style": "2",
+            "spacing_top": 0,
+            "spacing_bottom": 8
+          }
+        },
+        "bd3a641e-98d0-4da1-ab57-d5e4b0391995": {
+          "type": "countdown",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 20
+          }
+        },
+        "d98e243b-3682-495a-965a-1c7f7d460880": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_variant_image_group": false,
+            "enable_border_top": false,
+            "enable_border_bottom": false,
+            "color_border": "#e6e6e6",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "d97e417a-941b-4a5d-bef3-a651adb918d8": {
+          "type": "variant_description",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "faa2b3e6-c0a1-4269-baa6-d2605efe4c05": {
+          "type": "quantity_selector",
+          "settings": {
+            "qty_style": "1",
+            "qty_layout": "1",
+            "spacing_top": 0,
+            "spacing_bottom": 15
+          }
+        },
+        "37ea1f93-3c9e-4394-826f-d214c2ce6552": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-cash\" viewbox=\"0 0 16 16\"> <path d=\"M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z\"></path> <path d=\"M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z\"></path> </svg>",
+            "text": "Pay with Tamara(3 interest-free payments)",
+            "color_title": "#232323",
+            "text_description": "",
+            "color_des": "#999999",
+            "content_popup": "<div class=\"tamara-popup__inner\" dir=\"ltr\"> <div class=\"tamara-popup__logo\"><svg width=\"98\" height=\"24\" viewbox=\"0 0 98 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <g clip-path=\"url(#clip0_1835_2484)\"> <path d=\"M48.1299 7.85529C46.9332 7.40586 45.7755 7.18811 44.3177 7.49658C43.1796 7.73665 42.265 8.19447 41.6645 9.33621C41.9284 9.55116 42.1658 9.75494 42.3976 9.95733C42.7788 10.2881 43.174 10.6287 43.7033 11.0251C44.1222 10.4277 44.8539 9.75494 45.6387 9.73959C46.5491 9.72144 47.4219 10.2225 47.5657 10.9567C47.6244 11.261 47.6635 12.5186 47.6635 12.5186L47.1859 12.6205C47.0913 12.6558 46.9872 12.6558 46.8927 12.6205L46.8173 12.5911L46.7558 12.5674C45.7751 12.1884 44.735 11.9862 43.6837 11.97C43.3302 11.9699 42.9772 11.9974 42.628 12.0524C41.5556 12.2213 40.2807 12.827 40.303 14.7602C40.3114 15.4958 40.465 16.0471 40.789 16.4951C41.074 16.9039 41.4553 17.2363 41.8993 17.4629C42.3433 17.6895 42.8362 17.8034 43.3346 17.7946C44.5527 17.8318 45.7416 17.4183 46.6734 16.6333C46.693 16.618 46.915 16.4239 46.9792 16.3737L47.6369 15.8642V17.7806H50.3809V11.0809C50.3823 9.56372 49.5556 8.39127 48.1299 7.85529ZM47.2823 14.1516C46.6958 15.2012 45.7392 15.7944 44.6389 15.7944C44.5928 15.7944 44.5453 15.7944 44.4992 15.7944C44.2677 15.7897 44.0374 15.7602 43.8122 15.7065C42.9897 15.4902 42.5219 14.8286 42.5554 13.9381L42.5722 13.5486H47.6174L47.2823 14.1516Z\" fill=\"black\"></path> <path d=\"M76.7925 7.85529C75.5958 7.40586 74.4382 7.18811 72.9818 7.49658C71.8423 7.73665 70.9276 8.19447 70.3286 9.33621C70.5925 9.55116 70.8299 9.75494 71.0617 9.95733C71.4443 10.2881 71.8381 10.6287 72.3673 11.0251C72.7863 10.4277 73.5194 9.75494 74.3027 9.73959C75.2146 9.72144 76.086 10.2225 76.2298 10.9567C76.2884 11.261 76.3275 12.5186 76.3275 12.5186L75.8514 12.6205C75.7568 12.6558 75.6527 12.6558 75.5581 12.6205C75.5344 12.6121 75.5078 12.6023 75.4827 12.5911L75.4199 12.5674C74.4392 12.1884 73.3991 11.9862 72.3478 11.97C71.9943 11.9699 71.6413 11.9974 71.2921 12.0524C70.2197 12.2213 68.9447 12.827 68.9671 14.7602C68.9755 15.4958 69.1305 16.0471 69.453 16.4951C69.7381 16.9039 70.1194 17.2363 70.5634 17.4629C71.0073 17.6895 71.5003 17.8034 71.9987 17.7946C73.2172 17.8319 74.4066 17.4184 75.3389 16.6333C75.357 16.618 75.5805 16.4239 75.6433 16.3737L76.301 15.8642V17.7806H79.0449V11.0809C79.0449 9.56372 78.2183 8.39127 76.7925 7.85529ZM75.9449 14.1516C75.3598 15.2012 74.4019 15.7944 73.3029 15.7944C73.2554 15.7944 73.208 15.7944 73.1633 15.7944C72.9323 15.7897 72.7024 15.7602 72.4777 15.7065C71.6538 15.4902 71.186 14.8286 71.2209 13.9381L71.2376 13.5486H76.2815L75.9449 14.1516Z\" fill=\"black\"></path> <path d=\"M95.5395 7.85529C94.3428 7.40586 93.1852 7.18811 91.7274 7.49658C90.5893 7.73665 89.6746 8.19447 89.0742 9.33621C89.3381 9.55116 89.5755 9.75494 89.8073 9.95733C90.1885 10.2881 90.5837 10.6287 91.1129 11.0251C91.5319 10.4277 92.2636 9.75494 93.0484 9.73959C93.9602 9.72144 94.8316 10.2225 94.9754 10.9567C95.034 11.261 95.0731 12.5186 95.0731 12.5186L94.5956 12.6205C94.5014 12.6554 94.3979 12.6554 94.3037 12.6205C94.28 12.6121 94.2534 12.6023 94.2283 12.5911L94.1655 12.5674C93.1848 12.1884 92.1447 11.9862 91.0934 11.97C90.7399 11.9699 90.3869 11.9974 90.0377 12.0524C88.9653 12.2213 87.6903 12.827 87.7127 14.7602C87.7211 15.4958 87.8747 16.0471 88.1986 16.4951C88.4837 16.9039 88.865 17.2363 89.309 17.4629C89.7529 17.6895 90.2459 17.8034 90.7443 17.7946C91.9628 17.8319 93.1522 17.4184 94.0845 16.6333C94.1026 16.618 94.3261 16.4239 94.3889 16.3737L95.0466 15.8642V17.7806H97.7905V11.0809C97.7919 9.56372 96.9653 8.39127 95.5395 7.85529ZM94.6919 14.1516C94.1054 15.2012 93.1489 15.7944 92.0485 15.7944C92.0024 15.7944 91.955 15.7944 91.9089 15.7944C91.6774 15.7897 91.4471 15.7602 91.2219 15.7065C90.3994 15.4902 89.9316 14.8286 89.9651 13.9381L89.9819 13.5486H95.0243L94.6919 14.1516Z\" fill=\"black\"></path> <path d=\"M86.5618 8.21409C85.6737 8.25457 85.0412 8.64259 84.6222 9.40608C84.5762 9.48983 84.2801 10.0705 84.2801 10.0705L83.6224 9.91833V9.59451V8.34948H80.9692V17.8017H83.6294V16.9433C83.6294 16.0537 83.6294 15.1655 83.6294 14.2787V14.1098C83.6294 13.7958 83.6084 13.4706 83.6294 13.1454C83.6682 12.5763 83.9043 12.0385 84.2971 11.6248C84.6899 11.211 85.2147 10.9471 85.7812 10.8786C86.1527 10.8256 87.0869 10.8214 87.1888 10.82V8.20851C86.9668 8.20572 86.7629 8.20432 86.5618 8.21409Z\" fill=\"black\"></path> <path d=\"M38.249 15.5935C38.0153 15.5896 37.7821 15.571 37.5508 15.5376C36.8526 15.4232 36.4071 15.0798 36.2172 14.5145C36.132 14.2783 36.0849 14.03 36.0776 13.779V9.55815L36.4895 9.54C37.3706 9.49673 38.3048 9.43253 39.1916 9.18687L38.626 7.25931L36.0776 7.63756V4.79996H33.0683V7.63756H31.0352V9.58327H33.0683C33.0683 9.58327 33.0683 13.5961 33.0851 14.6206C33.0868 15.2463 33.2675 15.8585 33.6059 16.3849C34.0109 17.0004 34.5988 17.3856 35.459 17.5978C36.3848 17.8253 37.3232 17.8141 38.3146 17.803H38.552V15.6046H38.4375L38.249 15.5935Z\" fill=\"black\"></path> <path d=\"M61.2909 12.4767C61.2909 11.522 61.9332 10.7683 62.806 10.6873C63.8588 10.5882 64.5989 11.1144 64.7875 12.0929C64.8156 12.2649 64.8273 12.4392 64.8224 12.6135C64.8224 14.033 64.8224 15.4399 64.8224 16.8483V17.789H67.4755V16.3249C67.4755 14.682 67.4755 13.0392 67.4755 11.3964C67.4784 11.0886 67.4532 10.7812 67.4001 10.478C67.1795 9.30552 66.5511 8.59089 65.4912 8.2894C64.3434 7.96837 62.4192 8.20845 61.5255 9.77032L61.1177 10.5854C60.8831 9.41579 60.2142 8.56856 59.1474 8.26288C57.9995 7.94185 56.268 8.21124 55.3771 9.77311L54.9777 10.471V8.34802H52.2017V17.8016H54.9665C54.9665 17.8016 54.9665 14.0539 54.9665 12.6735C54.9664 12.4967 54.9776 12.32 55.0001 12.1445C55.0319 11.8132 55.1659 11.4999 55.3835 11.2478C55.6011 10.9958 55.8916 10.8175 56.2149 10.7376C56.9718 10.5422 57.758 10.785 58.1699 11.3447C58.4138 11.7063 58.5329 12.1376 58.5092 12.573C58.5092 13.9074 58.5092 17.7946 58.5092 17.7946H61.2909V12.4767Z\" fill=\"black\"></path> <path d=\"M1.26933 8.47495C0.718384 9.04933 0.286941 9.72727 0 10.4695L8.79735 17.761C9.23024 17.4955 9.62766 17.1761 9.98011 16.8105L10.1519 16.6318C13.4851 13.1536 11.2955 9.38499 9.96754 8.11763C8.81325 7.01374 7.2678 6.41295 5.67065 6.44724C4.0735 6.48152 2.55528 7.14807 1.44947 8.30048L1.26933 8.47495Z\" fill=\"black\"></path> <path d=\"M19.4183 18.6C22.7823 18.6 25.5094 15.8742 25.5094 12.5117C25.5094 9.14914 22.7823 6.42329 19.4183 6.42329C16.0542 6.42329 13.3271 9.14914 13.3271 12.5117C13.3271 15.8742 16.0542 18.6 19.4183 18.6Z\" fill=\"black\"></path> </g> <defs> <clippath id=\"clip0_1835_2484\"> <rect width=\"97.8\" height=\"24\" fill=\"white\"></rect> </clippath> </defs> </svg></div> <p class=\"tamara-popup__moto\">Split your bill into 3 payments of KWD 2.300 interest-free</p> <div class=\"tamara-popup__row\"> <div class=\"tamara-popup__col\"> <i class=\"tamara-popup__icon\"> <svg viewbox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <rect width=\"56\" height=\"56\" rx=\"28\" fill=\"#FF9B83\"></rect> <path d=\"M40.8532 22.8934L38.3065 33.56C38.1998 34.0134 37.7998 34.3334 37.3332 34.3334H22.6665C22.2132 34.3334 21.8265 34.0267 21.7065 33.6L18.7998 22.9334L17.8932 19.6667H14.6665C14.1065 19.6667 13.6665 19.2134 13.6665 18.6667C13.6665 18.12 14.1065 17.6667 14.6665 17.6667H18.6665C19.1198 17.6667 19.5065 17.9734 19.6265 18.4L20.5198 21.6667H39.8798C40.1865 21.6667 40.4798 21.8134 40.6665 22.0534C40.8532 22.2934 40.9198 22.6 40.8532 22.8934ZM24.9732 36C23.6932 36 22.6665 37.0267 22.6665 38.3067C22.6665 39.5734 23.6932 40.6134 24.9732 40.6134C26.2398 40.6134 27.2798 39.5867 27.2798 38.3067C27.2665 37.0267 26.2398 36 24.9732 36ZM35.0265 36C33.7598 36 32.7198 37.0267 32.7198 38.3067C32.7198 39.5734 33.7465 40.6134 35.0265 40.6134C36.2932 40.6134 37.3332 39.5867 37.3332 38.3067C37.3332 37.0267 36.3065 36 35.0265 36Z\" fill=\"black\"></path> </svg> </i> <div class=\"tamara-popup__point-title__wrap\"> <p class=\"tamara-popup__point-title\">Add the item to your cart</p> </div> </div> <div class=\"tamara-popup__col\"> <i class=\"tamara-popup__icon\"> <svg viewbox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <rect width=\"56\" height=\"56\" rx=\"28\" fill=\"#FF9B83\"></rect> <g clip-path=\"url(#clip0_1163_5485)\"> <path d=\"M13.5923 22.9343C12.901 23.6556 12.3597 24.507 12 25.4392L23.0357 34.5883C23.5791 34.2556 24.0777 33.8547 24.5194 33.3954L24.7348 33.1729C28.9161 28.8059 26.1695 24.0764 24.5036 22.4876C23.0556 21.102 21.1167 20.348 19.1131 20.3914C17.1094 20.4347 15.205 21.2719 13.8183 22.7188L13.5923 22.9343Z\" fill=\"black\"></path> <path d=\"M36.3592 35.6409C40.5791 35.6409 44.0001 32.22 44.0001 28C44.0001 23.7801 40.5791 20.3591 36.3592 20.3591C32.1392 20.3591 28.7183 23.7801 28.7183 28C28.7183 32.22 32.1392 35.6409 36.3592 35.6409Z\" fill=\"black\"></path> </g> <defs> <clippath id=\"clip0_1163_5485\"> <rect width=\"32\" height=\"15.2818\" fill=\"white\" transform=\"translate(12 20.3591)\"></rect> </clippath> </defs> </svg> </i> <div class=\"tamara-popup__point-title__wrap\"> <p class=\"tamara-popup__point-title\">Select Tamara at checkout</p> </div> </div> <div class=\"tamara-popup__col\"> <i class=\"tamara-popup__icon\"> <svg viewbox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <rect width=\"56\" height=\"56\" rx=\"28\" fill=\"#FF9B83\"></rect> <path d=\"M27.9996 41.4399C20.5862 41.4399 14.5596 35.4133 14.5596 27.9999C14.5596 20.5866 20.5862 14.5599 27.9996 14.5599C31.9729 14.5599 35.7196 16.3066 38.2796 19.3466C38.6396 19.7733 38.5862 20.3999 38.1596 20.7599C37.7462 21.1199 37.1062 21.0666 36.7462 20.6399C34.5729 18.0533 31.3862 16.5599 27.9996 16.5599C21.6929 16.5599 16.5596 21.6933 16.5596 27.9999C16.5596 30.4629 17.3425 32.7469 18.6724 34.616C20.6175 31.5843 24.1592 29.6532 27.9996 29.6532C32.1863 29.6532 36.373 32.2799 38.173 36.0532C38.293 36.2932 38.253 36.5732 38.0796 36.7866C37.9331 36.9556 37.7827 37.1204 37.6286 37.2809C37.5786 37.392 37.5067 37.4959 37.4129 37.5866C34.8929 40.0666 31.5462 41.4399 27.9996 41.4399Z\" fill=\"black\"></path> <path d=\"M23.6663 22.9599C23.6663 25.3466 25.613 27.2933 27.9997 27.2933C30.3863 27.2933 32.333 25.3466 32.333 22.9599C32.333 20.5733 30.3863 18.6266 27.9997 18.6266C25.613 18.6266 23.6663 20.5733 23.6663 22.9599Z\" fill=\"black\"></path> <path d=\"M37.973 32.3999C37.4263 32.3999 36.973 31.9466 36.973 31.3999V28.3999H33.9863C33.4397 28.3999 32.9863 27.9466 32.9863 27.3999C32.9863 26.8532 33.4397 26.3999 33.9863 26.3999H36.973V23.4132C36.973 22.8666 37.4263 22.4132 37.973 22.4132C38.5197 22.4132 38.973 22.8666 38.973 23.4132V26.3999H41.973C42.5197 26.3999 42.973 26.8532 42.973 27.3999C42.973 27.9466 42.5197 28.3999 41.973 28.3999H38.973V31.3999C38.973 31.9466 38.5197 32.3999 37.973 32.3999Z\" fill=\"black\"></path> </svg> </i> <div class=\"tamara-popup__point-title__wrap\"> <p class=\"tamara-popup__point-title\">Fill in your details</p> </div> </div> <div class=\"tamara-popup__col\"> <i class=\"tamara-popup__icon\"> <svg viewbox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <rect width=\"56\" height=\"56\" rx=\"28\" fill=\"#FF9B83\"></rect> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.9998 19.48C16.9999 18.1867 18.0532 17.1334 19.3332 17.1334H39.853C41.5863 17.1334 42.9997 18.5601 42.9997 20.3067H40.9997C40.9997 19.6534 40.4931 19.1334 39.8532 19.1334H19.3332C19.1465 19.1334 18.9999 19.28 18.9998 19.48V20.3334H37.3332C38.6265 20.3334 39.6665 21.3867 39.6665 22.68V31.8134L40.6665 31.8134C40.8532 31.8134 40.9998 31.6667 40.9998 31.4667L40.9997 20.3067H42.9997L42.9998 31.4667C42.9998 32.76 41.9465 33.8134 40.6665 33.8134L39.6665 33.8134V34.6667C39.6665 35.96 38.6132 37.0134 37.3332 37.0134H15.9998C14.7198 37.0134 13.6665 35.96 13.6665 34.6667V22.68C13.6665 21.3867 14.7198 20.3334 15.9998 20.3334H16.9998V19.48ZM16.7865 28.8C16.7865 29.4667 17.3332 30.0134 17.9998 30.0134C18.6665 30.0134 19.2132 29.4667 19.2132 28.8C19.2132 28.1334 18.6665 27.5867 17.9998 27.5867C17.3332 27.5867 16.7865 28.1334 16.7865 28.8ZM20.9998 28.8C20.9998 31.56 23.2398 33.8 25.9998 33.8C28.7598 33.8 30.9998 31.56 30.9998 28.8C30.9998 26.04 28.7598 23.8 25.9998 23.8C23.2398 23.8 20.9998 26.04 20.9998 28.8ZM32.7865 28.8C32.7865 29.4667 33.3332 30.0134 33.9998 30.0134C34.6665 30.0134 35.2132 29.4667 35.2132 28.8C35.2132 28.1334 34.6665 27.5867 33.9998 27.5867C33.3332 27.5867 32.7865 28.1334 32.7865 28.8Z\" fill=\"black\"></path> </svg> </i> <div class=\"tamara-popup__point-title__wrap\"> <p class=\"tamara-popup__point-title\">Complete your first payment</p> </div> </div> </div> <div class=\"tamara-popup__payment-method-note\">and pay the remaining in 2 months or according to the payment plan you selected</div> <div class=\"tamara-popup__line\"></div> <div class=\"tamara-popup__why-title\"> Why Tamara?</div> <div class=\"tamara-popup__why-points\"> <div class=\"tamara-popup__why-item\"> <svg width=\"27\" height=\"20\" viewbox=\"0 0 27 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"M9.72 16H7.66667H2.54667C2.24 16 2 15.7467 2 15.4533V11.6667V8.72H24V10.3333C24 10.88 24.4533 11.3333 25 11.3333C25.5467 11.3333 26 10.88 26 10.3333V5V4.44V2.54667C26 1.14667 24.8533 0 23.44 0H18.3333H7.66667H2.54667C1.14667 0 0 1.14667 0 2.54667V3.34667V5V10.32C0 10.3333 0 10.3333 0 10.3333V15.4533C0 16.8667 1.14667 18 2.54667 18H7.66667H9.72C10.2667 18 10.72 17.5467 10.72 17C10.72 16.4533 10.2667 16 9.72 16ZM2 2.54667C2 2.24 2.24 2 2.54667 2H7.66667H18.3333H23.44C23.7467 2 24 2.24 24 2.54667V4.44V4.61333H2V3.34667V2.54667ZM16.16 11.2533C13.9467 11.2533 12.52 12.96 12.52 15.6133C12.52 18.2667 13.9467 19.9733 16.16 19.9733C18.3733 19.9733 19.8 18.2667 19.8 15.6133C19.8 12.96 18.36 11.2533 16.16 11.2533ZM16.16 18.0533C15 18.0533 14.7467 16.72 14.7467 15.6133C14.7467 14.5067 14.9867 13.1733 16.16 13.1733C17.3333 13.1733 17.5733 14.4933 17.5733 15.6133C17.5733 16.7333 17.3333 18.0533 16.16 18.0533ZM22.9467 16.16C22.9467 15.2667 22.4 14.68 21.6 14.68C20.8 14.68 20.2533 15.2933 20.2533 16.16C20.2533 17.0533 20.8 17.64 21.6 17.64C22.4 17.64 22.9467 17.04 22.9467 16.16ZM21.2667 16.16C21.2667 15.9867 21.2933 15.5733 21.6 15.5733C21.88 15.5733 21.9333 15.8933 21.9333 16.16C21.9333 16.4267 21.88 16.7467 21.6 16.7467C21.2933 16.7467 21.2667 16.3333 21.2667 16.16ZM24.84 16.92C24.0533 16.92 23.4933 17.5333 23.4933 18.4C23.4933 19.2667 24.0533 19.88 24.84 19.88C25.64 19.88 26.1867 19.2667 26.1867 18.4C26.1867 17.52 25.64 16.92 24.84 16.92ZM24.84 19C24.5467 19 24.5067 18.6267 24.5067 18.4133C24.5067 18.2 24.5467 17.8267 24.84 17.8267C25.1333 17.8267 25.1733 18.2 25.1733 18.4133C25.1733 18.6267 25.12 19 24.84 19ZM25.56 14.7333L22.08 19.84H20.8667L24.3467 14.7333H25.56Z\" fill=\"black\"></path> </svg> <div>Interest free</div> </div> <div class=\"tamara-popup__why-item\"> <svg width=\"27\" height=\"24\" viewbox=\"0 0 27 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"M18.2931 19.84C18.2931 19.84 18.3065 19.84 18.2931 19.84L17.3598 18.04L16.1465 15.72L15.1998 13.92L12.4531 8.66668L11.5198 6.88001L10.4665 4.86668L9.51981 3.04001L8.21314 0.533342C7.95981 0.0533416 7.34648 -0.133325 6.86648 0.120008C6.37314 0.373341 6.18648 0.973341 6.43981 1.46667L7.57314 3.64001C2.99981 5.41334 0.813145 9.13334 0.253145 11.3733C0.213145 11.5333 0.213145 11.7067 0.253145 11.88C1.07981 14.9067 4.85314 20.6133 13.2131 20.6133C14.3198 20.6133 15.3465 20.5067 16.2931 20.3333L17.5331 22.7067C17.7065 23.0533 18.0665 23.24 18.4265 23.24C18.5865 23.24 18.7465 23.2 18.8931 23.1333C19.3865 22.88 19.5731 22.2667 19.3198 21.7867L18.2931 19.84ZM10.7865 9.80001L13.3331 14.6667C13.2931 14.6667 13.2665 14.68 13.2265 14.68C11.5465 14.68 10.1731 13.3067 10.1731 11.6267C10.1731 10.9333 10.3998 10.3067 10.7865 9.80001ZM13.2265 18.6267C6.29314 18.6267 3.09314 14.1867 2.26648 11.6133C2.82648 9.72001 4.71981 6.81334 8.50648 5.42668L9.81314 7.93334C8.81314 8.85334 8.15981 10.16 8.15981 11.6267C8.15981 14.4133 10.4265 16.68 13.2131 16.68C13.5865 16.68 13.9465 16.6267 14.3065 16.5467L15.3198 18.48C14.6665 18.5733 13.9731 18.6267 13.2265 18.6267ZM26.1998 11.8533C25.7065 13.9867 23.7731 17.44 19.6798 19.3067L18.7598 17.5333C22.0798 16.0533 23.7065 13.3867 24.1998 11.6267C23.4398 9.06668 20.3065 4.61334 13.2398 4.61334C12.8265 4.61334 12.4265 4.62668 12.0398 4.66668L11.0531 2.77334C11.7465 2.68001 12.4665 2.62667 13.2398 2.62667C21.7731 2.62667 25.4531 8.36001 26.2131 11.3867C26.2398 11.5333 26.2398 11.6933 26.1998 11.8533ZM16.1331 12.52C16.2265 12.24 16.2798 11.9333 16.2798 11.6267C16.2798 10.2667 15.3865 9.12001 14.1465 8.73334L13.0265 6.60001C13.0931 6.60001 13.1598 6.58667 13.2265 6.58667C16.0131 6.58667 18.2798 8.85334 18.2798 11.64C18.2798 12.7867 17.8798 13.8267 17.2398 14.6667L16.1331 12.52Z\" fill=\"black\"></path> </svg> <div>No hidden fees</div> </div> <div class=\"tamara-popup__why-item\"> <svg width=\"26\" height=\"26\" viewbox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"M12.7866 20.8667H12.8399C16.1732 20.8667 18.8532 18.6667 19.5066 15.4C19.6132 14.8533 19.2666 14.3333 18.7199 14.2267C18.1999 14.12 17.6532 14.4667 17.5466 15.0133C17.1999 16.7733 15.7732 18.84 12.9066 18.8667H12.8532C9.94658 18.8667 8.49324 16.7867 8.14658 15.0133C8.03991 14.4667 7.50658 14.12 6.97324 14.2267C6.42658 14.3333 6.07991 14.8533 6.18658 15.4C6.83991 18.6533 9.47991 20.84 12.7866 20.8667Z\" fill=\"black\"></path> <path d=\"M20.0535 11.1867C19.8535 11.1867 19.6402 11.12 19.4668 11C17.9978 9.93047 16.4915 10.8908 16.3319 10.9926L16.3202 11C15.8668 11.3067 15.2402 11.2133 14.9335 10.76C14.6135 10.32 14.7068 9.69332 15.1602 9.37332C16.1068 8.67999 18.4802 7.78666 20.6535 9.37332C21.0935 9.69332 21.2002 10.32 20.8802 10.7733C20.6668 11.04 20.3602 11.1867 20.0535 11.1867Z\" fill=\"black\"></path> <path d=\"M10.0934 11C10.2668 11.12 10.4801 11.1867 10.6801 11.1867C10.9868 11.1867 11.2934 11.04 11.5068 10.7733C11.8268 10.32 11.7201 9.69332 11.2801 9.37332C9.10678 7.78666 6.73345 8.67999 5.78678 9.37332C5.33345 9.69332 5.24012 10.32 5.56012 10.76C5.86678 11.2133 6.49345 11.3067 6.94678 11C6.94678 11 6.95294 10.9961 6.95848 10.9926C7.11812 10.8908 8.62446 9.93047 10.0934 11Z\" fill=\"black\"></path> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 13C0 20.1733 5.82667 26 13 26C20.1733 26 26 20.1733 26 13C26 5.82667 20.1733 0 13 0C5.82667 0 0 5.82667 0 13ZM2 13C2 6.93333 6.93333 2 13 2C19.0667 2 24 6.93333 24 13C24 19.0667 19.0667 24 13 24C6.93333 24 2 19.0667 2 13Z\" fill=\"black\"></path> </svg> <div>Quick and easy</div> </div> </div> <div class=\"tamara-popup__cta\">  <a class=\"tamara-popup__learn-button\" href=\"https://tamara.co/en/index.html#how-it-works\" target=\"_black\" rel=\"nofollow noopener\"> Learn more about Tamara </a> </div> <div class=\"tamara-popup__footer\">(1) <a href=\"https://www.tamara.co/en/terms-and-conditions.html\" target=\"_blank\">Terms and conditions</a> apply, (2) Tamara is <a href=\"https://www.tamara.co/en/shariah-compliance.html\" target=\"_blank\">Sharia-compliant</a>, (3) Eligible for customers in Kuwait, (4) Your final payment plan may vary depending on your credit history.</div> </div>",
+            "fontsize_text": 14,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "8804c654-688d-40b4-8542-756112fa5b84": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-cash\" viewbox=\"0 0 16 16\"> <path d=\"M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z\"></path> <path d=\"M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z\"></path> </svg>",
+            "text": "Pay with Tabby(4 interest-free payments)",
+            "color_title": "#232323",
+            "text_description": "",
+            "color_des": "#999999",
+            "content_popup": "<div class=\"styles__title--8f3d0\" style=\"margin-top: 24px;\">\n<h3 class=\"styles__text--bfbd9\" style=\"color: rgb(41, 41, 41);\"><span>Split in 4 interest-free payments of 12.50 AED.</span></h3>\n<div class=\"styles__help--4dd86\" style=\"color: rgb(41, 41, 41);\">Get what you love, split the cost. No fees.</div>\n</div>\n<div class=\"styles__how-it-work-info--333f4\" style=\"margin-top: 24px;\">\n<div class=\"styles__title--c59a5\" style=\"color: rgb(41, 41, 41);\">How it works:</div>\n<ul class=\"styles__list--21e59\">\n<li class=\"styles__item--28e38\" style=\"color: rgb(84, 84, 92);\">\n<div class=\"styles__item-text--5063b styles__item-text_flex--4f618\">Choose <svg viewbox=\"0 0 100 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"styles__tabby-info__logo--ec151 styles__logo--0ef56\"><path d=\"M92.2524 0H7.74757C3.46871 0 0 3.48347 0 7.78054V32.2195C0 36.5165 3.46871 40 7.74757 40H92.2524C96.5313 40 100 36.5165 100 32.2195V7.78054C100 3.48347 96.5313 0 92.2524 0Z\" fill=\"url(#paint0_linear_99_113_0.7912249477888156)\"></path><path d=\"M86.9113 12.6893L81.5394 33.1972L81.5274 33.2434H85.7106L91.1016 12.6893H86.9113Z\" fill=\"#292929\"></path><path d=\"M20.4447 24.3575C19.817 24.6651 19.1268 24.8233 18.4279 24.8198C16.9206 24.8198 16.0655 24.5796 15.9731 23.3607V23.2793C15.9731 23.2301 15.967 23.1788 15.967 23.1306V19.5946L15.9731 19.1765V16.6805H15.967V15.6073L15.9731 15.1863V12.7746L12.237 13.269C14.7673 12.7787 16.2173 10.778 16.2173 8.7864V7.56049H12.015V13.3032L11.7778 13.3695V24.0018C11.9165 26.9892 13.888 28.7648 17.1146 28.7648C18.2708 28.762 19.4146 28.5251 20.4768 28.0684L20.4979 28.0594V24.3294L20.4447 24.3575Z\" fill=\"#292929\"></path><path d=\"M21.1069 11.9165L9.32401 13.7332V16.7216L21.1069 14.9049V11.9165Z\" fill=\"#292929\"></path><path d=\"M21.1069 16.2876L9.32401 18.1044V20.9582L21.1069 19.1424V16.2876Z\" fill=\"#292929\"></path><path d=\"M34.3287 17.6622C34.1619 14.3462 32.0878 12.3767 28.7075 12.3767C26.7652 12.3767 25.1634 13.1273 24.0762 14.5481C22.9889 15.969 22.4202 18.046 22.4202 20.5702C22.4202 23.0944 22.993 25.1784 24.0762 26.5993C25.1594 28.0201 26.7652 28.7698 28.7075 28.7698C32.0878 28.7698 34.1619 26.7932 34.3287 23.4561V28.4573H38.5269V12.7264L34.3287 13.3735V17.6622ZM34.5467 20.5702C34.5467 23.5104 33.0033 25.4095 30.6147 25.4095C28.1519 25.4095 26.6818 23.6008 26.6818 20.5702C26.6818 17.5215 28.1519 15.7007 30.6147 15.7007C31.8125 15.7007 32.8133 16.167 33.5077 17.0502C34.188 17.9134 34.5467 19.1313 34.5467 20.5702Z\" fill=\"#292929\"></path><path d=\"M50.773 12.3767C47.3917 12.3767 45.3177 14.3452 45.1529 17.6673V8.14732L40.9536 8.79545V28.4523H45.1529V23.4451C45.3177 26.7863 47.3917 28.7648 50.773 28.7648C54.7301 28.7648 57.0925 25.702 57.0925 20.5703C57.0925 15.4385 54.7301 12.3767 50.773 12.3767ZM48.8638 25.4096C46.4743 25.4096 44.9308 23.5105 44.9308 20.5703C44.9308 19.1313 45.2905 17.9134 45.9708 17.0533C46.6652 16.17 47.666 15.7038 48.8638 15.7038C51.3267 15.7038 52.7968 17.5246 52.7968 20.5733C52.7998 23.6009 51.3297 25.4096 48.8668 25.4096H48.8638Z\" fill=\"#292929\"></path><path d=\"M68.5306 12.3767C65.1493 12.3767 63.0743 14.3452 62.9095 17.6673V8.14732L58.7113 8.79545V28.4523H62.9035V23.4451C63.0683 26.7863 65.1433 28.7648 68.5246 28.7648C72.4807 28.7648 74.8431 25.702 74.8431 20.5703C74.8431 15.4385 72.4817 12.3767 68.5306 12.3767ZM66.6214 25.4096C64.2319 25.4096 62.6885 23.5105 62.6885 20.5703C62.6885 19.1313 63.0472 17.9134 63.7275 17.0533C64.4228 16.17 65.4237 15.7038 66.6214 15.7038C69.0833 15.7038 70.5534 17.5246 70.5534 20.5733C70.5514 23.6009 69.0813 25.4096 66.6214 25.4096Z\" fill=\"#292929\"></path><path d=\"M74.8531 12.6893H79.3368L82.9794 28.4232H78.96L74.8531 12.6893Z\" fill=\"#292929\"></path><defs><lineargradient id=\"paint0_linear_99_113_0.7912249477888156\" x1=\"0\" y1=\"19.9995\" x2=\"100\" y2=\"19.9995\" gradientunits=\"userSpaceOnUse\"><stop stop-color=\"#3BFF9D\"></stop><stop offset=\"1\" stop-color=\"#3BFFC8\"></stop></lineargradient></defs></svg> at checkout.</div>\n</li>\n<li class=\"styles__item--28e38\" style=\"color: rgb(84, 84, 92);\">\n<div class=\"styles__item-text--5063b\">Enter your information and add your debit or credit card.</div>\n</li>\n<li class=\"styles__item--28e38\" style=\"color: rgb(84, 84, 92);\">\n<div class=\"styles__item-text--5063b\">Split your purchase in 4 monthly payments.</div>\n</li>\n<li class=\"styles__item--28e38\" style=\"color: rgb(84, 84, 92);\">\n<div class=\"styles__item-text--5063b\">We’ll send reminders when your next payment is due.</div>\n</li>\n</ul>\n</div>",
+            "fontsize_text": 14,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "04ea8843-f461-4f1d-8ea4-43f62fdfb21e": {
+          "type": "perks",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 22,
+            "show_size_chart": true,
+            "size_chart_type": "custom_image",
+            "size_chart_image_type": "jpg",
+            "show_compare_color": true,
+            "show_compare_color_drop_drap": true,
+            "compare_layout": "1"
+          }
+        },
+        "f1b31d90-1e43-4948-9fe3-97ba43f6fb34": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "spacing_top": 0,
+            "spacing_bottom": 15,
+            "atc_animation": "horizontal-shaking",
+            "atc_color": "#ffffff",
+            "atc_border_color": "#232323",
+            "atc_bg_color": "#232323",
+            "atc_bg_color_gradient": "",
+            "atc_color_hover": "#232323",
+            "atc_border_color_hover": "#232323",
+            "atc_bg_color_hover": "#ffffff",
+            "atc_bg_color_gradient_hover": "",
+            "bin_color": "#232323",
+            "bin_border_color": "#acacac",
+            "bin_bg_color": "#ffffff",
+            "bin_bg_color_gradient": "",
+            "bin_color_hover": "#ffffff",
+            "bin_border_color_hover": "#232323",
+            "bin_bg_color_hover": "#232323",
+            "bin_bg_color_hover_gradient": ""
+          }
+        },
+        "683f2b15-db3b-4f63-8d0f-e688cc678581": {
+          "type": "customer_viewing",
+          "settings": {
+            "customer_viewing_number": "283, 100, 59, 11, 14, 185, 193, 165, 50, 38, 99, 112, 46, 10, 125, 200, 250, 18",
+            "customer_viewing_time": 5,
+            "spacing_top": 0,
+            "spacing_bottom": 22
+          }
+        },
+        "19de9abb-17c8-4d67-941d-b32706ed06fd": {
+          "type": "pickup_availability",
+          "settings": {
+            "show_pickup_availability": true,
+            "spacing_top": 0,
+            "spacing_bottom": 27
+          }
+        },
+        "10093fcf-2053-47e9-bedb-841bb0d046fa": {
+          "type": "trust_image",
+          "settings": {
+            "show_trust_image": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "bd066b80-c8e3-4f3e-8280-b27fbf6e9423": {
+          "type": "description",
+          "settings": {
+            "open_tab_mobile": true,
+            "title": "Description",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
+          }
+        },
+        "87197f5f-be0e-4b89-9270-62bf6917ebe7": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Additional Information",
+            "type": "all",
+            "content": "<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis. Pellentesque diam dolor cosmopolis etos lobortis.</p>\n<dl>\n<dt>Comodous:</dt>\n<dd>Comodous in tempor ullamcorper miaculis</dd>\n</dl>\n<dl>\n<dt>Mattis laoreet:</dt>\n<dd>Pellentesque vitae neque mollis urna mattis laoreet.</dd>\n</dl>\n<dl>\n<dt>Divamus de ametos:</dt>\n<dd>Divamus sit amet purus justo.</dd>\n</dl>\n<dl>\n<dt>Molestie:</dt>\n<dd>Proin molestie egestas orci ac suscipit risus posuere loremous</dd>\n</dl>",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300,
+            "product_custom_source": "dynamic",
+            "product_tab_key_metafield": ""
+          }
+        },
+        "3d9ea84d-5527-4bce-abe6-5debef3ec955": {
+          "type": "custom",
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Shipping & Return",
+            "type": "all",
+            "content": "<h3>Returns Policy</h3>\n<p>You may return most new, unopened items within 30 days of delivery for a full refund. We'll also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.).</p>\n<p>You should expect to receive your refund within four weeks of giving your package to the return shipper, however, in many cases you will receive a refund more quickly. This time period includes the transit time for us to receive your return from the shipper (5 to 10 business days), the time it takes us to process your return once we receive it (3 to 5 business days), and the time it takes your bank to process our refund request (5 to 10 business days).</p>\n<p>If you need to return an item, simply login to your account, view the order using the \"Complete Orders\" link under the My Account menu and click the Return Item(s) button. We'll notify you via e-mail of your refund once we've received and processed the returned item.</p>\n<h3>Shipping</h3>\n<p>We can ship to virtually any address in the world. Note that there are restrictions on some products, and some products cannot be shipped to international destinations.</p>\n<p>When you place an order, we will estimate shipping and delivery dates for you based on the availability of your items and the shipping options you choose. Depending on the shipping provider you choose, shipping date estimates may appear on the shipping quotes page.</p>\n<p>Please also note that the shipping rates for many items we sell are weight-based. The weight of any such item can be found on its detail page. To reflect the policies of the shipping companies we use, all weights will be rounded up to the next full pound.</p>",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300,
+            "product_custom_source": "dynamic",
+            "product_tab_key_metafield": ""
+          }
+        },
+        "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Custom Tab",
+            "type": "all",
+            "content": "<table>\n    <tbody>\n        <tr>\n            <td class=\"tb-title\">Drostique</td>\n            <td>Nam tempus turpis at metus scelerisque placerat nulla deumantos</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pharetro Lorem</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Milancelos</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pellentesque</td>\n            <td>Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Proin Molestie</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Cosmopolis</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n    </tbody>\n</table>",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300,
+            "product_custom_source": "dynamic",
+            "product_tab_key_metafield": ""
+          }
+        },
+        "faebbc78-6094-4bc0-a917-80dbfbf5ef3c": {
+          "type": "review",
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Review"
+          }
+        },
+        "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3": {
+          "type": "share",
+          "settings": {
+            "show_share": true,
+            "share_layout": "2",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "a86220cf-8641-4e06-87d3-b5ffa195501b": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shipping-fast\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M280 192c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240zm352 192h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H113.4C86.2 32 64 52.9 64 78.6V96H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H96V78.6c0-8.1 7.8-14.6 17.4-14.6h253.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6C193 364.7 170 352 144 352c-18.1 0-34.6 6.2-48 16.4V288H64v144c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zm-488 96c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm272-320h44.1c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416V160zm80 320c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-96h-16.4C545 364.7 522 352 496 352s-49 12.7-63.6 32H416v-96h160v96zM256 248v-16c0-4.4-3.6-8-8-8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8z\"></path></svg>",
+            "text": "Free Shipping",
+            "color_title": "#232323",
+            "text_description": "<p>Free standard shipping on orders above 100 AED</p>",
+            "color_des": "#4d4d4d",
+            "content_popup": "<div class=\"halo-text-format\">\n<p>We can ship to virtually any address in the world. Note that there are restrictions on some products, and some products cannot be shipped to international destinations.</p>\n<p>When you place an order, we will estimate shipping and delivery dates for you based on the availability of your items and the shipping options you choose. Depending on the shipping provider you choose, shipping date estimates may appear on the shipping quotes page.</p>\n<p>Please also note that the shipping rates for many items we sell are weight-based. The weight of any such item can be found on its detail page. To reflect the policies of the shipping companies we use, all weights will be rounded up to the next full pound.</p>\t\t\t\t\t\t</div>",
+            "fontsize_text": 16,
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "058d88b7-6cce-4aae-a5c4-b8193bbdfa7f": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 512 512\">\n    <path fill=\"currentColor\" d=\"M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM262.2 478.8c-4 1.6-8.4 1.6-12.3 0C152 440 48 304 48 128c0-6.5 3.9-12.3 9.8-14.8l192-80c3.9-1.6 8.4-1.6 12.3 0l192 80c6 2.5 9.9 8.3 9.8 14.8.1 176-103.9 312-201.7 350.8zM256 411V100l-142.7 59.5c10.1 120.1 77.1 215 142.7 251.5zm-32-66.8c-36.4-39.9-65.8-97.8-76.1-164.5L224 148z\"></path>\n</svg>",
+            "text": "Free Returns",
+            "color_title": "#232323",
+            "text_description": "Learn More.",
+            "color_des": "#4d4d4d",
+            "content_popup": "<div class=\"halo-text-format\">\n\t\t\t\t\t\t\n<p>You may return most new, unopened items within 30 days of delivery for a full refund. We'll also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.).</p>\n<p>You should expect to receive your refund within four weeks of giving your package to the return shipper, however, in many cases you will receive a refund more quickly. This time period includes the transit time for us to receive your return from the shipper (5 to 10 business days), the time it takes us to process your return once we receive it (3 to 5 business days), and the time it takes your bank to process our refund request (5 to 10 business days).</p>\n<p>If you need to return an item, simply login to your account, view the order using the \"Complete Orders\" link under the My Account menu and click the Return Item(s) button. We'll notify you via e-mail of your refund once we've received and processed the returned item.</p>\n\t\t\t\t\t\t\t</div>",
+            "fontsize_text": 16,
+            "spacing_top": 0,
+            "spacing_bottom": 14
+          }
+        },
+        "36addb13-cd73-4713-a15c-7d846c4724e7": {
+          "type": "custom_information",
+          "disabled": true,
+          "settings": {
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"exclamation-triangle\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 576 512\"><path fill=\"currentColor\" d=\"M270.2 160h35.5c3.4 0 6.1 2.8 6 6.2l-7.5 196c-.1 3.2-2.8 5.8-6 5.8h-20.5c-3.2 0-5.9-2.5-6-5.8l-7.5-196c-.1-3.4 2.6-6.2 6-6.2zM288 388c-15.5 0-28 12.5-28 28s12.5 28 28 28 28-12.5 28-28-12.5-28-28-28zm281.5 52L329.6 24c-18.4-32-64.7-32-83.2 0L6.5 440c-18.4 31.9 4.6 72 41.6 72H528c36.8 0 60-40 41.5-72zM528 480H48c-12.3 0-20-13.3-13.9-24l240-416c6.1-10.6 21.6-10.7 27.7 0l240 416c6.2 10.6-1.5 24-13.8 24z\"></path></svg>",
+            "text": "Covid-19 Shipping Delay Notice",
+            "color_title": "#232323",
+            "text_description": "",
+            "color_des": "#999999",
+            "content_popup": "<div class=\"halo-text-format\">\n\t\t\t\t\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n\t\t\t\t\t\t\t</div>",
+            "fontsize_text": 16,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "1180d91b-75f9-49d9-a9db-2b9f5a49408d": {
+          "type": "complementary_products",
+          "settings": {
+            "show_complementary_product": true,
+            "complementary_product_title": "Pairs well with",
+            "complementary_product_arrows": false,
+            "complementary_product_dots": true,
+            "complementary_product_layout": "2",
+            "complementary_product_limit_1": 2,
+            "complementary_product_limit_2": 3,
+            "complementary_product_object": "cover",
+            "spacing_top": 30,
+            "spacing_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "2e8c7c14-a0ad-4930-a1d8-3def05310426",
+        "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0",
+        "0e4ea696-4820-4c98-aaa6-806d41782a3d",
+        "4036f89b-c2c5-49a4-9d6b-2fd29ce7c46c",
+        "4e59f24a-8859-4579-a80a-d70e6f1bf66b",
+        "4f95b592-8369-4ab0-b30d-24e463fb6890",
+        "5d8b9ff9-6a1c-4850-a6c2-e6cdbb8b7f7c",
+        "bd3a641e-98d0-4da1-ab57-d5e4b0391995",
+        "d98e243b-3682-495a-965a-1c7f7d460880",
+        "d97e417a-941b-4a5d-bef3-a651adb918d8",
+        "faa2b3e6-c0a1-4269-baa6-d2605efe4c05",
+        "37ea1f93-3c9e-4394-826f-d214c2ce6552",
+        "8804c654-688d-40b4-8542-756112fa5b84",
+        "04ea8843-f461-4f1d-8ea4-43f62fdfb21e",
+        "f1b31d90-1e43-4948-9fe3-97ba43f6fb34",
+        "683f2b15-db3b-4f63-8d0f-e688cc678581",
+        "19de9abb-17c8-4d67-941d-b32706ed06fd",
+        "10093fcf-2053-47e9-bedb-841bb0d046fa",
+        "bd066b80-c8e3-4f3e-8280-b27fbf6e9423",
+        "87197f5f-be0e-4b89-9270-62bf6917ebe7",
+        "3d9ea84d-5527-4bce-abe6-5debef3ec955",
+        "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a",
+        "faebbc78-6094-4bc0-a917-80dbfbf5ef3c",
+        "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3",
+        "a86220cf-8641-4e06-87d3-b5ffa195501b",
+        "058d88b7-6cce-4aae-a5c4-b8193bbdfa7f",
+        "36addb13-cd73-4713-a15c-7d846c4724e7",
+        "1180d91b-75f9-49d9-a9db-2b9f5a49408d"
+      ],
+      "settings": {
+        "container": "default",
+        "padding_full_width": 0,
+        "show_sticky_info": true,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "main_image_arrows_desktop": false,
+        "main_image_arrows_mobile": true,
+        "main_image_counter_mobile": true,
+        "main_image_enable_parallax_mb": false,
+        "main_image_position": "left",
+        "main_image_layout": "1",
+        "main_image_show_custom_cursor": true,
+        "count_color": "#191919",
+        "icon_color": "#000000",
+        "show_thumbnail_mobile": true,
+        "thumnail_layout": "3",
+        "thumbnail_to_show": 4,
+        "show_sidebar": false,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "product_image_ratio": "portrait",
+        "portrait_aspect_ratio": 148,
+        "zoomed_image": true,
+        "media_fit": "unset",
+        "product_image_popup": "fancybox",
+        "video_layout": "popup",
+        "show_badge": true,
+        "show_qty": true,
+        "show_subtotal": true,
+        "subtotal_style": "1",
+        "show_sticky_add_to_cart": true,
+        "show_sticky_vendor": false,
+        "sticky_atc_layout": "1",
+        "show_tab": true,
+        "tab_layout": "horizontal",
+        "tab_layout_mobile": "popup",
+        "icon_style_layout": "style_1",
+        "title_font_size": 18,
+        "title_font_size_mb": 16,
+        "font_weight_title": "600",
+        "title_text_transform": "none",
+        "title_padding_top_bottom": 15,
+        "tab_border_color": "#000000",
+        "tab_border_color_rgb": "",
+        "show_product_bundle": true,
+        "background_color": "#f8f8f8",
+        "padding_top": 30,
+        "padding_top_tablet": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mobile": 30,
+        "block_title": "Frequently Bought Together",
+        "block_title_align": "center",
+        "block_dots": false,
+        "block_arrows": true,
+        "product_style": "2",
+        "block_image_ratio": "adapt",
+        "bundle_discount": true,
+        "bundle_discount_text": "Get a [discount]% discount buying these products together",
+        "bundle_discount_text_color": "#232323",
+        "total_btn_color": "#ffffff",
+        "total_btn_border": "#232323",
+        "total_btn_bg": "#232323",
+        "total_btn_bg_gradient": "",
+        "total_btn_color_hover": "#232323",
+        "total_btn_border_hover": "#232323",
+        "total_btn_bg_hover": "#ffffff",
+        "total_btn_bg_gradient_hover": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "display_product_block": true,
+        "product_block_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 40,
+        "mg_top_tablet": 35,
+        "mg_top_mobile": 35,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_block_layout": "slider",
+        "product_bg": "#ffffff",
+        "style_block_header": "style1",
+        "product_block_title": "Related Products",
+        "enable_border_title": false,
+        "mg_top_title": 27,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "color_title": "#232323",
+        "border_color_title": "#232323",
+        "product_block_title_align": "center",
+        "product_block_limit": 10,
+        "grid_gap": 30,
+        "product_block_per_row": "4",
+        "product_block_swipe_on_mobile": true,
+        "product_block_dots": false,
+        "product_block_dots_mb": true,
+        "product_block_arrows": true,
+        "product_block_arrows_mb": false,
+        "product_block_show": "4",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 80,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 30,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 27,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "4",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "4",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "product-recently-viewed"
+  ]
+}

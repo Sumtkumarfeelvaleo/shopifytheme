@@ -1,0 +1,429 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f": {
+      "type": "image-banner",
+      "blocks": {
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29": {
+          "type": "smallImg",
+          "settings": {
+            "row_reverse": false,
+            "image": "shopify://shop_images/sport-healthy-life-wellness-lifestyle-workout_1880x_0a64e4f5-56f6-4a4e-8c63-02424eb3033f.webp",
+            "small_img_block_style": "style_1",
+            "smallImg_justify": "flex-start",
+            "enable_divider": true,
+            "divider_bg_color": "",
+            "content_spacing_right": 50,
+            "button_spacing_left": 50,
+            "button_pos_from_center": 0,
+            "content_pos_from_center": 0,
+            "divider_position_from_center": 0,
+            "small_banner_bg_color": "#f5f5f5",
+            "mg_bottom_icon": 25,
+            "sub_title": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_title": 16,
+            "font_size_sub_title_mb": 16,
+            "margin_bottom_sub_title": 30,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "500",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#787878",
+            "heading": "Creation Of Hidden Beauty",
+            "letter_spacing_heading": "",
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "700",
+            "color_heading": "#232323",
+            "text": "At Kuwa, we are dedicated to providing our customers with the best products as per their needs. From beauty supplements, energy supplements, and nutritional supplements, to performance-boosting supplements, you will get certified quality products for each specific need.",
+            "font_size_des": 16,
+            "font_size_des_mb": 16,
+            "line_height_des": 26,
+            "margin_bottom_des": 30,
+            "color_des": "#232323",
+            "content_width": 575,
+            "align": "left",
+            "enable_content_border": false,
+            "content_border_color": "#232323",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "btn_text": "Shop Now",
+            "link": "shopify://collections/best-selling-products",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_2_text": "Shop Now",
+            "link_btn_2": "shopify://collections/best-selling-products",
+            "button_2_width": 235,
+            "button_2_color": "#ffffff",
+            "button_2_border": "#232323",
+            "button_2_background": "#232323",
+            "button_2_background_gradient": "",
+            "button_2_color_hover": "#ffffff",
+            "button_2_border_hover": "#232323",
+            "button_2_background_hover": "#232323",
+            "button_2_background_gradient_hover": "",
+            "button_2_spacing_top": 10
+          }
+        }
+      },
+      "block_order": [
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "display_type": "slide",
+        "list_gap": 0,
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "rich_text_cPA4PK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TQJxXU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy Hayejin Products Online in UAE",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000000"
+          }
+        },
+        "content_BH94Ca": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p><b>Hayejin Skincare is a Korean cosmetic brand</b> that focuses on naturally infused products. Hayejin believes that nature’s vitality can provide both protection and beauty and it is committed towards providing products that are completely organic and natural. Their products specifically focuses on <b>improving skin elasticity </b>, providing abundant and nutritious moisture for the skin.</p> \n\n<p>The products aim to provide customers with a soothing experience on their skin and cool down their skin temperature. The company aims to provide naturally derived products to its customers minimize the use of artificial chemicals and have the customers benefit from the purity of nature.</p>\n\n<p>The cosmetic brand offers a wide range of products to its customers that include <b>Face serums, sheet masks, toners, eye masks, cleansers, and creams</b> all designed to enhance the skin complexion and improve your skin health. The main aim of the brand is to provide customers a good skin health and achieve a glowing complexion with natural products.</p>\n\n<h2>How is Hayjein UAE different from other brands?</h2>\n\n<p>Hayejin believes that beauty can be achieved through natural products and that’s why all their products are derived from natural sources and they use very minimal artificial ingredients and chemicals because they want the customers to benefit from the purity of nature.</p> \n\n<p>Another standout feature of Hayejin is the emphasis on skin health along with beauty and complexion. Hayejin products are primarily designed to improve your skin health, help you achieve skin elasticity, provide your skin with abundant moisture and nutrition, and protect it from harmful environmental toxins, and also help you provide a youthful complexion and glow. Hayejin believes that maintaining healthy skin and achieving a youthful complexion can go hand-in-hand.</p>\n\n<h2>Why Choose Hayejin?</h2>\n\n\n<p>Hayejin has been around for almost 5 years and they have provided enough compelling reasons for the customers to choose their cosmetic brand over others.</p>\n\n<h3>Nature Derived Ingredients.</h3>\n\n<p>As mentioned earlier, Hayejin focuses on producing products that are less chemical-based and more natural-based as they want the customers to benefit from the purity of nature. Using Natural ingredients enables the product to provide a soothing experience to the customers and heals their skin from within.</p>\n\n<h3>Emphasis on Skin Health</h3>\n\n<p>Hayejin’s primary focus has been to help their consumers improve their skin health by producing products that are designed to improve skin elasticity, provide abundant moisture soothe your skin, and help maintain healthy skin. They believe that maintaining a glowing complexion can go hand-in-hand with maintaining your skin health and the products are designed to achieve both.</p>\n\n<h3>Diverse Range of Products</h3>\n\n<p>Hayejin provides a diverse range of cosmetic products that address different skin concerns such as acne, pigmentation, dark spots, tanning etc. They provide various products like Serum, cleansers, sunscreen, face masks, and Toners. The aim is to provide consumers with a comprehensive range of products to address their skincare issues and build a routine that helps you achieve a glowing complexion.</p>\n\n<h2>Best Sellers Hayejin Korea Skincare in UAE by Kuwa Supplements</h2>\n\n<h3>1. Hayejin Pale Green Pastel Eye Mask 90g</h3>\n\n<p><a href=\"https://getkuwa.com/products/hayejin-pale-green-pastel-eye-mask-90g\"><b>Hayejin pale green pastel eye mask</b></a> is a treatment made for the under-eye area of the skin or any area that is prone to wrinkles. This treatment basically helps improve the elasticity of the skin and provides abundant moisture and nutrition to the skin through extracts of superfoods that keep it hydrated. It is the best choice for people with fatigued and sensitive skin.</p>\n\n<h3>3. Hayejin RiceFila Oil Toner 150 Ml</h3>\n\n<p><a href=\"https://getkuwa.com/products/hayejin-pale-green-pastel-eye-mask-90g\"><b>Hayejin Oil toner</b></a> offers hydrating and balancing properties to the skin and it basically helps you provide a more even skin tone and a more youthful complexion and radiant skin.</p>\n\n<h3>3. Hayejin Blessing Of Sprout Radiance Toner 120 Ml</h3>\n \n<p>The <a href=\"https://getkuwa.com/products/hayejin-blessing-of-sprout-radiance-toner-120-ml\"><b>Hayejin toner</b></a> also known as the blessing of Sprout radiance toner is all-in-one product that offers radiance, vitality, and moisture care. It is formulated with ingredients like botanical sprouts, and lotus seed germ extract and it leaves the skin shining and hydrates the skin from the inside.</p>\n\n<h3>4. Hayejin Blessing Of Sprout Enriched Serum 17 Ml</h3>\n\n<p><a href=\"https://getkuwa.com/products/hayejin-blessing-of-sprout-enriched-serum-17-ml\"><b>Hayejin blessing of sprout enriched serum</b></a> is a silky serum with a concentrated active ingredient designed to effectively protect against wrinkles and provide soothing care and hydration to the skin. The product is made of flower buds which are made to nourish and regenerate skin.</p>\n\n\n<h3>5. Hayejin Rice Bran Oil For Body 200 Ml\n\n</h3><p>Hayejin rice bran oil is formulated specifically to regulate the epidermis and provide hydrating and moisturizing effects without feeling heavy and enhance the skin barrier to protect it from environmental pollution. It is made with 58% rice bran oil and is quickly absorbed by the skin. It is the <a href=\"https://getkuwa.com/products/hayejin-rice-bran-oil-for-body-200-ml\"><b>best Korean body oil</b></a> on the market and is suitable for all skin types.</p>\n\n<h2>FAQs for Hayejin Korea in Dubai, UAE</h2>\n\n<h3>Q1. Are Hayejin products suitable for sensitive skin?</h3>\n\n<p>Hayejin products are made in a way that is suited to be gentle on your skin and it is perfectly suitable for people with sensitive skin. You can use these products without any worries.</p>\n\n<h3>Q2. Do these products have any side effects? </h3>\n\n<p>Hayejin products are made to be safe and effective for all major skin types. However, as with any skincare product, individual reactions may vary. But generally, you shouldn’t have any problem using these products, they are perfectly safe to use and don’t have any side effects.</p>\n\n<h3>Q3. What are the key ingredients used in hayejin products? </h3>\n\n<p>Our products are all natural with the key ingredients being Nelumbo Nucifera (lotus seed) germ extract, botanical sprouts, Asiatica Extract, amino acids, rice bran oil, and vegetable protein. Although, Individual products may vary but these are the key natural ingredients we use in our products.</p>\n\n<h3>Q4. Do Hayejin products have any artificial fragrances?</h3>\n\n<p>Hayejin products are made with the priority on natural purity. While some products may contain some fragrances, we always strive to minimize their use to provide a pleasant skincare experience. The products are all safe to use.</p>\n\n<h3>Q5. How long does it take to see results from using these products?</h3>\n\n<p>Results from Hayejin products may vary from person to person, some consumers my find immediate benefits while some might have to wait for a few weeks to see the results.</p>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "Read More",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_TQJxXU",
+        "content_BH94Ca"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f",
+    "product-recently-viewed",
+    "rich_text_cPA4PK"
+  ]
+}

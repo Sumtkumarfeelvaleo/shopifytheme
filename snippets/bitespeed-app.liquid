@@ -1,0 +1,1020 @@
+{% comment %} <!-- BEGIN app block: shopify://apps/bitespeed-whatsapp-marketing/blocks/app-embed/9efdb9ca-2d01-4a12-b1ac-02679fe0f6fc --><script type="load" d-src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="load" d-src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+
+
+
+
+
+
+  <script type="load" d-src="https://cdn.shopify.com/extensions/e1a2adf2-4c74-424b-8bce-251bdcf6c017/bitespeed-whatsapp-marketing-329/assets/bitespeed-popups.js" />
+
+
+
+  <!-- BEGIN app snippet: bitespeed-analytics --><script name="bitespeed-variable" type="text/javascript">
+  const dummyBitespeedVar = 'dummyBitespeedVar';
+</script>
+
+<script type="load" d-src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script type="load" 
+  name="bitespeed-analytics"
+>
+  const getcookieGlobalAnal = (cookie) => {
+    let cookieJson = {};
+    document.cookie.split(';').forEach(function (el) {
+      let [k, v] = el.split('=');
+      cookieJson[k.trim()] = v;
+    });
+    return cookieJson[cookie];
+  };
+
+  const setCookieGlobalAnal = (cookie, value, days, hours) => {
+    let expires = '';
+    if (days) {
+      let date = new Date();
+      date.setTime(date.getTime() + days * hours * 60 * 60 * 1000);
+      expires = '; expires=' + date.toUTCString();
+    }
+    document.cookie = cookie + '=' + (value || '') + expires + '; path=/';
+  };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const getIsMultichannelAnal = async () => {
+      try {
+        var indexOfwww = location.hostname.indexOf('www');
+        var shopDomainStripped = indexOfwww === -1 ? '.' + location.hostname : location.hostname.substr(indexOfwww + 3);
+        var globalShopUrl = indexOfwww === -1 ? location.hostname : location.hostname.substr(indexOfwww + 4);
+        let res = await fetch(`https://app.bitespeed.co/database/popups/isMultichannel?shopDomain=${globalShopUrl}`, {
+          method: 'GET',
+          headers: {
+            'Access-Control-Allow-Origin': '*',
+          },
+        });
+
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+
+        let data = await res.json();
+        console.log(data);
+        return data.isMultichannel;
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    async function checkMultichannel() {
+      console.log('in checkMultichannel');
+      const isMultichannel = await getIsMultichannelAnal();
+      if (isMultichannel) {
+        setCookieGlobalAnal('isMultiChannel', isMultichannel, 1, 1);
+      } else {
+        setCookieGlobalAnal('isMultiChannel', isMultichannel, 1, 1);
+      }
+      console.log('Setting is multichannel from anal file to ', isMultichannel);
+    }
+
+    (async function () {
+      let refb = String(getcookieGlobalAnal('refb'));
+      let ssid = String(getcookieGlobalAnal('ssid'));
+      if (refb === null || refb === '' || refb === undefined || refb === 'undefined') {
+        var refbnew = createRef();
+      }
+      if (ssid === null || ssid === '' || ssid === undefined || ssid === 'undefined') {
+        var ssidnew = await createSsid();
+      }
+      if (!getcookieGlobalAnal('isMultiChannel')) {
+        console.log('isMultichannel not found in local making BE call Anal file');
+        await checkMultichannel();
+      }
+    })();
+  });
+
+  const DBURL = 'https://app.bitespeed.co/database';
+  var indexOfwww = location.hostname.indexOf('www');
+  var shopDomainStripped = indexOfwww === -1 ? '.' + location.hostname : location.hostname.substr(indexOfwww + 3);
+  function getCookie(name) {
+    var value = '; ' + document.cookie;
+    var parts = value.split('; ' + name + '=');
+    if (parts.length == 2) return parts.pop().split(';').shift();
+  }
+
+  function createRef() {
+    let uuid = create_UUID();
+    document.cookie =
+      'refb=' +
+      uuid +
+      ';expires=' +
+      new Date(new Date().setFullYear(new Date().getFullYear() + 10)) +
+      ';domain=' +
+      shopDomainStripped +
+      '; path=/';
+    return uuid;
+  }
+
+  async function createSsid() {
+    let uuid = create_UUID();
+    document.cookie = 'ssid=' + uuid + ';domain=' + shopDomainStripped + '; path=/';
+    return uuid;
+  }
+
+  function create_UUID() {
+    var dt = new Date().getTime();
+    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+      var r = (dt + Math.random() * 16) % 16 | 0;
+      dt = Math.floor(dt / 16);
+      return (c == 'x' ? r : (r & 0x3) | 0x8).toString(16);
+    });
+    return uuid;
+  }
+
+  function lookForCart() {
+    let contactIdBitespeed = getcookieGlobalAnal('contactIdBitespeed');
+
+    if (
+      contactIdBitespeed === null ||
+      contactIdBitespeed === '' ||
+      contactIdBitespeed === undefined ||
+      contactIdBitespeed === 'undefined'
+    )
+      return;
+
+    var myCookie = getcookieGlobalAnal('cart');
+
+    let lastTrackedCart = getcookieGlobalAnal('last_tracked_cart_event');
+    let lastTrackedCartLineItemsCnt = getcookieGlobalAnal('last_tracked_cart_line_items_cnt');
+
+    if (myCookie && shopDomainStripped.includes('.neonattack.com')) {
+      clearInterval(intervalId);
+
+      const cartData = cart; // a global variable, as of now only on neonattack.com (hardikecommerce.myshopify.com)
+
+      if (myCookie !== lastTrackedCart || Number(lastTrackedCartLineItemsCnt) !== cartData.item_count) {
+        document.cookie = `${myCookie}=true` + ';domain=' + shopDomainStripped + '; path=/';
+
+        document.cookie = `last_tracked_cart_event=${myCookie}` + ';domain=' + shopDomainStripped + '; path=/';
+        document.cookie =
+          `last_tracked_cart_line_items_cnt=${cartData.item_count}` + ';domain=' + shopDomainStripped + '; path=/';
+
+        sendToWebhook(cartData);
+      }
+    } else if (myCookie) {
+      clearInterval(intervalId);
+
+      if (!getcookieGlobalAnal(`${myCookie}`)) {
+        document.cookie = `${myCookie}=true` + ';domain=' + shopDomainStripped + '; path=/';
+
+        sendToWebhook(myCookie);
+      }
+    }
+  }
+
+  function sendToWebhook(cartToken, cartData = {}) {
+    let axiosConfig = {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': '*',
+      },
+    };
+
+    let refb = getcookieGlobalAnal('refb');
+
+    if (refb === null || refb === '' || refb === undefined || refb === 'undefined') {
+    } else {
+      const userAgent = navigator.userAgent;
+
+      let lineItems = [];
+
+      if (shopDomainStripped.includes('.neonattack.com') && cartData && cartData?.items) {
+        lineItems = cartData.items?.map((item) => {
+          return {
+            product_id: item.product_id,
+            variant_id: item.id,
+            price: item.price,
+            quantity: item.quantity,
+            sku: item.sku,
+            title: item.title,
+            vendor: item.vendor,
+          };
+        });
+      }
+
+      var postData = {
+        at: new Date(),
+        type: 'cartCreated',
+        event: {
+          cartToken: cartToken,
+        },
+        id: String(refb),
+        shopifyShopDomain: 'valeosupplement.myshopify.com',
+        lineItems,
+        ref: refb,
+        ssid: getcookieGlobalAnal('ssid'),
+        contactId: Number.parseInt(getcookieGlobalAnal('contactIdBitespeed')),
+        platformMobile: /iPad|iPhone|iPod/.test(userAgent) ? 'ios' : /Android/.test(userAgent) ? 'android' : '',
+        platformDesktop: /Mac/.test(userAgent) ? 'mac' : /Windows/.test(userAgent) ? 'windows' : '',
+      };
+
+      let isMultiChannel;
+      if (getcookieGlobalAnal('isMultiChannel') == 'false' || getcookieGlobalAnal('isMultiChannel') == false) {
+        console.log('isMultichannel found and is false');
+        isMultiChannel = false;
+      } else if (getcookieGlobalAnal('isMultiChannel') == 'true' || getcookieGlobalAnal('isMultiChannel') == true) {
+        isMultiChannel = true;
+      }
+      console.log('sendToWebhook', isMultiChannel);
+      console.log('sendToWebhook-ignore', localStorage.getItem('isMultiChannel'));
+
+      let url = `${DBURL}/api/shopifyCustomer/create`;
+      if (isMultiChannel) {
+        url = `https://d7ctrnffn8.execute-api.us-east-1.amazonaws.com/prod/browserSession`;
+      }
+
+      fetch(url, {
+        method: 'POST',
+        headers: axiosConfig.headers,
+        body: JSON.stringify(postData),
+      }).catch((err) => {
+        console.log('AXIOS ERROR: ', err);
+      });
+    }
+  }
+
+  let intervalId = setInterval(() => {
+    lookForCart();
+  }, 1000);
+</script>
+
+<script type="load" 
+  name="bitespeed-tracking-tag"
+>
+    let axiosConfig = {
+      headers: {
+	      "Access-Control-Allow-Origin": "*"
+      }
+    };
+
+    function analyticsPost(postData) {
+      let isMultiChannel;
+      if (getcookieGlobalAnal("isMultiChannel") == "false" || getcookieGlobalAnal("isMultiChannel") == false) {
+          console.log("isMultichannel found and is false");
+          isMultiChannel = false;
+      } else if (getcookieGlobalAnal("isMultiChannel") == "true" || getcookieGlobalAnal("isMultiChannel") == true) {
+          isMultiChannel = true;
+      }
+
+      if (!isMultiChannel) return; // disable browser sessions in legacy
+
+      let analyticsUrl = isMultiChannel
+          ? "https://d7ctrnffn8.execute-api.us-east-1.amazonaws.com/prod/browserSession"
+          : `https://app.bitespeed.co/database/webhook/browserSession`;
+      console.log("analyticsUrl", analyticsUrl);
+      postData.shopifyShopDomain = "valeosupplement.myshopify.com";
+      postData.ref = getcookieGlobalAnal("refb");
+      postData.ssid = getcookieGlobalAnal("ssid");
+      postData.contactId = Number.parseInt(getcookieGlobalAnal("contactIdBitespeed"));
+
+      const userAgent = navigator.userAgent;
+      postData.platformMobile = /iPad|iPhone|iPod/.test(userAgent) ? "ios" : /Android/.test(userAgent) ? "android" : "";
+      postData.platformDesktop = /Mac/.test(userAgent) ? "mac" : /Windows/.test(userAgent) ? "windows" : "";
+
+      // don't send browser events on multichannel if contactId is not present
+      if (isMultiChannel && !postData.contactId) {
+          console.log("No contactId found for multichannel analytics file. Returning");
+          return;
+      }
+
+      fetch(analyticsUrl, {
+          method: "POST",
+          headers: axiosConfig.headers,
+          body: JSON.stringify(postData),
+      }).catch((err) => {
+          console.log("AXIOS ERROR: ", err);
+      });
+    }
+(function() {
+    var bitespeedLayer = {
+        cartPollInterval: 2000
+    }
+    var config = {
+        linker: {
+            domains: ['shopify.com', 'rechargeapps.com', 'recurringcheckout.com', 'carthook.com', 'checkout.com']
+        },
+        anonymize_ip: true,
+        allow_ad_personalization_signals: true,
+        page_title: removePii(document.title),
+        page_location: removePii(document.location.href)
+    }
+    var pageView = function() {
+            
+    };
+
+    // delay page firing until the page is visible
+    if (document.hidden === true) {
+        var triggeredPageView = false;
+        document.addEventListener('visibilitychange', function() {
+            if (!document.hidden && !triggeredPageView) {
+                pageView();
+                triggeredPageView = true;
+            }
+        });
+    } else {
+        pageView()
+    }
+
+    var triggerPageViewEvent = function() {
+      if(Number.parseInt(getcookieGlobalAnal("contactIdBitespeed"))) {
+        var postData = {
+          "at" : new Date(),
+          "type": "pageViewed",
+          "event": {
+            url: window.location.href,
+          },
+          "contactId": Number.parseInt(getcookieGlobalAnal("contactIdBitespeed")),
+          "source": 'shopify'
+        }
+        
+        analyticsPost(postData);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      triggerPageViewEvent()
+    });
+
+    var hasLocalStorage = (function() {
+        try {
+            localStorage.setItem('bitespeed_test_storage', 'test');
+            localStorage.removeItem('bitespeed_test_storage');
+            return true;
+        } catch (ex) {
+            return false;
+        }
+    })();
+    bitespeedLayer.ecommerce = {
+        'currencyCode' : 'AED',
+        'impressions' : []
+    };
+  {% if collection.id != null %}
+var collectionObjError = null
+        var collectionObjId = {{ collection.id | json }}
+        var collectionObjHandle = {{ collection.handle | json }}
+        var collectionObjDefaultSortBy = {{ collection.default_sort_by | json }}
+        var collectionObjSortBy = ""
+        var collectionObjFilters = {{ collection.filters | json }}
+        var collectionObjCurrentType = {{ collection.current_type | json }}
+        var collectionObjTemplateSuffix = {{ collection.template_suffix | json }}
+
+        var collectionProductsObj= {{ collection.products | json }};
+        if (!collectionObjError && collectionProductsObj && !collectionProductsObj.error) {
+            collectionProductsObj.forEach(function(p){
+                var pos = 1;
+                bitespeedLayer.ecommerce.impressions.push({
+                    id: p.id,
+                    product_id: p.id,
+                    name: p.title,
+                    price: (p.price/100).toFixed(0),
+                    brand: p.vendor,
+                    category: p.type,
+                    list_position : pos,
+                    variants : p.variants.map(function(variant) { return { id: variant.id , sku : variant.sku } }),
+                    list_name : location.pathname,
+                    list : location.pathname, // duplicate property for GTM
+                    collection_id: collectionObjId,
+                    collection_name: collectionObjHandle,
+                    collection_default_sort_by: collectionObjDefaultSortBy,
+                    collection_sort_by: collectionObjSortBy,
+                    collection_filters: collectionObjFilters,
+                    collection_curernt_type: collectionObjCurrentType,
+                    collection_template_suffix: collectionObjTemplateSuffix,
+                    handle : p.handle
+                })
+                pos++
+            });
+        }
+    {% elsif canonical_url contains '/search' %}
+      var searchResults = {{ search.results | json }} || {};
+      let searchProducts=[];
+      for(let i = 0; i < searchResults.length; i++) {
+        let element = searchResults[i];
+        searchProducts.push({
+          id: element.id,
+          name: element.title,
+          price: (element.price/100).toFixed(0),
+          brand: element.vendor,
+          category: element.type,
+          variants: element.variants.map(function(variant) { return { id: variant.id, sku : variant.sku } }),
+          quantity: 1,
+          handle: element.handle
+        })
+      }
+      var searchTerm = {{ search.terms | json }};
+      var postData = {
+        "at": new Date(),
+        "type": "productSearched",
+        "event" : {
+          "searchTerm": searchTerm,
+          "searchResults": searchProducts
+        }
+      }
+      analyticsPost(postData);
+    
+  {% elsif template contains 'product' %}
+        var product = {{ product | json }};
+        if (product && !product.error) {
+            bitespeedLayer.ecommerce.detail = {products: []}
+            bitespeedLayer.ecommerce.detail.products.push({
+                id: product.id,
+                name: product.title,
+                price: (product.price/100).toFixed(0),
+                brand: product.vendor,
+                category: product.type,
+                variants: product.variants.map(function(variant) { return { id: variant.id, sku : variant.sku } }),
+                quantity: 1,
+                handle: product.handle
+            });
+        }
+    {% endif %}
+    bitespeedLayer.ecommerce.impressions = getUniqueProducts(bitespeedLayer.ecommerce.impressions);
+    function getUniqueProducts(array){
+        var u = {}, a = [];
+        for(var i = 0, l = array.length; i < l; ++i){
+            if(u.hasOwnProperty(array[i].id)) {
+                continue;
+            }
+            a.push(array[i]);
+            u[array[i].id] = 1;
+        }
+        return a;
+    };
+    var loadScript = function(url, callback){
+        var script = document.createElement("script")
+        script.type = "text/javascript";
+        if (script.readyState){  /* IE */
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+                        script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {  /* Others */
+            script.onload = function(){
+                callback();
+            };
+        }
+        script.src = url;
+        document.getElementsByTagName("head")[0].appendChild(script);
+    }
+var ldTracker = function(jQuery){
+    jQuery(document).ready(function(){
+        if(bitespeedLayer && bitespeedLayer.ecommerce){
+            /* run list, product, and clientID scripts everywhere */
+            listViewScript();
+            productPageScript();
+        }
+    })
+    function listViewScript(){
+        if (!bitespeedLayer.ecommerce.impressions || !bitespeedLayer.ecommerce.impressions.length) return;
+        window.setTimeout(function(){
+            var postData = {
+            "at" : new Date(),
+            "type" : "productListViewed",
+              "event" : {
+                    list_id: bitespeedLayer.ecommerce.impressions[0].list,
+                    collection_id: bitespeedLayer.ecommerce.impressions[0].collection_id,
+                    products: bitespeedLayer.ecommerce.impressions
+              }
+                };
+                analyticsPost(postData);
+        },500) /* wait for pageview to fire first */
+        /* product list clicks */
+    }
+    async function productPageScript(){
+        var product = bitespeedLayer.ecommerce.detail
+            && bitespeedLayer.ecommerce.detail.products
+            && bitespeedLayer.ecommerce.detail.products[0]
+        if (product) {
+            if(hasLocalStorage) product.list_name = localStorage.list
+                if(hasLocalStorage) product.list_id = localStorage.list
+          var postData = {
+            "at" : new Date(),
+            "type" : "productViewed",
+            "event" : product
+          }
+          analyticsPost(postData);
+        }
+    }
+}
+if(typeof jQuery === 'undefined'){
+       loadScript('https://code.jquery.com/jquery-3.7.1.min.js', function(){
+        jQuery191 = jQuery.noConflict(true);
+        ldTracker(jQuery191);
+        });
+} else {
+        ldTracker(jQuery);
+}
+    function removePii(string) {
+        var piiRegex = {
+            "email": /[s&amp;/,=]([a-zA-Z0-9_.+-]+(@|%40)[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+)($|[s&amp;/,])/,
+            "postcode": /[s&amp;/,=]([A-Z]{1,2}[0-9][0-9A-Z]?(s|%20)[0-9][A-Z]{2})($|[s&amp;/,])/,
+        };
+        var dlRemoved = string;
+        for (key in piiRegex) {
+            dlRemoved = dlRemoved.replace(piiRegex[key], 'REMOVED');
+        }
+        return dlRemoved;
+    }
+})()
+</script>
+
+<script type="load" name="NAMESPACED-NOTIFY_ME">
+  var popup_id = "";
+  var product = {{ product | json }} || {};
+  var product_id = {{ product.id | json }} || "";
+  var current_variant = {{ product.selected_variant.id | json }} || "";
+  var is_current_variant_available = false;
+  var buyNowElement = null;
+  var mainNewButton = null;
+  var notify_me_text = "Notify Me";
+
+  var variants = {{ product.variants | json }} || [];
+
+  // variables to build custom logic for different brands
+  var globalFormEle = null;
+  var globalPrimaryBtn = null;
+
+  if (!current_variant && Array.isArray(variants) && variants.length > 0) {
+      current_variant = variants[0].id;
+  }
+
+  var CREATED_NOTIFY_ME_BUTTON_ID = "bitespeed-notify-me-button";
+  var CREATED_NOTIFY_ME_BUTTON_PARENT_ID = "bitespeed-notify-me-button-parent";
+
+  var notifyMeTexts = ["notify me", "notify"];
+  var soldOutTexts = ["sold out", "out of stock"];
+
+  var wordsToRemove = ["sold out", "out of stock"].concat(notifyMeTexts);
+  var buyButtonTexts = ["buy now", "buy it", "buy it now"].concat(notifyMeTexts);
+</script>
+<!-- END app snippet -->
+
+
+{% if template contains 'product' %}
+  <!-- BEGIN app snippet: bitespeed-back-in-stock --><script type="load"
+  name="NAMESPACED-NOTIFY_ME"
+>
+  var popup_id = "";
+  var product = {{ product | json }};
+  var product_id = {{ product.id | json }};
+  var current_variant = {{ product.selected_variant.id | json }};
+  var is_current_variant_available = true;
+  var buyNowElement = null;
+  var mainNewButton = null;
+  var notify_me_text = "Notify Me";
+  var shop_domain = "";
+  var dont_show_notify_me_strict = false;
+
+  var variants = {{ product.variants | json }};
+
+  // variables to build custom logic for different brands
+  var globalFormEle = null;
+  var globalPrimaryBtn = null;
+
+  if (!current_variant && Array.isArray(variants) && variants.length > 0) {
+    current_variant = variants[0].id;
+  }
+
+  // console.log(product, product_id, current_variant, variants, "DATA IS HEREEE");
+
+  // var popup_id = "";
+  // var product = {};
+  // var product_id = "";
+  // var current_variant = "";
+  // var is_current_variant_available = false;
+  // var buyNowElement = null;
+  // var mainNewButton = null;
+
+  // const variants = [];
+
+  var CREATED_NOTIFY_ME_BUTTON_ID = "bitespeed-notify-me-button";
+  var CREATED_NOTIFY_ME_BUTTON_PARENT_ID = "bitespeed-notify-me-button-parent";
+
+  var notifyMeTexts = ["notify me", "notify"];
+  var soldOutTexts = ["sold out", "out of stock"];
+
+  var wordsToRemove = ["sold out", "out of stock"].concat(notifyMeTexts);
+  var buyButtonTexts = ["buy now", "buy it", "buy it now"];
+
+  // UTILS
+  function checkIfStringIncludes(string, words) {
+    return words.some((word) =>
+      string.toLowerCase().includes(word.toLowerCase()),
+    );
+  }
+  function isDefined(value) {
+    return null != value;
+  }
+  function getParameterByName(str, url = window.location.href) {
+    str = str.replace(/[\[\]]/g, "\\$&");
+    let regex = new RegExp("[?&]" + str + "(=([^&#]*)|&|#|$)").exec(url);
+    return regex
+      ? regex[2]
+        ? decodeURIComponent(regex[2].replace(/\+/g, " "))
+        : ""
+      : null;
+  }
+  function addMargin(button) {
+    // button.style.margin = "5px";
+    button.style.marginTop = "5px";
+    button.style.marginLeft = "5px";
+    button.style.marginRight = "5px";
+    button.style.marginBottom = "5px";
+  }
+
+  function onNotifyButtonClicked() {
+    // using global variable - bitespeed_popups
+    // const product = {{ product | json }}
+    // const selected_variant = {{ product.selected_variant | json }}
+
+    // exact methods and constants from bitespeed-popup.js file
+    // console.log(popup_id, "AAAAA", product_id, "VVVV", current_variant, `${(popup_id + "").trim()}:bitespeed_popup`);
+    bitespeed_popups[`${(popup_id + "").trim()}:bitespeed_popup`].show("", true, {
+      popupTrigger: "back_in_stock",
+      productId: product_id,
+      variantId: current_variant,
+    });
+  }
+
+  /**
+   * method to add neccessary properties to the
+   * new notify button... handling many edges cases as well...
+   */
+  function addNeccessaryProperties(button) {
+    // adding all the neccessary properties
+    button.type = "button";
+    button.name = "notify_me";
+    button.disabled = false;
+    button.ariaDisabled = false; // edge case, few websites are using aria-disabled
+    // adding/overriding some styles
+    button.style.display = "inline-block";
+    button.style.opacity = "1";
+    button.style.pointerEvents = "auto";
+    button.style.cursor = "pointer";
+    button.classList.remove("disabled"); // edge case:
+    // removing the click events from
+    button.click = () => {};
+    button.onclick = () => {};
+
+		// some custom brand specific attributes or properties
+		button.removeAttribute("data-notification-popup");
+		button.removeAttribute("data-add-to-cart");
+
+    return button;
+  }
+
+  function checkVariantIsAvailable() {
+		if (!variants || variants.length <= 0) {
+			is_current_variant_available = true;
+			return false;
+		}
+
+    for (let i = 0; i < variants.length; i++) {
+      const variantId = Number(variants[i].id);
+      const currentVariantId = Number(current_variant);
+
+      if (variantId === currentVariantId) {
+        if(variants[i].available === null || variants[i].available === undefined) dont_show_notify_me_strict = true;
+
+        is_current_variant_available = variants[i].available;
+        return is_current_variant_available;
+      }
+    }
+
+    return false;
+  }
+
+  function checkOneVariantIsAvailable() {
+    let is_variant_available = false,
+      is_variant_found = false;
+
+		if (!variants || variants.length <= 0){ 
+			is_vairant_available = true;
+			return false;
+		}
+
+    for (let i = 0; i < variants.length; i++) {
+      let variant = variants[i];
+
+      Number(variant.id) === Number(current_variant) &&
+        (is_variant_found = variant.available),
+        (is_variant_available = is_variant_available || variant.available);
+    }
+
+    return is_variant_available && is_variant_found && variants.length >= 1;
+  }
+
+  function refreshBackInStockButton() {
+    if (is_current_variant_available) {
+      let buttonParent = document.getElementById(
+        CREATED_NOTIFY_ME_BUTTON_PARENT_ID,
+      );
+
+      isDefined(buttonParent) && (buttonParent.innerHTML = ""),
+        addBackInStockButton();
+    } else {
+      addBackInStockButton();
+    }
+  }
+
+  /**
+   * This function is used to check if the variant is available and reload the button
+   * if it is available.
+   */
+  function delayedRefreshButton() {
+    setTimeout(function () {
+      let variant = current_variant;
+      current_variant =  getParameterByName("variant");
+      if (variant !== current_variant) {
+        checkVariantIsAvailable();
+
+        refreshBackInStockButton();
+      }
+    }, 2);
+  }
+
+  // custom logic for different brands
+  function showNotifyBTNOnCustomBrandLogicPass() {
+    /**
+     * this variable is a by pass mechanism
+     * mostly made when safari is not getting enought variant availability data
+     * so we are not showing notify me button
+     * in that case...
+     */
+    if (dont_show_notify_me_strict) return false;
+
+    // dependent on primary button
+    if (globalPrimaryBtn) {
+      if (shop_domain === "neeshperfumes.com") {
+        if (String(globalPrimaryBtn.innerText).toLowerCase() === "validate")
+          return false;
+      } else if (shop_domain === "carrypro.in") {
+        const getButtonAttributes = globalPrimaryBtn.attributes;
+        const disabledAttribute = getButtonAttributes.getNamedItem("disabled");
+
+        return disabledAttribute && disabledAttribute.value === "disabled"
+      }
+    }
+
+    return true;
+  }
+
+  /**
+   * function to add custom logic for notify me button
+   * for few brands the existing button criteria is not enough
+   * or maybe the button is not getting rendered properly
+   */
+  function addCustomLogicForNotifyMeButton() {
+    // if(shop_domain === 'capresebags.com') {
+    //   const form = document.getElementById('wishlisthero-product-page-button-container');
+
+    //   if(form) {
+    //     const button = form.getElementsByClassName('product__form--add-to-cart');
+
+    //     // add the button at the beginning of the form
+    //     if(button && button.length > 0) {
+					// console.log(111111)
+					// createBackInStockButton(button[0], true);
+    //     }
+    //   }
+    // }
+  }
+
+  /**
+   * this method renders the notify me button taking the reference from the
+   * primary original button data
+   */
+  function createBackInStockButton(buttonReference, dontDisableOgButton = false) {
+    let button = document.getElementById(CREATED_NOTIFY_ME_BUTTON_ID);
+
+    if (!isDefined(button)) {
+      let newButton =
+        buttonReference.cloneNode(true) || document.createElement("button");
+      addNeccessaryProperties(newButton, buttonReference);
+
+      newButton.id = CREATED_NOTIFY_ME_BUTTON_ID;
+      newButton.innerText = "";
+
+      let textAddedInChild = false;
+
+      for (let child of buttonReference.childNodes) {
+        let clonedChild = child.cloneNode(true);
+        clonedChild.innerText = "";
+        clonedChild.onclick = () => {};
+        clonedChild.click = () => {};
+        clonedChild.removeEventListener("click", () => {});
+
+        if (child.nodeType === 1) {
+          if (
+            checkIfStringIncludes(
+              (child.innerText + "").toLowerCase(),
+              wordsToRemove,
+            ) &&
+            !textAddedInChild
+          ) {
+            textAddedInChild = true;
+            clonedChild.innerText = notify_me_text;
+          }
+
+          newButton.appendChild(clonedChild);
+        }
+      }
+
+      if (!textAddedInChild) {
+        newButton.innerText = notify_me_text;
+      }
+
+      /**
+       * removing the disabled class from the button
+       */
+      if(!dontDisableOgButton)
+        if (isDefined(buttonReference)) {
+          for (let i = 0; i < newButton.classList.length; i++) {
+            if (
+              "disabled" === newButton.classList[i] ||
+              "pe_none" === newButton.classList[i] ||
+              "product__submit__add" === newButton.classList[i] ||
+              newButton.classList[i].includes("disabled")
+            )
+              newButton.classList.remove(newButton.classList[i]);
+          }
+        }
+
+      newButton.style =
+        "cursor: pointer !important; visibility: visible; " +
+        "; display: block !important;";
+
+      if (!buyNowElement) {
+        addMargin(newButton);
+        addMargin(buttonReference);
+      }
+
+      let buttonParent = document.getElementById(
+        CREATED_NOTIFY_ME_BUTTON_PARENT_ID,
+      );
+
+      if (showNotifyBTNOnCustomBrandLogicPass()) {
+        // isDefined(buttonParent) &&
+        buttonParent.appendChild(newButton),
+          (newButton.onclick = () => {
+            onNotifyButtonClicked();
+          }),
+          (newButton.ontouchstart = () => {
+            onNotifyButtonClicked();
+          });
+
+        if (buyNowElement) {
+          buyNowElement.style.display = "none";
+        }
+      }
+    }
+  }
+
+  function createBackInStockButtonParent(form, buttonReference) {
+    let parent = document.getElementById(CREATED_NOTIFY_ME_BUTTON_PARENT_ID);
+    mainNewButton = parent;
+
+    if (!isDefined(parent)) {
+      let newParent = document.createElement("div");
+      newParent.id = CREATED_NOTIFY_ME_BUTTON_PARENT_ID;
+
+      let parentElement = buttonReference.parentElement;
+
+      if (buttonReference.nextSibling) {
+        parentElement.insertBefore(newParent, buttonReference.nextSibling);
+      } else {
+        parentElement.appendChild(newParent);
+      }
+      mainNewButton = newParent;
+      // form.appendChild(newParent);
+    }
+    createBackInStockButton(buttonReference);
+  }
+
+  function addBackInStockButton() {
+    const is_one_variant_available = checkOneVariantIsAvailable();
+
+    if (is_one_variant_available) {
+      if (mainNewButton) mainNewButton.style.display = "none";
+      if (buyNowElement) {
+        buyNowElement.style.display = "block";
+      }
+			return;
+    } else {
+      if (buyNowElement) buyNowElement.style.display = "none";
+      if (mainNewButton) mainNewButton.style.display = "block";
+    }
+
+    let formSelector = [
+      "form.product_form",
+      "form.productForm",
+      ".product-form",
+      ".product_form",
+      ".ProductForm",
+      ".shopify-product-form",
+      ".product-single__form",
+      "form[action='/cart/add']",
+      "form[action='/cart/add.js']",
+    ].find((e) => document.querySelector(e));
+    let formElement = document.querySelector(formSelector);
+    globalFormEle = formElement;
+
+    let buttonSelector = [
+      "button[type='submit']",
+      "input[name='add']",
+      "button[name='add']",
+      "input[type='submit']",
+      "input[value='Sold out']",
+    ].find((e) => document.querySelector(formSelector + " " + e));
+    let primaryButton = document.querySelector(
+      formSelector + " " + buttonSelector,
+    );
+    globalPrimaryBtn = primaryButton;
+
+    let siblingElements = Array.from(
+      formElement.querySelectorAll("a, button, input"),
+    );
+
+    buyNowElement = siblingElements.find((el) => {
+      let innerText = (el.value + "").toLowerCase();
+      let value = (el.value + "").toLowerCase();
+
+      return (
+        checkIfStringIncludes(innerText, buyButtonTexts) ||
+        checkIfStringIncludes(value, buyButtonTexts)
+      );
+    });
+
+    const backInStockButtonParent = document.getElementById(
+      CREATED_NOTIFY_ME_BUTTON_PARENT_ID,
+    );
+    const isPrimaryButtonOutOfStock = checkIfStringIncludes(
+      (primaryButton.innerText + "").toLowerCase(),
+      soldOutTexts,
+    );
+
+    return primaryButton && (primaryButton.disabled || primaryButton.hidden || primaryButton.classList.contains("disabled"))
+    ? createBackInStockButtonParent(formElement, buyNowElement || primaryButton)
+    : !primaryButton && backInStockButtonParent
+    ? createBackInStockButton(primaryButton)
+    : !isPrimaryButtonOutOfStock || primaryButton || backInStockButtonParent
+    ? createBackInStockButtonParent(formElement, buyNowElement || primaryButton)
+    : false;
+  }
+
+  function addPageChangeListenerEvents() {
+    document.addEventListener("popstate", (e) => {
+      delayedRefreshButton();
+    }),
+      document.addEventListener("change", (e) => {
+        delayedRefreshButton();
+      }),
+      (function () {
+        let e = location.href;
+        new MutationObserver(() => {
+          const url = location.href;
+          url !== e && ((e = url), delayedRefreshButton());
+        }).observe(document, {
+          subtree: !0,
+          childList: !0,
+        });
+      })();
+  }
+
+  function initNotifyFrontendService(popupid, notifyMeText, shopDomain = "") {
+    popup_id = popupid;
+    notify_me_text = notifyMeText || "Notify Me";
+    shop_domain = shopDomain || "";
+
+    if (!window.location.pathname.startsWith("/products") && !window.location.pathname.startsWith("/collections")) {
+      console.log('Notify Me Service is not available on this page');
+      return;
+    }
+
+    const renderedNotifyMeButton = addBackInStockButton();
+
+    console.log('Notify Me Service Initialized');
+
+    if (renderedNotifyMeButton === false) {
+      console.log('Cannot render "Notify Me" button due to CSS policies. Please contact support for assistance.');
+      addCustomLogicForNotifyMeButton();
+    }
+
+    addPageChangeListenerEvents();
+  }
+</script>
+<!-- END app snippet -->
+{% endif %}
+
+
+<!-- END app block --> {% endcomment %}

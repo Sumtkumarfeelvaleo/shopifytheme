@@ -1,0 +1,429 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f": {
+      "type": "image-banner",
+      "blocks": {
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29": {
+          "type": "smallImg",
+          "settings": {
+            "row_reverse": false,
+            "image": "shopify://shop_images/sport-healthy-life-wellness-lifestyle-workout_1880x_0a64e4f5-56f6-4a4e-8c63-02424eb3033f.webp",
+            "small_img_block_style": "style_1",
+            "smallImg_justify": "flex-start",
+            "enable_divider": true,
+            "divider_bg_color": "",
+            "content_spacing_right": 50,
+            "button_spacing_left": 50,
+            "button_pos_from_center": 0,
+            "content_pos_from_center": 0,
+            "divider_position_from_center": 0,
+            "small_banner_bg_color": "#f5f5f5",
+            "mg_bottom_icon": 25,
+            "sub_title": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_title": 16,
+            "font_size_sub_title_mb": 16,
+            "margin_bottom_sub_title": 30,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "500",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#787878",
+            "heading": "Creation Of Hidden Beauty",
+            "letter_spacing_heading": "",
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "700",
+            "color_heading": "#232323",
+            "text": "At Kuwa, we are dedicated to providing our customers with the best products as per their needs. From beauty supplements, energy supplements, and nutritional supplements, to performance-boosting supplements, you will get certified quality products for each specific need.",
+            "font_size_des": 16,
+            "font_size_des_mb": 16,
+            "line_height_des": 26,
+            "margin_bottom_des": 30,
+            "color_des": "#232323",
+            "content_width": 575,
+            "align": "left",
+            "enable_content_border": false,
+            "content_border_color": "#232323",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "btn_text": "Shop Now",
+            "link": "shopify://collections/best-selling-products",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_2_text": "Shop Now",
+            "link_btn_2": "shopify://collections/best-selling-products",
+            "button_2_width": 235,
+            "button_2_color": "#ffffff",
+            "button_2_border": "#232323",
+            "button_2_background": "#232323",
+            "button_2_background_gradient": "",
+            "button_2_color_hover": "#ffffff",
+            "button_2_border_hover": "#232323",
+            "button_2_background_hover": "#232323",
+            "button_2_background_gradient_hover": "",
+            "button_2_spacing_top": 10
+          }
+        }
+      },
+      "block_order": [
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "display_type": "slide",
+        "list_gap": 0,
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "rich_text_yRDrxJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wCU3Di": {
+          "type": "heading",
+          "settings": {
+            "heading": "Biggest Selection of Gut Health/Digestion Supplements in Dubai, UAE",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000000"
+          }
+        },
+        "content_qyibbx": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p>A healthy gut is essential for absorbing nutrients and removing waste from the body. It supports overall health, including the body, mind, and emotions. Some scientists even call it your \"second brain\" because of its relevance. The key factors affecting gut health are changes in stomach acid, gut immunity, and the balance of gastrointestinal flora, a diverse community of bacteria in the digestive system.</p>\n\n<p>Protecting your digestive system involves more than just diet. It also includes using certain tablets and supplements. Here are some simple ways to help keep your digestive system healthy:</p>\n\n<p>1. Balanced Diet: Eat a variety of foods rich in fiber.</p>\n<p>2. Hydration: Drink plenty of water.</p>\n<p>3. Probiotics: Consider taking supplements with good bacteria.</p>\n<p>4. Avoid Overuse of Antibiotics: Only use them when necessary.</p>\n<p>5. Regular Exercise: Helps keep your digestive system moving.</p>\n<p>6. Stress Management: Find ways to manage stress, which can affect digestion.</p>\n\n<p>For healthy gut bacteria, your intestines need a balanced environment. Gut health relies heavily on the right mix of bacteria. The colon thrives best with a pH between 6.7 and 6.9, which helps good bacteria grow.</p>\n\n<p>This microflora is crucial for digestion and boosting immunity. What you eat significantly impacts your gut health, so choosing your foods carefully is essential.</p>\n\n<p>To support intestinal health, eat gut-friendly foods like high-fiber options and fruits. Additionally, using products like </p><p>gut health sachets</p> and the <p>best probiotics for gut health can help maintain balance. To adequately preserve, look for the <b>best gut health supplement</b>, <b>best digestive enzyme supplements</b> to support your digestive system.</p>\n\n<p>At <a href=\"https://getkuwa.com/?srsltid=AfmBOoqHKAdHT70CB3FiVKDqVsd3W70n1eot9bSSSkA0e1tUpBDQyrel\"><b>GetKuwa</b></a>, you will get probiotics for gut health, the best gut health supplement, the best digestive enzymes, and the best <b>gas tablets in UAE</b>. </p>\n\n<h2>What is Gut Health?</h2>\n\n<p>Your gut, which includes your stomach, intestines, and colon, digests food, absorbs nutrients, and eliminates waste. Gut health generally means having a balanced gut and microbiome.</p>\n\n<p>About 200 types of bacteria, viruses, and fungi live in your large intestine. These microorganisms, known as your gut microbiome, help break down food into nutrients. While some bacteria can be harmful, many are beneficial and essential for good health.</p>\n\n<p>The diversity of bacteria in your gut is a crucial indicator of your microbiome's health, which can affect your physical and mental well-being. What you eat can significantly impact the balance of bacteria in your gut.</p>\n\n<h2>Importance of Gut Health & Digestion </h2>\n\n<p>The gut breaks down food and absorbs nutrients to support your body. Research shows that gut health impacts many aspects of overall health, including:</p>\n\n<li>The immune system</li>\n<li>Mental health</li>\n<li>Autoimmune diseases</li>\n<li>Endocrine disorders (e.g., type 2 diabetes)</li>\n<li>Gastrointestinal disorders (e.g., IBS, IBD)</li>\n<li>Cardiovascular disease</li>\n<li>Cancer</li>\n<li>Sleep</li>\n<li>Digestion</li>\n\n<p>A diverse range of gut bacteria is a vital sign of a healthy microbiome. At <a href=\"https://getkuwa.com/\"><b>GetKuwa</b></a>, you can find the best supplements to maintain your gut health and digestive system.</p> \n\n<h2>Bestselling Healthy Gut Supplements in Dubai, UAE at Kuwa Supplements</h2>\n\n\n<h3>1. Wellbeing Nutrition Apple Cider Vinegar (ACV) 34 Effervescent Tablets</h3>\n\n\n<p><a href=\"https://getkuwa.com/products/wellbeing-nutrition-apple-cider-vinegar-acv-17-effervescent-tablets-with-the-mother-and-garcinia-cambogia-pomegranate-effective-weight-management-weight-loss-gut-health-pack-of-2\"><b>Wellbeing Nutrition Apple Cider Vinegar</b></a> is a tasty and easy-to-take gut health supplement. It combines Apple Cider Vinegar, garcinia cambogia for weight loss, and Pomegranate for antioxidants. This tablet supports heart health, glowing skin, and digestion and is more convenient than traditional Apple Cider Vinegar. It is trusted by over 5 million customers globally.</p>\n\n<h3>2. Protics Pre-Probiotics - Gut Health Support - 30 Capsules - pack of 2</h3>\n\n<p><a href=\"https://getkuwa.com/products/protics-pre-probiotics-gut-health-support-30-capsules-pack-of-2\"><b>Protics Pre-Probiotic Capsules</b></a> offer complete support for your digestive system. They contain beneficial probiotic strains like Streptococcus Faecalis, Clostridium Butyricum, Bacillus Measentericus, and Lactic Acid Bacillus to maintain gut balance, diarrhea, also considered as <b>the best probiotic for constipation and the best probiotic for bloating</b>.</p>\n\n\n<h3>3. Melts Healthy Gut Plant-Based Probiotic, 30 Oral Strips</h3>\n\n<p><a href=\"https://getkuwa.com/products/melts-healthy-gut-plant-based-probioticb\">Melts into a healthy gut</a> are highly effective, containing 10 billion Bacillus Coagulants for gut health. The plant-based enzymes aid digestion and reduce IBS symptoms. This ACV strip helps with gas, bloating, and acid reflux. Simply place a Mixed Berry Blast Strip on your tongue after meals. It is vegan and non-GMO, free from soy, gluten, gelatin, and carrageenan, it is one of the <b>best healthy gut supplements</b>.</p>\n\n\n\n<h3>4. What’s Up Gut Health Gummies 15 Days Pack</h3>\n\n<p><a href=\"https://getkuwa.com/products/what-s-up-gut-health-gummies-15-days-pack\"><b>What's Up Gut Health Gummies</b></a> provide a billion live cultures of the patented Bacillus Coagulans strain to support your gut and improve digestion. These tasty Alphonso mango-flavored gummies are a fun and effective alternative to traditional capsules. Keep them in a cool, dry place to avoid melting. Chew one gummy before a meal—no food or water is needed. Each bottle has 15 gummies, enough for a 15-day supply.</p>\n\n\n<h3>5. Panchamrit Gut Health Effervescent 20 (Zesty Lemon Flavour) </h3>\n\n<p><a hrefhttps:><b>Panchamrit Gut Health</b></a> offers a soothing blend of Triphala, Mulethi, and other super-herbs for a delicious daily dose of natural probiotics. This effervescent provides practical support, whether you need relief from overindulging or aim to maintain a happy tummy. Simply take one tablet daily or as directed.</p>\n\n\n<h3>6. Wellbeing Nutrition Daily Greens Multivitamin Effervescent Tablets</h3>\n\n<p><a href=\"https://getkuwa.com/products/daily-greens-vitamin-tablets\"><b>Daily Greens Tablets</b></a> offer a powerful blend of superfoods to meet your daily micronutrient needs and energize you. This innovative product provides 100% of your daily vitamins and minerals in a tasty green juice.</p>\n\n\n\n<h3>7. The Good Bug Metabolically Lean Sachet</h3>\n\n<p><a href=\"https://getkuwa.com/products/the-good-bug-bye-bye-bloat-stick-15s-pack\"><b>Good Bug Metabolically Lean Sachet</b></a> helps restore gut balance, boost metabolism, and reduce food cravings to support your weight goals. It features a clinically proven blend of probiotics, prebiotics, and L-carnitine for effective results.</p>\n\n\n\n<h3>8. The Good Bug Bye Bye Bloat Sticks</h3>\n\n<p><a href=\"https://getkuwa.com/products/the-good-bug-bye-bye-bloat-stick-15s-pack\"><b>Good Bug Bye Bye Bloat</b></a> is a synbiotic stick that features Bifidobacterium probiotics, prebiotic fiber, and essential nutrients to support digestive health, reduce heartburn, and ease acid reflux. It also helps relieve bloating, gas, and abdominal pain, improves digestion, and ensures probiotics survive stomach acid to reach your gut. </p>\n\n\n\n<h3>9. PLIX THE PLANT FIX Happy Tummy Pre+Probiotic 15 Effervescent Tablets Pack of 2 (Green Apple) </h3>\n\n<p><a href=\"https://getkuwa.com/products/plix-the-plant-fix-happy-tummy-pre-probiotic-15-effervescent-tablets-for-good-gut-digestion-metabolism-with-20-billion-cfus-vital-probiotic-strains-pack-of-2-green-apple\"><b>Plix Happy Tummy</b></a>, with 20 billion CFUs and 6 probiotic strains, helps reduce bloating and digestive issues. Its Green Apple and Chicory Root ingredients promote healthy gut bacteria, improving mood, heart health, and digestion. Enjoy a balanced, happy gut daily with this natural and one of the most effective <b>probiotic health supplements</b>.</p>\n\n<h2>FAQs: Best Gut Health Products</h2>\n\n<h3>1. What is the top food for gut health?</h3>\n \n<p>Yogurt is excellent for gut health because it contains probiotics (good bacteria). Choose sugar-free, full-fat yogurt and add fruit for flavor.</p>\n\n<h3>2. What's the gut health market like? </h3>\n \n<p>The gut health market is growing fast. It was worth $47.8 billion in 2022 and is expected to grow by 8.2% by 2030.</p>\n\n<h3>3. What harms gut bacteria?</h3>\n\n<p>A high-fat, high-sugar diet and excessive antibiotic use can harm gut bacteria. Limit these to keep your gut healthy.</p>\n\n<h3>4. What are the top foods for gut health?</h3>\n  \n<p>Eat from these six groups: vegetables, fruits, whole grains, legumes (beans), nuts and seeds, and herbs and spices.</p>\n\n<h3>5. Which supplement is best for gut health?</h3>\n\n<p>When choosing a gut health supplement, make sure it contains the genus Lactobacillus, Bifidobacterium, Bacillus, or Saccharomyces boulardii. Also, find a product rich in vitamin D, vitamin C, and apple cider vinegar.</p>\n\n<h3>6. What is the best thing you can take for gut health?</h3>\n\n<p>There is no single best thing for maintaining your gut health rather, it is a combination of dietary, fermented foods, prebiotics, Vitamin C & D, healthy lifestyle, and probiotic supplement</p>\n\n<h3>7.  Is it worth taking gut health supplements?</h3>\n\n<p>A good gut health supplement can boost overall immunity, reduce inflammation, and help keep bowels regular. But it's important to notice whether they're necessary or causing any side effects. </p>\n\n<h3>8. What is the best product for gut repair?</h3>\n\n<p>Products including apple cyder vinegar tablets, symbiotic super gut powder, daily greens multivitamins tablets, and  Happy Tummy Pre+Probiotic 15 Effervescent Tablets complement gut health. </p>\n\n<h3>9. Where to buy gut supplements in Dubai online?</h3>\n\n<p>GetKuwa has the biggest collection of digestive enzymes and the best gut health products according to individual preferences.</p>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "Read More",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_wCU3Di",
+        "content_qyibbx"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f",
+    "product-recently-viewed",
+    "rich_text_yRDrxJ"
+  ]
+}

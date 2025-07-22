@@ -1,0 +1,429 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "9f9a1a80-3370-40db-9cd2-836840e2073b": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "bg_overlay": "#000000"
+          }
+        },
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a": {
+          "type": "description",
+          "settings": {
+            "show_collection_description": true,
+            "show_read_more_read_less": false,
+            "collection_description_position": "relative",
+            "collection_description_align_tb": "center",
+            "collection_description_align": "left",
+            "maxwidth_collection_description": 100,
+            "collection_description_color": "#232323",
+            "collection_description_bg": "#ffffff",
+            "collection_description_bg_gradient": "",
+            "show_sub_collection": false,
+            "sub_collection_layout": "grid",
+            "maxheight_sub_collection": 90,
+            "sub_collection_description_position": "relative",
+            "sub_collection_type": "all",
+            "colors_bg": "#fafafa",
+            "colors_bg_gradient": "",
+            "all_sub_collection_padding_top": 10,
+            "all_sub_collection_padding_bottom": 10,
+            "sub_collection_title": "Jump To",
+            "sub_collection_title_color": "#000000",
+            "fontsize_sub_collection": 12,
+            "fontweight_sub_collection": "500",
+            "sub_collection_text_transform": "uppercase",
+            "show_sub_collection_image": false,
+            "sub_collection_padding_top": 10,
+            "sub_collection_padding_bottom": 10,
+            "sub_collection_grid_gap": 15,
+            "color_sub_collection": "#ffffff",
+            "sub_collection_background": "#232323",
+            "sub_collection_background_gradient": "",
+            "sub_collection_border": "#232323",
+            "sub_collection_color_hover": "#232323",
+            "sub_collection_background_hover": "#ffffff",
+            "sub_collection_background_gradient_hover": "",
+            "sub_collection_border_hover": "#232323",
+            "sub_collection_mg_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "9f9a1a80-3370-40db-9cd2-836840e2073b",
+        "9147d182-d0c6-4b47-ad9e-97ad5cd6ae5a"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_color": "#999999",
+        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_gradient": "",
+        "breadcrumb_color_mb": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20,
+        "layout": "1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Brands",
+            "type": "3_level",
+            "link_list": "collections"
+          }
+        },
+        "category_CVMYq3": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Health Goals",
+            "type": "3_level",
+            "link_list": "footer"
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "White,Black,Blue,Invory,Beige,Brown,Silver,Olive,Gainsboro,DimGray,Burlywood,Lightblue,Salmon,LightPink,LightCoral"
+          }
+        },
+        "6684d566-6940-4457-9cf9-f1a8a6e80573": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "show_block": true,
+            "heading": "Featured Products",
+            "product_block_collection": "best-selling-products",
+            "product_block_layout": "slider",
+            "product_block_limit": 3,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "category_CVMYq3",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "6684d566-6940-4457-9cf9-f1a8a6e80573",
+        "3978fd59-b580-49e1-9893-38d762f48f10"
+      ],
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "default",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "show_sidebar_collapse": true,
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "vertical",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": false,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "20",
+        "layout": "3",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": true,
+        "banner_position_1": "4",
+        "link_banner_1": "",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": ""
+      }
+    },
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f": {
+      "type": "image-banner",
+      "blocks": {
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29": {
+          "type": "smallImg",
+          "settings": {
+            "row_reverse": false,
+            "image": "shopify://shop_images/sport-healthy-life-wellness-lifestyle-workout_1880x_0a64e4f5-56f6-4a4e-8c63-02424eb3033f.webp",
+            "small_img_block_style": "style_1",
+            "smallImg_justify": "flex-start",
+            "enable_divider": true,
+            "divider_bg_color": "",
+            "content_spacing_right": 50,
+            "button_spacing_left": 50,
+            "button_pos_from_center": 0,
+            "content_pos_from_center": 0,
+            "divider_position_from_center": 0,
+            "small_banner_bg_color": "#f5f5f5",
+            "mg_bottom_icon": 25,
+            "sub_title": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_title": 16,
+            "font_size_sub_title_mb": 16,
+            "margin_bottom_sub_title": 30,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "500",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#787878",
+            "heading": "Creation Of Hidden Beauty",
+            "letter_spacing_heading": "",
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "700",
+            "color_heading": "#232323",
+            "text": "At Kuwa, we are dedicated to providing our customers with the best products as per their needs. From beauty supplements, energy supplements, and nutritional supplements, to performance-boosting supplements, you will get certified quality products for each specific need.",
+            "font_size_des": 16,
+            "font_size_des_mb": 16,
+            "line_height_des": 26,
+            "margin_bottom_des": 30,
+            "color_des": "#232323",
+            "content_width": 575,
+            "align": "left",
+            "enable_content_border": false,
+            "content_border_color": "#232323",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "btn_text": "Shop Now",
+            "link": "shopify://collections/best-selling-products",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#232323",
+            "button_background": "#232323",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_2_text": "Shop Now",
+            "link_btn_2": "shopify://collections/best-selling-products",
+            "button_2_width": 235,
+            "button_2_color": "#ffffff",
+            "button_2_border": "#232323",
+            "button_2_background": "#232323",
+            "button_2_background_gradient": "",
+            "button_2_color_hover": "#ffffff",
+            "button_2_border_hover": "#232323",
+            "button_2_background_hover": "#232323",
+            "button_2_background_gradient_hover": "",
+            "button_2_spacing_top": 10
+          }
+        }
+      },
+      "block_order": [
+        "e814487a-5760-4ac2-8d2a-c7d52d5c0a29"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "display_type": "slide",
+        "list_gap": 0,
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false
+      }
+    },
+    "product-recently-viewed": {
+      "type": "product-recently-viewed",
+      "settings": {
+        "display_product_recently_viewed": true,
+        "product_recently_viewed_container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": true,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "border_style": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "product_recently_viewed_layout": "slider",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "style_block_header": "style1",
+        "product_recently_viewed_title": "Recently Viewed Products",
+        "enable_border_title": false,
+        "mg_top_title": 26,
+        "mg_bottom_title": 3,
+        "fontsize_title": 18,
+        "fontsize_title_mb": 18,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "product_recently_viewed_title_align": "center",
+        "product_recently_viewed_limit": 10,
+        "product_recently_viewed_image_ratio": "adapt",
+        "grid_gap": 30,
+        "product_recently_viewed_per_row": "5",
+        "product_recently_viewed_swipe_on_mobile": true,
+        "product_recently_viewed_dots": false,
+        "product_recently_viewed_dots_mb": true,
+        "product_recently_viewed_arrows": true,
+        "product_recently_viewed_arrows_mb": false,
+        "product_recently_viewed_show": "5",
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "enable_hover_drag_icon": true,
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4"
+      }
+    },
+    "rich_text_nt7D6P": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aATgJz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy Pilgrim Products Online in UAE by Kuwa Supplements",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_color": "#000000"
+          }
+        },
+        "content_t83BT9": {
+          "type": "content",
+          "settings": {
+            "content_top": "<p><b>Pilgrim</b> is a skincare brand that has caught the attention of customers and has <b>amazing reviews</b> for its amazing products and the results you get. Pilgrim is a vegan, cruelty-free dermatologically tested brand free from harmful chemicals like sulfate, parabens, and mineral oil.</p>\n\n<p>Pilgrim is a one-of-a-kind brand, it is committed to being vegan and uses cruelty-free ingredients in their products as this aligns with their values of compassion and sustainability. All the products designed by Pilgrim are <b>dermatologically tested</b> and certified to make sure they are safe and effective for all skin types and specific concerns.</p>\n\n<p>Pilgrim’s focus has always been on <b>crafting products that are safe and gentle on the skin</b> and this is why, as mentioned earlier, all of their products are free from sulfate, parabens, and mineral oil. Instead, pilgrims source their ingredients from countries like France, Korea, Australia, and places like the Amazon Rainforest to make sure the quality is exotic, high quality, and premium.</p>\n\n<p>As the Brand name suggests, Pilgrim’s mission is to bring global beauty practices to consumers in Dubai, Abu Dhabi, and all across the UAE.</p>\n<h2>How is Pilgrim different from other brands?</h2>\n\n<p>The unique thing about the products made by Pilgrim is they are free from 20+ toxic chemicals that are usually found in the mass manufactured skincare and beauty products.  Some of these chemicals namely are - parabens, formaldehyde, talcum, triclosan, sulfates, and mineral oils.</p>\n\n<p>Chemicals like Parabens and sulfate are known to cause skin irritation and Premature aging but mass manufactured beauty products still use it because they are cheap and profitable. Pilgrim on the other hand, sources use imported <b>high-quality exotic ingredients</b> in their products all sourced from countries like <b>France, Australia, Korea,</b> and places like Amazon Rainforest to ensure that the products are safe to use for the consumer and are effective at the same time.</p>\n\n<p>The sourcing of ingredients from high-quality sources helps the brand enrich its values of Vegan, cruelty-free free, and creating toxin-free skincare solutions. Pilgrim’s commitment to transparency to its consumers gives it a major headstart among the pool of skincare products in the UAE.</p>\n\n<p>Looking to buy <b>Pilgrim products near you?</b> Shop Now at Getkuwa.com</p>\n\n<p>Pilgrim is widely considered to be the perfect choice for consumers looking to seek international beauty treatments without compromising on quality or safety.</p>\n \n<h2>Best Selling Pilgrim Beauty Products Online in UAE by Kuwa Supplements:</h2>\n\n<h3>1. PILGRIM Redensyl & Anagain Advanced Hair Growth Serum 50 ml</h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-redensyl-anagain-advanced-hair-growth-serum-50-ml\"><u><b>Pilgrim advanced hair growth serum</b></u></a> comes with two most important ingredients Redensyl and Anagin that promotes hair growth and strengthen the hair follicles. It contains nourishing ingredients for healthier hair.</p>\n\n<p>Pilgrim Hair Growth Serum is best for people struggling with thinning, or shedding, or people who lack volume of hair. The hair growth serum is a potent blend of proven ingredients that target the root cause of hair loss to stimulate new growth and restore your hair’s natural vitality.</p>\n\n<p>It’s a lightweight fast absorbing serum designed to use daily and can seamlessly be integrated into your haircare routine. You can expect to see a reduction in hair fall, increased volume and elasticity, and even the emergence of new hair within 2-3 months, individual conditions may vary.</p>\n\n\n<h3> 2. PILGRIM Squalane Glow Moisturizer with Niacinamide & Vitamin C 50g</h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-squalane-glow-moisturizer-with-niacinamide-vitamin-c-50g\"><u><b>Pilgrim squalane glow moisturizer</b></u></a> by Pilgrim is enriched with ingredients like squalane, niacinamide, and vitamin C. These ingredients help promote hydration and brightens your skin. The vitamin C helps improve the texture of the skin and provides you with a youthful radiance.</p>\n\n<p>Pilgrim’s hydrating glow moisturizer delivers long-lasting hydrated skin with a healthy radiant glow. With key ingredients like Hyaluronic acid, Glycerin, Shea Butter, and Vitamin E - The moisturizer helps retain the moisture of skin minimizing the fine lines and wrinkles leaving it soft, supple, and comfortable.</p>\n\n<p>It is suitable for all skin types, including acne-prone and sensitive skin and it glides on effortlessly leaving no greasy or heavy residue. It provides you with a healthy-looking glow that radiates from within.</p>\n\n<h3>3. PILGRIM Retinol Night Cream with Vitamin C & Hyaluronic Acid 50g </h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-retinol-night-cream-with-vitamin-c-hyaluronic-acid-50g\"><u><b>Pilgrim retinol night cream</b></u> by Pilgrim UAE is aimed to help consumers reduce signs of aging and improve the elasticity of their skin. It has ingredients like retinol, vitamin C, and hyaluronic acid that hydrates the skin and nourishes it overnight.</a></p>\n \n<h3>4. PILGRIM Argan Oil Hair Mask with White Lotus & Camellia 200g </h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-argan-oil-hair-mask-with-white-lotus-camellia-200g\"><u><b>Pilgrim hair mask</b></u></a> my pilgrim helps you nourish and strengthen your hair and helps in it smoothening. It is infused with argan oil, white lotus and camellia. It helps repair and revitalize the damaged hair.</p>\n\n<h3>5. PILGRIM Brightening Serum 30 ml</h3>\n\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-brightening-serum-30-ml\"><u><b>Pilgrim brightening serum</b></u></a> by Pilgrim gives you a more radiant complexion. It is infused with ingredients that target dark spots and uneven skin tone and provide your skin with more luminosity and clarity.</p>\n\n<p>Pilgrim’s brightening serum is specifically designed to enhance your skin complexion and rejuvenate it from within. It is made with ingredients like Vitamin C, Hyaluronic Acid, and Kakadu Plum extract. These ingredients make it a powerhouse of hydration and antioxidants.</p>\n\n<p>Vitamin C is known for its brightening properties, it helps even out the skin tone, reduces dark spots, and enhances skin radiance. It also helps you provide a more youthful skin. The hyaluronic acid moisturizes the skin reducing fine lines and wrinkles. It helps maintain skin elasticity and suppleness for a smoother complexion.</p>\n\n<h3>6. PILGRIM Sulfate Free Shampoo 200 ml</h3>\n\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-sulfate-free-shampoo-200-ml\"><u><b>Pilgrim sulphate free shampoo</b></u></a> by pilgrim is for gentle cleansing and is suitable for hair types, including the sensitive scalp. It cleanses the hair without stripping the natural oils.</p>\n\n<h3>7. PILGRIM 24K Gold Facial Mask 50g</h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-24k-gold-facial-mask-50g\"><u><b>Pilgrim 24k gold face mask </b></u> by Pilgrim is infused with 24k gold particles and provides a luxurious treatment for the skin and helps in firming and rejuvenating the skin. </a></p>\n\n<h3>8. PILGRIM Squalane Roll-On under Eye serum 15 ml</h3>\n\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-squalane-roll-on-under-eye-serum-15-ml\"><u><b>Pilgrim squalane roll on under eye serum</b></u> by Pilgrim is enriched with squalane and it targets dark circle and puffiness. It helps hydrates and brightens the under eye area.</a></p>\n\n<h3>9. Pilgrim 2% Salicylic Acid + 3% Niacinamide Oil</h3>\n\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-2-salicylic-acid-3-niacinamide-oil\"><u><b>Pilgrim salicylic acid serum</b></u></a> by Pilgrim with Salicylic acid and Niacinamide oil helps in controlling acne and reducing inflammation. It helps in balancing the oil production in the skin and improves the skin texture.</p>\n\n<h3>10. PILGRIM Anti Acne Serum 30 ml</h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-anti-acne-serum-30-ml\"><u><b>Pilgrim anti acne serum</b></u></a> by Pilgrim contains ingredients to combat acne and prevent breakouts and provides you with blemish-prone skin. It helps soothe and calm irritated skin.</p>\n\n<h2>More about Pilgrim Skincare Products:</h2>\n\n<h3><a href=\"https://getkuwa.com/products/pilgrim-2-niacinamide-glow-sunscreen-spf50-pa-50g\"><u><b>Pilgrim Sunscreen</b></u></a></h3>\n\n<p>Pilgrijm’s Vitamin C Invisible Sunscreen SPF 50 provides a broad range of protection from UVA/UVB rays and shields your skin from any potential damage, apart from the primary and obvious benefits. It also protects your skin against blue light damage. The sunscreen is lightweight and has a gel-like texture. It leaves no white cast, unlike other mass-manufactured sunscreens which are very harsh, and greasy on your skin and leave you with an uncomfortable white cast.</p>\n\n<p>The formula of the sunscreen contains Australlia’s kakadu plum which is known to have some of the highest levels of Vitamin C Content. The plum also has antioxidant properties and skin-nourishing benefits. The antioxidants can help neutralize the radical damage caused by UVA and UVB rays. The vitamin C found in the plum protects the skin against pollution, environmental toxins, and radical damage from the sun. On top of all this, It also provides hydration to the skin, and retains moisture and this in turn helps brighten the skin tone and strengthen the protective layer.</p>\n\n<p>The customers who’ve used the products have rated it highly giving it a rating of 4.8 out of 5. It has really worked for them.</p>\n\n<h3>Pilgrim Cleanser</h3>\n\n<p><a href=\"https://getkuwa.com/products/pilgrim-mild-face-wash-cleanser-for-deep-pore-cleansing-oil-control-pollution\"><u><b>Pilgrim’s mild facewash cleanser</b></u></a> is the bestselling cleanser. It is formulated with volcanic lava ash and white lotus to provide a powerful and gentle cleansing experience. It is a non-foaming cleanser and it effectively removes all the dirt, oil, and impurities from the skin without removing the natural oils in the skin.</p>\n\n<p>Pilgrim’s mild facewash cleanser is suitable for all skin types and including the ones who have oily, dry, or combination skin and even acne-prone skin.</p> \n\n<h2>Why choose Pilgrim?</h2>\n\n<p>Pilgrim gives you very compelling reasons to choose them instead of other brands. Below are a few reasons to consider adopting Pilgrim products as your go-to skincare brand for your skincare needs.</p>\n\n<p><b>Commitment to clean Beauty:</b></p>\n\n<p>Pilgrim is transparent about its ingredient sourcing and the non-use of harmful chemicals and is committed to providing beauty without compromising on ingredients.</p>\n\n<p><b>Ethical and Sustainable Practices:</b></p>\n\n<p>Pilgrim sources ingredients ethically and sustainably, ensuring that their products have a minimal impact on the environment. By supporting Pilgrim, you are aligning with a brand that values ethical sourcing, and sustainable practices.</p>\n\n<p><b>Innovative Formulations:</b></p>\n\n<p>Pilgrim's products are crafted with innovative formulations whether it's Kakadu Plum from Australia, volcanic lava ash from Korea, or red vine from France, Pilgrim's products are designed to deliver effective results backed by science.</p>\n\n<h2>FAQs related to Pilgrim Products in UAE by Kuwa Supplements</h2>\n\n<h3>Where can I buy Pilgrim products near me in UAE at the lowest Price?</h3>\n\n<p>You can find a wide range of Pilgrim products at Kuwa Supplements, we offer the lowest prices, fast shipping, and excellent customer service. You can explore the full range of pilgrim products for skincare and haircare here at Kuwa supplements UAE.</p>\n\n<h3>Does Kuwa Supplements have 100% authentic Pilgrim products online?</h3>\n\n<p>Yes, Kuwa supplements offer 100% authentic, genuine products directly sourced from the brand. We ensure that all products on our platform are genuine, high quality and authentic and at lowest price to make sure we are offering the smoothest shopping experience to our customers.</p>\n\n<h3>Are Pilgrim products suitable for sensitive skin?</h3>\n\n<p>Yes, Pilgrim products are specifically formulated to give you a gentle experience. We avoid any ingredients that can cause irritability.</p>\n\n<p><b>Do these products have any side effects?</b></p>\n\n<p>Pilgrim products are high quality and ingredients are generally safe to use unless you’re allergic to any of the ingredients. Individual reactions may vary so it's a good idea to have a look at the ingredient list.</p>\n\n<h3>Are the ingredients in The Pilgrim products safe?</h3>\n\n<p>Yes, all the ingredients are from high-quality sources and are generally safe to use.</p>\n\n<h3>How effective are Pilgrim products?</h3>\n\n<p>Individual reactions to the products may vary but you will generally see results of using the products within weeks.</p>\n\n<h3>Can I use more than one Pilgrim Product together?</h3>\n\n<p>Yes,The products are designed to have a complementary effect when used together.</p> \n\n<h3>Is Pilgrim Available in UAE?</h3>\n\n<p>Yes, Pilgrim Products are available in UAE online and you can buy them at lowest price at kuwa supplements.</p>\n\n<h3>Are Pilgrim Products good or bad?</h3>\n\n<p>Pilgrim is committed to providing high-quality products that are not only effective but also safe and sustainable and the customers have shared positive reviews about the product.</p>",
+            "content_bottom": "",
+            "alignment_content": "left",
+            "content_size": 16,
+            "margin_top_content": 20,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "",
+            "button_text_less": "",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_aATgJz",
+        "content_t83BT9"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "b8c082c0-231d-4c06-9d13-dfb268c0669f",
+    "product-recently-viewed",
+    "rich_text_nt7D6P"
+  ]
+}
