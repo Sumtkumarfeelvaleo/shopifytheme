@@ -39,12 +39,11 @@
     if cart.attributes.pagination != blank and cart.attributes.pagination
         assign products_per_page = cart.attributes.pagination
     else
-        assign products_per_page =  section.settings.products_per_page
+        assign products_per_page = 250
     endif
     assign show_toolbar = section.settings.show_toolbar
     if show_toolbar
         assign show_sorting = section.settings.show_sorting
-        assign show_item_per_page = section.settings.show_item_per_page
         assign show_view_as = section.settings.show_view_as
     endif
     assign show_infinite_scrolling = section.settings.show_infinite_scrolling
@@ -204,7 +203,6 @@
                         {% render 'toolbar',
                             has_sidebar: has_sidebar,
                             show_sorting: show_sorting,
-                            show_item_per_page: show_item_per_page,
                             show_view_as: show_view_as,
                             products_per_page: products_per_page,
                             layout: layout,
