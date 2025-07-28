@@ -30,9 +30,22 @@
 
     {% if product.available %}
       {% form 'product', product %}
-        <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+        {% assign variantCount = product.variants | size %}
+        {% if variantCount > 1 %}
+          <div class="custom-card__variants">
+            <select name="id" class="custom-card__variant-select">
+              {% for variant in product.variants %}
+                <option value="{{ variant.id }}" {% if forloop.first %}selected{% endif %} {% unless variant.available %}disabled{% endunless %}>
+                  {{ variant.title }} {% unless variant.available %}- {{ 'products.product.sold_out' | t }}{% endunless %}
+                </option>
+              {% endfor %}
+            </select>
+          </div>
+        {% else %}
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+        {% endif %}
         <button type="submit" class="custom-card__btn button-ATC" data-btn-addToCart id="product-add-to-cart">
-          <b>ADD&nbsp;TO&nbsp;CART</b>
+          <b>{% if variantCount > 1 %}QUICK&nbsp;ADD{% else %}ADD&nbsp;TO&nbsp;CART{% endif %}</b>
         </button>
       {% endform %}
     {% elsif settings.show_notify_form %}
