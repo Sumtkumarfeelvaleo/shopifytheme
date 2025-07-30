@@ -14,10 +14,91 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  width: 80%;
-  background: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.variant-options, .quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.variant-circles {
+  display: flex;
+  gap: 10px;
+}
+
+.variant-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.variant-circle.selected {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.quantity-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.quantity-btn, .quantity-input {
+  border: none;
+  background: none;
+  padding: 5px 10px;
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.variant-actions {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.variant-actions .custom-card__btn {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-ATC {
+    background-color: #000;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
 }
