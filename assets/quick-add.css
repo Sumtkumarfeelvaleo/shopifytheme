@@ -3,9 +3,10 @@
   overflow: hidden;
 }
 
-.product-card-content.blurred {
+.blurred {
   filter: blur(8px);
   transition: filter 0.3s ease;
+  pointer-events: none; /* Prevent interaction with blurred content */
 }
 
 .custom-card__variants {
@@ -15,25 +16,29 @@
   transform: translate(-50%, -50%);
   z-index: 10;
   width: 90%;
-  background: rgba(255, 255, 255, 0.9);
+  max-width: 320px;
+  background: rgba(255, 255, 255, 0.95);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   display: none;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
-.variant-options, .quantity-selector {
+.variant-options {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .variant-circles {
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
 
 .variant-circle {
@@ -47,37 +52,19 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.variant-circle:hover {
+    transform: scale(1.1);
 }
 
 .variant-circle.selected {
   background-color: #000;
   color: #fff;
   border-color: #000;
-}
-
-.quantity-input-wrapper {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.quantity-btn, .quantity-input {
-  border: none;
-  background: none;
-  padding: 5px 10px;
-}
-
-.quantity-input {
-  width: 40px;
-  text-align: center;
-  -moz-appearance: textfield;
-}
-
-.quantity-input::-webkit-outer-spin-button,
-.quantity-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+  transform: scale(1.1);
 }
 
 .variant-actions {
@@ -88,8 +75,9 @@
 
 .variant-actions .custom-card__btn {
   flex-grow: 1;
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .button-ATC {
@@ -101,4 +89,23 @@
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .custom-card__variants {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .variant-circle {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .variant-actions .custom-card__btn {
+    padding: 10px;
+    font-size: 12px;
+  }
 }
