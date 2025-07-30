@@ -1,0 +1,23 @@
+.custom-product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card-content.blurred {
+  filter: blur(8px);
+  transition: filter 0.3s ease;
+}
+
+.custom-card__variants {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: none;
+}

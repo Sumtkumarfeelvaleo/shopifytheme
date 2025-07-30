@@ -303,6 +303,7 @@ src="https://www.facebook.com/tr?id=1140387997169713&ev=PageView&noscript=1"
     <link rel="alternate" hreflang="en-AE" href="https://getkuwa.com" />
 {% endif %}
    {{ 'product-card.css' | asset_url | stylesheet_tag }}
+   {{ 'quick-add.css' | asset_url | stylesheet_tag }}
   
   
     </head>
@@ -418,6 +419,8 @@ src="https://www.facebook.com/tr?id=1140387997169713&ev=PageView&noscript=1"
         {%- if settings.use_custom_js -%}
             {{ 'custom.js' | asset_url | script_tag }}
         {%- endif -%}
+
+        {{ 'quick-add.js' | asset_url | script_tag }}
         
         <div class="background-overlay">
             {% if settings.show_effect_close %}
