@@ -1772,7 +1772,6 @@
       ".newsletter-success-modal.halo-popup .halo-popup-wrapper .form-message--success {color: #428445; font-size: 27px; line-height: 37px;}",
       "#notification-popup[data-show-popup=\"true\"] {width: 350px; border-radius: 10px;}",
       "@media (max-width: 575px) {iframe#dummy-chat-button-iframe {bottom: 66px !important; }}",
-      ".dropdown-menu.hidden-on-desktop {display: none;}",
       ".halo-popup-close {display: block; position: absolute; top: 4px; right: 13px; width: 30px; height: 30px; line-height: 1; font-size: 0; letter-spacing: 0; background: var(--bg-black); text-align: center; padding: 7px; border: none;}",
       ".halo-text-format h1,.halo-text-format h2,.halo-text-format h3,.halo-text-format h4,.halo-text-format h5,.halo-text-format h6 {margin-top: 0; margin-bottom: 7px; font-size: 2rem;}",
       "span#transcyBtnSwitcher {display: none;}",

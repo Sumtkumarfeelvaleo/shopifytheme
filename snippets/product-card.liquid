@@ -4,6 +4,7 @@
   <div class="custom-product-card">
     <div class="product-card-content">
       <a href="{{ product.url }}" class="custom-card__img" style="position: relative; display: block;">
+        
         {% assign img = product.featured_image | default: product.images.first %}
         {% if img %}
           <img src="{{ img | img_url: '400x' }}" alt="{{ img.alt | escape }}" loading="lazy" style="width: 100%; display: block;">
@@ -12,10 +13,19 @@
         {% endif %}
 
         {% unless product.available %}
-          <span class="badge sold-out-badge" style="position: absolute; top: 10px; left: 0px; background: #cccccc; color: #fff; padding: 4px 8px; font-size: 10px; font-weight: 600; text-transform: uppercase; z-index: 2;">
+          <span class="badge sold-out-badge" style="position: absolute; top: 10px; right: 0px; background: #cccccc; color: #fff; padding: 4px 8px; font-size: 10px; font-weight: 600; text-transform: uppercase;border-radius: 12px; z-index: 2;">
             Sold Out
           </span>
         {% endunless %}
+
+        {% if product.compare_at_price > product.price %}
+        {%- assign price_difference = product.compare_at_price | minus: product.price | times: 100.0 -%}
+        {%- assign discount_percentage = price_difference | divided_by: product.compare_at_price -%}
+        <span class="badge discount-badge" style="position: absolute; top: 10px; left: 0px; background: #f44336; color: #fff; padding: 4px 8px; font-size: 10px; font-weight: 600; text-transform: uppercase; border-radius: 12px; z-index: 2;">
+        {{ discount_percentage | round: 0 }}% OFF
+  </span>
+{% endif %}
+
       </a>
 
       <div class="custom-card__title">

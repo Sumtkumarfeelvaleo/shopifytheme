@@ -140,7 +140,7 @@
     }
     </script>
 
-    <script type="application/ld+json">
+    <script type="application/json">
     {
         "@context": "http://schema.org/",
         "@type": "BreadcrumbList",
@@ -174,7 +174,7 @@
     }
     </script>  
 {%- elsif page_type == 'article' -%}
-    <script type="application/ld+json">
+    <script type="application/json">
     {
         "@context": "http://schema.org/",
         "@type": "Article",
@@ -187,7 +187,7 @@
         "dateModified": "{{ article.published_at | date: '%Y-%m-%d' }}"
     }
     </script>
-    <script type="application/ld+json">
+    <script type="application/json">
     {
         "@context": "http://schema.org/",
         "@type": "BreadcrumbList",
@@ -206,7 +206,7 @@
     }
     </script>
 {%- elsif page_type == 'collection' and collection.handle -%}
-    <script type="application/ld+json">
+    <script type="application/json">
     {
         "@context": "http://schema.org/",
         "@type": "CollectionPage",
@@ -215,7 +215,7 @@
         "description": "{{ collection.description | split: '[lang2]' | first | strip_html }}"
     }
     </script>
-    <script type="application/ld+json">
+    <script type="application/json">
     {
         "@context": "http://schema.org/",
         "@type": "BreadcrumbList",
