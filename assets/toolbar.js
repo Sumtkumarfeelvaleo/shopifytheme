@@ -178,6 +178,7 @@ class Toolbar extends HTMLElement {
         }
     }
 
+
     getSections() {
         return [
             {

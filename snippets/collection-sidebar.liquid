@@ -754,6 +754,7 @@
                                     {%- for option in results.sort_options -%}
                                         <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
                                     {%- endfor -%}
+                                    <option value="discount-descending">Sort by discount</option>
                                 </select>
                                 {% render 'icon-caret' %}
                             </div>

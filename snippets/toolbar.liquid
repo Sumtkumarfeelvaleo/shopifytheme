@@ -137,13 +137,17 @@
                         </label>
                         <div class="toolbar-dropdown filter-sortby">
                             <div class="label-tab hidden-on-mobile" data-toggle="dropdown" aria-expanded="false" role="button" tabindex="0">
-                                {%- for option in sort_options -%}
-                                    {%- if option.value == sort_by -%}
-                                        <span class="label-text">
-                                            {{ option.name | escape }}
-                                        </span>
+                                <span class="label-text">
+                                    {%- if sort_by == 'discount-descending' -%}
+                                        Sort by discount
+                                    {%- else -%}
+                                        {%- for option in sort_options -%}
+                                            {%- if option.value == sort_by -%}
+                                                {{ option.name | escape }}
+                                            {%- endif -%}
+                                        {%- endfor -%}
                                     {%- endif -%}
-                                {%- endfor -%}
+                                </span>
                                 <span class="halo-icon-dropdown icon-dropdown" role="none"></span>
                             </div>
                             <ul class="dropdown-menu list-unstyled hidden-on-mobile">
@@ -155,6 +159,11 @@
                                         </span>
                                     </li>
                                 {%- endfor -%}
+                                <li {% if sort_by == 'discount-descending' %}class="is-active"{% endif %} data-sort-by-item>
+                                    <span class="text" data-href="discount-descending" data-value="discount-descending">
+                                        Sort by discount
+                                    </span>
+                                </li>
                             </ul>
                             <div class="label-tab hidden-on-desktop" data-mobile="mobile" data-toggle="dropdown">
                                 <span class="label-text">
@@ -201,6 +210,11 @@
                     </span>
                 </li>
             {%- endfor -%}
+            <li {% if sort_by == 'discount-descending' %}class="is-active"{% endif %} data-sort-by-item>
+                <span class="text" data-href="discount-descending" data-value="discount-descending">
+                    Sort by discount
+                </span>
+            </li>
         </ul>
     </div>
 </toolbar-item>

@@ -344,6 +344,41 @@ class CollectionFiltersForm extends HTMLElement {
             document.getElementById('CollectionProductGrid').querySelector('.collection .halo-row--masonry').classList.add('is-show');
             CollectionFiltersForm.resizeAllGridItems();
         }
+
+        const sort_by = document.querySelector('.collection-filters__sort').value;
+        if (sort_by === 'discount-descending') {
+            CollectionFiltersForm.sortProductsByDiscount();
+        }
+    }
+
+    static calculateDiscount(productElement) {
+        const discountBadge = productElement.querySelector('.discount-badge');
+        
+        if (!discountBadge) {
+            return 0;
+        }
+
+        const discountText = discountBadge.innerText;
+        const discountMatch = discountText.match(/(\d+)%/);
+        
+        if (discountMatch) {
+            return parseFloat(discountMatch[1]);
+        }
+
+        return 0;
+    }
+
+    static sortProductsByDiscount() {
+        const productListing = document.getElementById('CollectionProductGrid').querySelector('.productListing');
+        const products = Array.from(productListing.querySelectorAll('.product'));
+
+        products.sort((a, b) => {
+            const discountA = this.calculateDiscount(a);
+            const discountB = this.calculateDiscount(b);
+            return discountB - discountA;
+        });
+
+        products.forEach(product => productListing.appendChild(product));
     }
 
     static renderFilters(html, event) {
@@ -613,6 +648,24 @@ class CollectionFiltersForm extends HTMLElement {
             const searchParams = new URLSearchParams(formData).toString();
             CollectionFiltersForm.renderPage(searchParams, event);
         }
+    }
+
+    calculateDiscount(productElement) {
+        const priceElement = productElement.querySelector('.custom-card__price span');
+        const compareAtPriceElement = productElement.querySelector('.custom-card__price del');
+
+        if (!priceElement || !compareAtPriceElement) {
+            return 0;
+        }
+
+        const price = parseFloat(priceElement.innerText.replace(/[^0-9.-]+/g, ''));
+        const compareAtPrice = parseFloat(compareAtPriceElement.innerText.replace(/[^0-9.-]+/g, ''));
+
+        if (compareAtPrice > price) {
+            return ((compareAtPrice - price) / compareAtPrice) * 100;
+        }
+
+        return 0;
     }
 
     onActiveFilterClick(event) {
